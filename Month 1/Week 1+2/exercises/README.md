@@ -126,6 +126,25 @@
 
 ## Bài tập 2: Thực hiện code HTML theo nội dung design dưới đây:
 ![alt](images/img_exercise_basic02.png)
-### Cấu trúc design không phức tạp, gồm <hx>, đoạn văn dùng <p>, và một liên kết <a> hoặc có thể dùng <button> nếu nó không phải là liên kết.
-Do cấu trúc là một nhóm có nội dung cụ thể, do đó ta có thể dùng <section> bao ngoài.
-Đối với background thì ta dùng CSS cho <section> là được.
+### Hướng dẫn
+Cấu trúc design không phức tạp, gồm `<hx>`, đoạn văn dùng `<p>`, và một liên kết `<a>` hoặc có thể dùng `<button>` nếu nó không phải là liên kết.
+Do cấu trúc là một nhóm có nội dung cụ thể, do đó ta có thể dùng `<section>` bao ngoài.
+Đối với background thì ta dùng CSS cho `<section>` là được.
+
+### Giải (chưa bao gồm css)
+```{html}
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Học web chuẩn</title>
+</head>
+<body>
+  <section class="offer">
+    <h2>Don't miss this special offer!</h2>
+    <p>Get it now for just $10! the price will be increased after 50 downloads.</p>
+    <p class="btn"><a href="./">Get the latest version of Bootslander</a></p>
+  </section>
+</body>
+</html>
+```
