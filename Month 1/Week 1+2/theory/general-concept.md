@@ -121,3 +121,6 @@ Viết nội dung phần footer ở đây
 </html>
 ```
 ## Global navigation: Phần liên kết toàn cục global
+<p align="center">
+    <img src="./images/img_structure_gnav.gif" />
+</p>
