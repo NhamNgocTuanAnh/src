@@ -1,5 +1,5 @@
 ## Bài tập 1: Thực hiện code HTML theo nội dung design dưới đây:
-![alt](images/img_exercise_a.png)
+![alt](../images/img_exercise_a.png)
 #### Hướng dẫn: Cấu trúc design không phức tạp:
 
 * `<hx>` và đoạn văn.
@@ -158,7 +158,7 @@ Nội dung layout không quá phức tạp, chỉ cần xử lý float cho danh 
 </html>
 ```
 ## Bài tập 2: Thực hiện code HTML theo nội dung design dưới đây:
-![alt](images/img_exercise_b.png)
+![alt](../images/img_exercise_b.png)
 ### Hướng dẫn
 
 * `<hx>` và `<form>`.

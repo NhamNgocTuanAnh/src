@@ -1,5 +1,5 @@
 ## Bài tập 3: Thực hiện code HTML theo nội dung design dưới đây:
-![alt](images/img_exercise_basic03.png)
+![alt](../images/img_exercise_basic03.png)
 #### Hướng dẫn: Cấu trúc design không phức tạp:
 
 * Hình lá thư, thật ra là một font icon, nên chúng ta sử dụng font-awesome là được.
@@ -129,7 +129,7 @@
 ```
 
 ## Bài tập 4: Thực hiện code HTML theo nội dung design dưới đây:
-![alt](images/img_exercise_basic04.png)
+![alt](../images/img_exercise_basic04.png)
 ### Hướng dẫn
 
 Nội dung không có gì đặc biệt, theo phần công thức chung bên dưới là được, chú ý trong nội dung có 2 tiêu đề, nên cần sử dụng `<hx>`.

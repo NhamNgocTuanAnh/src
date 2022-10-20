@@ -1,5 +1,5 @@
 ## Bài tập 7: Thực hiện code HTML theo nội dung design dưới đây:
-![alt](images/img_exercise_basic07.png)
+![alt](../images/img_exercise_basic07.png)
 #### Hướng dẫn: Cấu trúc design không phức tạp:
 
 * Design chia làm 2 danh sách, một danh sách chứa link text, và một danh sách chứa hình.
@@ -170,7 +170,7 @@
 </html>
 ```
 ## Bài tập 8: Thực hiện code HTML theo nội dung design dưới đây:
-![alt](images/img_exercise_basic08.png)
+![alt](../images/img_exercise_basic08.png)
 ### Hướng dẫn
 
 * Design gồm 2 phần, một là đoạn văn, một là danh sách, bên trong mỗi mục của danh sách có chi tiết nhỏ.

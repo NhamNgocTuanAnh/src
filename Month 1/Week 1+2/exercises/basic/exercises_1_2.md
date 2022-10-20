@@ -1,5 +1,5 @@
 ## Bài tập 1: Thực hiện code HTML theo nội dung design dưới đây:
-![alt](images/img_exercise_basic01.png)
+![alt](../images/img_exercise_basic01.png)
 #### Hướng dẫn: Cấu trúc design không phức tạp:
 
 * Xem công thức chung bên dưới.
@@ -111,7 +111,7 @@
 ```
 
 ## Bài tập 2: Thực hiện code HTML theo nội dung design dưới đây:
-![alt](images/img_exercise_basic02.png)
+![alt](../images/img_exercise_basic02.png)
 ### Hướng dẫn
 
 Cấu trúc design không phức tạp, gồm `<hx>`, đoạn văn dùng `<p>`, và một liên kết `<a>` hoặc có thể dùng `<button>` nếu nó không phải là liên kết.

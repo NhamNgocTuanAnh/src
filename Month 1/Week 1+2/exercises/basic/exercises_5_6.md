@@ -1,5 +1,5 @@
 ## Bài tập 5: Thực hiện code HTML theo nội dung design dưới đây:
-![alt](images/img_exercise_basic05.png)
+![alt](../images/img_exercise_basic05.png)
 #### Hướng dẫn: Cấu trúc design không phức tạp:
 
 * Ta thấy nội dung được chia làm 2 phần: bên trái chứa image, bên phải chứa nội dung gồm `<hx>`, 3 đoạn văn, và một `<button>`
@@ -132,7 +132,7 @@ Vestibulum ullamcorper ut leo quis tristique. Donec in erat commodo, pharetra pu
 </html>
 ```
 ## Bài tập 6: Thực hiện code HTML theo nội dung design dưới đây:
-![alt](images/img_exercise_basic04.png)
+![alt](../images/img_exercise_basic04.png)
 ### Hướng dẫn
 
 * Nội dung gồm `<hx>`, và một danh sách 4 items chứa image, nên ta sử dụng `<ul> <li>`.

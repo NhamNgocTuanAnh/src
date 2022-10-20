@@ -1,5 +1,5 @@
 ## Bài tập 13: Thực hiện code HTML theo nội dung design dưới đây:
-![alt](images/img_exercise_basic13.png)
+![alt](..//images/img_exercise_basic13.png)
 #### Hướng dẫn: Cấu trúc design không phức tạp:
 
 * Đây là cấu trúc footer, thông thường sẽ gồm có nội dung giới thiệu, liên kết, và nội dung liên hệ.
@@ -188,7 +188,7 @@ Suite 721 New York NY 10016</address>
 </html>
 ```
 ## Bài tập 14: Thực hiện code HTML theo nội dung design dưới đây:
-![alt](images/img_exercise_basic14.png)
+![alt](../images/img_exercise_basic14.png)
 ### Hướng dẫn
 
 * Nội dung design này đơn giản: tiêu đề, đoạn văn và danh sách.

@@ -1,5 +1,5 @@
 ## Bài tập 9: Thực hiện code HTML theo nội dung design dưới đây:
-![alt](images/img_exercise_basic09.png)
+![alt](../images/img_exercise_basic09.png)
 #### Hướng dẫn: Cấu trúc design không phức tạp:
 
 * Design gồm tiêu đề và một danh sách có liên kết.
@@ -107,7 +107,7 @@
 </html>
 ```
 ## Bài tập 10: Thực hiện code HTML theo nội dung design dưới đây:
-![alt](images/img_exercise_basic10.png)
+![alt](../images/img_exercise_basic10.png)
 ### Hướng dẫn
 
 * Design gồm một danh sách, bên trong mỗi mục có nội dung chi tiết, ta dùng `<ul> <li>`.
