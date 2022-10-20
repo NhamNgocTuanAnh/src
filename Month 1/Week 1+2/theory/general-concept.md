@@ -12,7 +12,7 @@ Do công việc thực tế hiện nay sẽ là cách kết hợp giữa HTML/XH
 
 ![Giao diện web](../theory/images/img_structure_analysic.gif)
 
-Với những phân tích trên, ta thấy những phần như: header, global navigation, page body, content, sidebar, footer đều là những phần nội dung lớn, do đó ta sẽ sử dụng thẻ <div></div> cho những thành phần này:
+Với những phân tích trên, ta thấy những phần như: header, global navigation, page body, content, sidebar, footer đều là những phần nội dung lớn, do đó ta sẽ sử dụng thẻ `<div></div>` cho những thành phần này:
 
 ```{html}
 <!DOCTYPE html>
