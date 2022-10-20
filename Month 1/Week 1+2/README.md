@@ -42,7 +42,6 @@ comment
 6	<script></script>	Dùng để nhúng các tệp tin javascript
 7	<style></style>	Dùng để bao bọc một nội dung về CSS
 8	<body></body>	Thẻ chứa nội dung chính của website
-
 9	Tạo heading trong HTML
     <h1>Tiêu đề H1</h1>
     <h2>Tiêu đề H2</h2>
