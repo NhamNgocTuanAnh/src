@@ -120,3 +120,4 @@ Viết nội dung phần footer ở đây
 </body>
 </html>
 ```
+## Global navigation: Phần liên kết toàn cục global
