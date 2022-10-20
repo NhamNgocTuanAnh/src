@@ -28,3 +28,6 @@
   * `min-width: 200px;` và `padding: 0 20px;`: thường sử dụng cho button, khi chiều rộng lớn thì thành phần sẽ cách đều trái và phải `20px`, còn khi chiều rộng nhỏ, thì chiều rộng nhỏ nhất sẽ theo `min-width`.
 * Để cho gọn bài giảng, hocwebchuan sẽ không tập trung vào việc chỉnh chính xác font-family, image, hay khoảng cách nhe (tương đối thôi).
 * Trong bài giải, hocwebchuan đã code các thuộc tính theo việc sắp xếp thứ tự ABC, indent 2 spaces, các vị trí khoảng cách như nhau, mục đích của việc này sẽ giúp cho code được đẹp hơn, dễ quản lý hơn.
+
+### Tham khảo
+* [hocwebchuan.com](https://hocwebchuan.com/exercises/html-html5/#basic)
