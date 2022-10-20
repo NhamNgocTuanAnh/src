@@ -36,3 +36,87 @@ Với những phân tích trên, ta thấy những phần như: header, global n
 </body>
 </html>
 ```
+## Phần đầu: header
+![Phần đầu: header](./images/img_structure_header01.gif)
+
+*  Phần bên trái: ta tạm gọi là hLeft (header left), phần này chứa logo và domain trang web .Logo sử dụng image nên ta dùng thẻ `<img />`, nhưng do logo là phần quan trọng nhất của trang, nên ta sử dụng thẻ `<h1>` bao ngoài thẻ` <img />`.
+Domain ta thấy cần bao bên ngoài bằng thẻ `<p>` là được.
+* Phần bên phải: ta tạm gọi là hRight (header right), phần này chứa 2 button và một danh sách chứa link
+    * 2 button này có thể coi như một danh sách không có thứ tự do đó ta có thể sử dụng thẻ `<ul><li>`.
+    * Danh sách chứa link cũng thuộc dạng danh sách không có thứ tự vì vậy ta cũng có thể sử dụng thẻ `<ul><li>`.
+* Để tiện cho việc điều khiển các thẻ, ta sử dụng 2 thẻ <div> bao bên ngoài phần bên trái và bên phải, vậy phần header ta có thể code như sau:
+
+```{html}
+<div id="header">
+<div class="hLeft">
+<h1><img src="images/img_logo.gif" alt="" /></h1>
+<p>www.hocwebchuan.com</p>
+<!-- / class hLeft --></div>
+
+<div class="hRight">
+<ul>
+<li><a href="#"><img src="images/btn_name01.gif" alt="" /></a></li>
+<li><a href="#"><img src="images/btn_name02.gif" alt="" /></a></li>
+</ul>
+
+<ul>
+<li><a href="#">link 01</a></li>
+<li><a href="#">link 02</a></li>
+<li><a href="#">link 03</a></li>
+<li><a href="#">link 04</a></li>
+</ul>
+<!-- / class hRight --></div>
+<!-- / id header --></div>
+```
+Kết nối phần header này vào phần cấu trúc cơ bản ta có được cấu trúc sau:
+```{html}
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8" />
+<title>Tiêu đề trang web</title>
+</head>
+
+<body>
+<div id="layout">
+<div id="header">
+<div class="hLeft">
+<h1><img src="images/img_logo.gif" alt="" /></h1>
+<p>www.hocwebchuan.com</p>
+<!-- / class hLeft --></div>
+
+<div class="hRight">
+<ul>
+<li><a href="#"><img src="images/btn_name01.gif" alt="" /></a></li>
+<li><a href="#"><img src="images/btn_name02.gif" alt="" /></a></li>
+</ul>
+<ul>
+<li><a href="#">link 01</a></li>
+<li><a href="#">link 02</a></li>
+<li><a href="#">link 03</a></li>
+<li><a href="#">link 04</a></li>
+</ul>
+<!-- / class hRight --></div>
+<!-- / id header --></div>
+
+<div id="gNav">
+Viết nội dung phần global navigation ở đây
+<!-- / id gNav --></div>
+
+<div id="pageBody">
+<div id="content">
+Viết nội dung phần content ở đây
+<!-- / id content --></div>
+
+<div id="sidebar">
+Viết nội dung phần sidebar ở đây
+<!-- / id sidebar --></div>
+<!-- / id pageBody --></div>
+
+<div id="footer">
+Viết nội dung phần footer ở đây
+<!-- / id footer --></div>
+<!-- / id layout --></div>
+</body>
+</html>
+```
