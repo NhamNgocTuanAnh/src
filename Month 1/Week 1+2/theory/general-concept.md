@@ -15,5 +15,24 @@ Do công việc thực tế hiện nay sẽ là cách kết hợp giữa HTML/XH
 Với những phân tích trên, ta thấy những phần như: header, global navigation, page body, content, sidebar, footer đều là những phần nội dung lớn, do đó ta sẽ sử dụng thẻ <div></div> cho những thành phần này:
 
 ```{html}
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8" />
+<title>Tiêu đề trang web</title>
+</head>
 
+<body>
+<div id="header">Viết nội dung phần header ở đây</div>
+
+<div id="gNav">Viết nội dung phần global navigation ở đây</div>
+
+<div id="pageBody">
+<div id="content">Viết nội dung phần content ở đây</div>
+<div id="sidebar">Viết nội dung phần sidebar ở đây</div>
+</div>
+
+<div id="footer">Viết nội dung phần footer ở đây</div>
+</body>
+</html>
 ```
