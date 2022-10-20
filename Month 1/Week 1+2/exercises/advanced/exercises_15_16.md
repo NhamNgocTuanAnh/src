@@ -1,4 +1,4 @@
-## Bài tập 13: Thực hiện code HTML theo nội dung design dưới đây:
+## Bài tập 15: Thực hiện code HTML theo nội dung design dưới đây:
 ![alt](../images/img_exercise_o.png)
 #### Hướng dẫn: Cấu trúc design không phức tạp:
 * Nội dung này tương tự như bài tập đã được giới thiệu trước [đây](exercises_1_2.md), bạn xem lại nhe.
@@ -202,7 +202,7 @@
 </body>
 </html>
 ```
-## Bài tập 13: Thực hiện code HTML theo nội dung design dưới đây:
+## Bài tập 16: Thực hiện code HTML theo nội dung design dưới đây:
 ![alt](../images/img_exercise_p.png)
 ### Hướng dẫn
 

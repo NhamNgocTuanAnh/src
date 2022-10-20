@@ -175,7 +175,7 @@ Nội dung desgin tách làm 2 phần:
 </body>
 </html>
 ```
-## Bài tập 13: Thực hiện code HTML theo nội dung design dưới đây:
+## Bài tập 14: Thực hiện code HTML theo nội dung design dưới đây:
 ![alt](../images/img_exercise_n.png)
 ### Hướng dẫn
 
