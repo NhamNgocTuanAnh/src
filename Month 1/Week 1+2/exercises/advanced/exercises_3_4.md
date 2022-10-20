@@ -6,7 +6,7 @@
 * Một nhóm nội dung bên phải gồm:
   * `<hx>`.
   * Đoạn văn.
-  * <hx> nhỏ.
+  * `<hx>` nhỏ.
   * Một danh sách.
 * Design này cần quan tâm line cho `h2`, nếu chưa biết cách làm, bạn có thể dụng `background-image` tạm.
 * Phần lớn là kỹ thuật **float** với xử lý khoảng cách phù hợp.
