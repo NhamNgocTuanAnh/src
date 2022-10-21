@@ -292,11 +292,10 @@ lines.'
 console.log(str);   // this string is broken across multiplelines.
 ```
 Mặc dù JavaScript không có cú pháp "heredoc", bạn có thể đóng lại bằng cách thêm dòng thoát thoát và thoát dòng thoát ở cuối mỗi dòng:
-```
-var poem =
-'Roses are red,\n\
-Violets are blue.\n\
-Sugar is sweet,\n\
-and so is foo.'
 
+```
+var poem = 'Roses are red,\n\
+            Violets are blue.\n\
+            Sugar is sweet,\n\
+            and so is foo.'
 ```
