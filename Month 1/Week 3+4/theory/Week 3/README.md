@@ -299,3 +299,119 @@ var poem = 'Roses are red,\n\
             Sugar is sweet,\n\
             and so is foo.'
 ```
+# Chương 4. Các câu lệnh, cấu trúc lệnh của javaScript
+Trong phần này sẽ tiếp tục tìm hiểu về các câu lệnh, cấu trúc lệnh của javaScript.
+## 4.1. Block statement - Khối lệnh
+Ví dụ: khối lệnh thường được sử dụng với các câu lệnh điều khiển (ví dụ: if, for, while).
+```
+while (x < 10) {
+  x++;
+}
+// Ở đây, {x ++; } Là câu khối lệnh.
+```
+## 4.2. Conditional statements - câu lệnh điều kiện
+Một câu lệnh điều kiện là một tập hợp các lệnh được thực hiện nếu điều kiện xác định là true. JavaScirpt hỗ trợ 2 lệnh điều kiện: `if ... else` và `switch`.
+
+### 4.2.1. Lệnh if...else
+
+Sử dụng câu lệnh if để thực hiện một câu lệnh nếu một điều kiện hợp lý là đúng. Sử dụng mệnh đề tùy chọn else để thực hiện một câu lệnh nếu điều kiện là sai. Câu lệnh if như sau:
+```
+if (condition_1) {
+  statement_1;
+} else if (condition_2) {
+  statement_2;
+} else if (condition_n) {
+  statement_n;
+} else {
+  statement_last;
+}
+```
+### 4.2.2. Falsy values - Các giá trị được coi là False.
+* false
+* undefined
+* null
+* 0
+* NaN
+* string rỗng ("")
+
+Tất cả các giá trị khác, bao gồm tất cả các đối tượng, đánh giá là true khi pass một câu lệnh có điều kiện.
+
+Không nhầm lẫn các giá trị boolean nguyên thủy true và false với các giá trị true và false của đối tượng Boolean. Ví dụ:
+```
+var b = new Boolean(false);
+if (b) // this condition evaluates to true
+if (b == true) // this condition evaluates to false
+```
+Ví du: Trong ví dụ sau, hàm checkData trả về true nếu số ký tự trong một đối tượng Text là 3; Nếu không, nó sẽ hiển thị một alert và trả về false.
+```
+function checkData() {
+  if (document.form1.threeChar.value.length == 3) {
+    return true;
+  } else {
+    alert('Enter exactly three characters. ' +  document.form1.threeChar.value + ' is not valid.');
+    return false;
+  }
+}
+```
+### 4.2.3. Lệnh switch
+Một câu lệnh switch cho phép một chương trình đánh giá một biểu thức và thử khớp giá trị của biểu thức (expression) với các case (label_1, label_2, ...). Nếu tìm thấy case phù hợp, chương trình sẽ thực thi câu lệnh trong case đó. Một câu lệnh switch có dạng như sau:
+```
+switch (fruittype) {
+  case 'Oranges':
+    console.log('Oranges are $0.59 a pound.');
+    break;
+  case 'Apples':
+    console.log('Apples are $0.32 a pound.');
+    break;
+  case 'Bananas':
+    console.log('Bananas are $0.48 a pound.');
+    break;
+  case 'Cherries':
+    console.log('Cherries are $3.00 a pound.');
+    break;
+  case 'Mangoes':
+    console.log('Mangoes are $0.56 a pound.');
+    break;
+  case 'Papayas':
+    console.log('Mangoes and papayas are $2.79 a pound.');
+    break;
+  default:
+   console.log('Sorry, we are out of ' + fruittype + '.');
+}
+console.log("Is there anything else you'd like?");
+
+```
+## 4.3. Exception handling statements
+Bạn có thể ném các ngoại lệ bằng cách sử dụng câu lệnh throw và xử lý chúng bằng cách sử dụng câu lệnh `try ... catch`.
+
+* `throw` statement
+* `try...catch` statement
+
+Exception types
+Về bất kỳ đối tượng có thể được ném ra trong JavaScript. Tuy nhiên, không phải tất cả các đối tượng ném ra được tạo ra đều như nhau. Mặc dù việc ném ra numbers hoặc strings như các errors là khá phổ biến, nhưng nó sẽ hiệu quả hơn nếu sử dụng một trong các loại ngoại lệ được tạo ra đặc biệt cho mục đích này:
+
+* ECMAScript exceptions
+* DOMException và DOMError
+
+```
+try {
+  try {
+    throw new Error('oops');
+  }
+  catch (ex) {
+    console.error('inner', ex.message);
+    throw ex;
+  }
+  finally {
+    console.log('finally');
+  }
+}
+catch (ex) {
+  console.error('outer', ex.message);
+}
+
+// Output:
+// "inner" "oops"
+// "finally"
+// "outer" "oops"
+```
