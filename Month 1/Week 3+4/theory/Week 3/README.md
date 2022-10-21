@@ -190,3 +190,113 @@ MY_OBJECT.key = 'otherValue';
 ```
 Trên đây là một số kiến thức cơ bản về cú pháp và khai báo biến, hằng số trong javascipt. Cảm ơn vì đã theo dõi bài viết. Mong rằng bài viết có thể giúp ích cho các bạn.
 # Chương 3. Sáu kiểu dữ liệu nguyên thủy
+Trong phần trước chúng ta đã tìm hiểu về một số cú pháp cơ bản và khai báo biến. Trong phần này chúng ta sẽ tìm hiểu về các kiểu dữ liệu và literals trong javaScript.
+
+## 3.1. Data structures and types
+Các tiêu chuẩn ECMAScript mới nhất xác định bảy loại dữ liệu:
+
+Sáu kiểu **dữ liệu nguyên thủy**:
+* Boolean: true và false.
+* null: là từ khóa đặc biệt biểu thị một giá trị null. Bởi vì JavaScript là trường hợp nhạy cảm, null là không thể giống Null, NULL, hoặc bất kỳ biến khác.
+* undefined một thuộc tính cao nhất mà giá trị là không xác định.
+* Number: là kiểu số ví dụ: 42 hoặc 3.14159.
+* String: kiểu chuỗi ví dụ: "Howdy"
+* Symbol (trong ECMAScript 2015): là một kiểu dữ liệu mà trường hợp là unique và immutable.
+
+Và **Object**
+
+Mặc dù số lượng kiểu dữ liệu ít nhưng nó đủ để bạn có thể thực hiện các chức năng cho ứng dụng của mình. **Objects** and **functions** là 2 yếu tố cơ bản khác trong ngôn ngữ. Bạn có thể nghĩ về các **object** như nơi chứa các giá trị đc đặt tên và các functions như các phương thức mà ứng dụng của bạn cần thực hiện.
+### 3.1.1. Data type conversion
+JavaScript là một ngôn ngữ dynamically typed. Điều đó có nghĩa là bạn không phải xác định kiểu dữ liệu của một biến khi bạn khai báo, và các kiểu dữ liệu được chuyển đổi tự động khi cần thiết trong quá trình thực thi script. Ví dụ, bạn có thể định nghĩa một biến như sau:
+```{javascript}
+var answer = 42;
+// Và sau đó, bạn có thể gán cho cùng một biến một giá trị string, ví dụ:
+answer = 'Thanks for all the fish...';
+```
+Trong biểu thức liên quan đến các giá trị số và string với toán tử `(+)`, javascript sẽ chuyển đổi giá trị số thành các chuỗi. Hãy xem ví dụ sau:
+```{javascript}
+x = 'The answer is ' + 42 // "The answer is 42"
+y = 42 + ' is the answer' // "42 is the answer"
+```
+Trong các lệnh liên quan đến các toán tử khác, javaScript không thể chuyển đổi các giá trị số thành chuỗi. Ví dụ:
+```{javascript}
+'37' - 7 // 30
+'37' + 7 // "377"
+```
+### 3.1.2. Converting strings to numbers
+* parseInt()
+* parseFloat()
+```
+'1.1' + '1.1' = '1.11.1'
+(+'1.1') + (+'1.1') = 2.2
+// Note: the parentheses are added for clarity, not required.
+```
+### 3.1.3. Literals
+* Array literals
+* Boolean literals
+* Floating-point literals
+* Integers
+* Object literals
+* RegExp literals
+* String literals
+
+**Lưu ý:**
+RegExp literals: Một regex literal là một mẫu kèm theo giữa các dấu gạch chéo. Dưới đây là một ví dụ về một cú pháp regex literal.
+
+**A.** Using special characters in strings
+
+Ngoài các ký tự bình thường, bạn cũng có thể bao gồm các ký tự đặc biệt trong các chuỗi, như thể hiện trong ví dụ sau.
+```
+'one line \n another line'
+```
+Bảng dưới đây liệt kê các ký tự đặc biệt mà bạn có thể sử dụng trong các chuỗi trong JavaScript.
+| Column 1 | Column 2 |
+| --- | --- |
+| \\0 | Null Byte |
+| \\b | Backspace |
+| \\f | Form feed |
+| \\n | Dòng mới |
+| \\r | Carriage return |
+| \\t | Tab |
+| \\v | Tab dọc |
+| ' | Dấu phẩy hoặc trích dẫn đơn |
+| " | Dấu ngoặc kép |
+| \\ | Ký tự dấu gạch chéo ngược |
+| \\XXX | Ký tự được mã hóa Latin-1 xác định tối đa ba chữ số thập phân XXX giữa 0 và 377. Ví dụ: \\ 251 là trình tự bát phân |
+| \\xXX | Ký tự được mã hoá Latin-1 xác định bởi hai số thập lục phân XX giữa 00 và FF. Ví dụ: \\ xA9 là dãy số thập lục phân |
+| \\uXXXX | Ký tự Unicode được chỉ định bởi bốn chữ số thập lục phân XXXX. Ví dụ: \\ u00A9 là chuỗi Unicode |
+| \\u{XXXXX} | Cho ví dụ: \\u{2F804} |
+
+**B.** Escaping characters
+
+Đối với các ký tự không được liệt kê trong bảng, dấu gạch chéo ngược trước đó sẽ bị bỏ qua nhưng cách sử dụng này không được dùng nữa và cần tránh.
+
+Bạn có thể chèn dấu ngoặc kép bên trong một chuỗi bằng cách sử dụng dấu gạch chéo ngược. Đây được gọi là thoát khỏi dấu ngoặc kép. Ví dụ:
+
+```
+var quote = "He read \"The Cremation of Sam McGee\" by R.W. Service.";
+console.log(quote);
+// Kết quả của đoạn mã trên là:
+// He read "The Cremation of Sam McGee" by R.W. Service.
+```
+Để bao gồm một dấu gạch chéo ngược trong một chuỗi, bạn phải thoát khỏi ký tự dấu gạch chéo ngược. Ví dụ, để chỉ định đường dẫn tập tin c: \ temp vào một chuỗi, sử dụng như sau:
+```
+var home = 'c:\\temp';
+```
+Bạn cũng có thể thoát khỏi các ngắt dòng bằng cách trước bằng dấu gạch chéo ngược. Dấu gạch chéo ngược và ngắt dòng đều được gỡ bỏ khỏi giá trị của chuỗi.
+```
+var str = 'this string \
+is broken \
+across multiple \
+lines.'
+console.log(str);   // this string is broken across multiplelines.
+```
+Mặc dù JavaScript không có cú pháp "heredoc", bạn có thể đóng lại bằng cách thêm dòng thoát thoát và thoát dòng thoát ở cuối mỗi dòng:
+```
+var poem =
+'Roses are red,\n\
+Violets are blue.\n\
+Sugar is sweet,\n\
+and so is foo.'
+
+```
