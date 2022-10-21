@@ -124,3 +124,199 @@ Viết nội dung phần footer ở đây
 <p align="center">
     <img src="./images/img_structure_gnav.gif" />
 </p>
+
+```{html}
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8" />
+<title>Tiêu đề trang web</title>
+</head>
+
+<body>
+<div id="layout">
+<div id="header">
+<div class="hLeft">
+<h1><img src="images/img_logo.gif" alt="" /></h1>
+<p>www.hocwebchuan.com</p>
+<!-- / class hLeft --></div>
+
+<div class="hRight">
+<ul>
+<li><a href="#"><img src="images/btn_name01.gif" alt="" /></a></li>
+<li><a href="#"><img src="images/btn_name02.gif" alt="" /></a></li>
+</ul>
+<ul>
+<li><a href="#">link 01</a></li>
+<li><a href="#">link 02</a></li>
+<li><a href="#">link 03</a></li>
+<li><a href="#">link 04</a></li>
+</ul>
+<!-- / class hRight --></div>
+<!-- / id header --></div>
+
+<div id="gNav">
+<ul>
+<li><a href="#">TRANG CHỦ</a></li>
+<li><a href="#">GIỚI THIỆU</a></li>
+<li><a href="#">SẢN PHẨM</a></li>
+<li><a href="#">DỊCH VỤ</a></li>
+<li><a href="#">LIÊN HỆ</a></li>
+</ul>
+<!-- / id gNav --></div>
+
+<div id="pageBody">
+<div id="content">
+Viết nội dung phần content ở đây
+<!-- / id content --></div>
+
+<div id="sidebar">
+Viết nội dung phần sidebar ở đây
+<!-- / id sidebar --></div>
+<!-- / id pageBody --></div>
+
+<div id="footer">
+Viết nội dung phần footer ở đây
+<!-- / id footer --></div>
+<!-- / id layout --></div>
+</body>
+</html>
+```
+
+## Phần nội dung chính : content
+Nhìn vào cấu trúc phần content ở trên, ta thấy nội dung gồm 3 phần: phần "Sản phẩm mới", phần "Tin tức" và phần banner.
+<p align="center">
+    <img alt="Ảnh content" src="./images/img_structure_content.gif" />
+</p>
+Nhìn vào cấu trúc phần content ở trên, ta thấy nội dung gồm 3 phần: phần "Sản phẩm mới", phần "Tin tức" và phần banner.
+
+### Phần "Sản phẩm mới", ta phân tích:
+<p align="center">
+    <img alt="Ảnh content" src="./images/img_structure_content01.gif" />
+</p>
+
+* Phần tiêu đề "Sản phẩm mới" ta sử dụng `<h2>` (vì `<h1>` đã sử dụng cho logo trong phần header).
+* Đối với hình lớn, ta sử dụng thẻ `<p>`.
+* Phần nội dung bên phải, ta sử dụng thẻ `<div>` bao bên ngoài để tiện điều khiển, bên trong ta thấy nội dung có một tiêu đề ta sử dụng thẻ `<h3>` và đoạn text giới thiệu ta sử dụng thẻ `<p>`.
+* Phần còn lại là danh sách hình nhỏ, ta sử dụng thẻ danh sách `<ul><li>`
+* Để phân biệt phần sản phẩm mới và danh sách những sản phẩm khác, ta sử dụng thẻ `<div>` nhóm phần sản phẩm mới lại.
+```{html}
+<h2>Sản phẩm mới</h2>
+<div class="newProduct">
+<p><img src="images/img_products_new01.jpg" alt="" /></p>
+<div>
+<h3>Tên sản phẩm</h3>
+<p>Text giới thiệu sản phẩm text giới thiệu sản phẩm text giới thiệu sản phẩm text giới thiệu sản phẩm text giới thiệu sản phẩm text giới thiệu sản phẩm.</p>
+</div>
+<!-- / class newProduct --></div>
+
+<ul>
+<li><a href="#"><img src="images/img_products01.jpg" alt="" /></a></li>
+<li><a href="#"><img src="images/img_products02.jpg" alt="" /></a></li>
+<li><a href="#"><img src="images/img_products03.jpg" alt="" /></a></li>
+<li><a href="#"><img src="images/img_products04.jpg" alt="" /></a></li>
+<li><a href="#"><img src="images/img_products05.jpg" alt="" /></a></li>
+</ul>
+```
+### Phần "Tin tức", ta phân tích:
+<p align="center">
+    <img alt="Ảnh content" src="./images/img_structure_content02.gif" />
+</p>
+
+* Phần tiêu đề "Tin tức" vì cùng cấp với tiêu đề "Sản phẩm mới" nên ta tiếp tục sử dụng `<h2>`.
+* Phần bên dưới có dạng danh sách có nội dung và các mục, do đó ta sử dụng bộ 3 thẻ `<dl>`, `<dt>`, `<dd>`.
+### Phần banner:
+<p align="center">
+    <img alt="Ảnh content" src="./images/img_structure_content03.gif" />
+</p>
+
+> Phần banner này ta thấy chỉ là một tấm hình, do đó chỉ cần sử dụng thẻ `<p>` chứa thẻ `<img />` là đủ, tất nhiên phải có thẻ `<a>` để tạo liên kết
+
+Kết nối phần "Sản phẩm mới", phần "Tin tức" và phần"banner" vào phần cấu trúc cơ bản ta có được cấu trúc sau:
+
+```{html}
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Tiêu đề trang web</title>
+</head>
+
+<body>
+<div id="layout">
+<div id="header">
+<div class="hLeft">
+<h1><img src="images/img_logo.gif" alt="" /></h1>
+<p>www.hocwebchuan.com</p>
+<!-- / class hLeft --></div>
+
+<div class="hRight">
+<ul>
+<li><a href="#"><img src="images/btn_name01.gif" alt="" /></a></li>
+<li><a href="#"><img src="images/btn_name02.gif" alt="" /></a></li>
+</ul>
+<ul>
+<li><a href="#">link 01</a></li>
+<li><a href="#">link 02</a></li>
+<li><a href="#">link 03</a></li>
+<li><a href="#">link 04</a></li>
+</ul>
+<!-- / class hRight --></div>
+<!-- / id header --></div>
+
+<div id="gNav">
+<ul>
+<li><a href="#">TRANG CHỦ</a></li>
+<li><a href="#">GIỚI THIỆU</a></li>
+<li><a href="#">SẢN PHẨM</a></li>
+<li><a href="#">DỊCH VỤ</a></li>
+<li><a href="#">LIÊN HỆ</a></li>
+</ul>
+<!-- / id gNav --></div>
+
+<div id="pageBody">
+<div id="content">
+<h2>Sản phẩm mới</h2>
+<div class="newProduct">
+<p><img src="images/img_products_new01.jpg" alt="" /></p>
+<div>
+<h3>Tên sản phẩm</h3>
+<p>Text giới thiệu sản phẩm text giới thiệu sản phẩm text giới thiệu sản phẩm text giới thiệu sản phẩm text giới thiệu sản phẩm text giới thiệu sản phẩm.</p>
+</div>
+<!-- / class newProduct --></div>
+
+<ul>
+<li><a href="#"><img src="images/img_products01.jpg" alt="" /></a></li>
+<li><a href="#"><img src="images/img_products02.jpg" alt="" /></a></li>
+<li><a href="#"><img src="images/img_products03.jpg" alt="" /></a></li>
+<li><a href="#"><img src="images/img_products04.jpg" alt="" /></a></li>
+<li><a href="#"><img src="images/img_products05.jpg" alt="" /></a></li>
+</ul>
+
+<h2>Tin tức</h2>
+<dl class="news">
+<dt>07/05/2012</dt>
+<dd><a href="#">Tin mới tin mới tin mới tin mới tin mới tin mới tin mới.</a></dd>
+
+<dt>07/05/2012</dt>
+<dd><a href="#">Tin mới tin mới tin mới tin mới tin mới tin mới tin mới tin mới tin mới tin mới tin mới.</a></dd>
+
+<dt>07/05/2012</dt>
+<dd><a href="#">Tin mới tin mới tin mới tin mới tin mới tin mới tin mới tin mới tin mới tin mới tin mới tin mới tin mới tin mới tin mới.</a></dd>
+</dl>
+
+<p><a href="#"><img src="images/bnr_name01.gif" alt="" /></a></p>
+<!-- / id content --></div>
+
+<div id="sidebar">
+Viết nội dung phần sidebar ở đây
+<!-- / id sidebar --></div>
+<!-- / id pageBody --></div>
+
+<div id="footer">
+Viết nội dung phần footer ở đây
+<!-- / id footer --></div>
+<!-- / id layout --></div>
+</body>
+</html>
+```
