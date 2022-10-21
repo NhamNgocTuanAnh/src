@@ -97,3 +97,96 @@ if (true) {
 console.log(y);  // ReferenceError: y is not defined
 ```
 ### 2.2.5. Variable hoisting
+Một điều bất thường khác về các biến trong javascript là bạn có thể tham chiếu đến một biến đã đc khai báo sau đó, mà ko nhận đc một ngoại lệ. Khái niệm được biết như hoisting; các biến trong javascript là trong một "hoisted hoặc đưa lên trên đầu các function hoặc statement. Tuy nhiên, các biến mà được đưa lên sẽ trả về một gía trị undefined. Vì vậy ngay cả khi bạn khai báo và khởi tạo sau đó bạn sử dụng hoặc tham chiếu đên biến này, nó vẫn sẽ là undefined.
+```{javascript}
+/**
+ * Example 1
+ */
+console.log(x === undefined); // true
+var x = 3;
+
+/**
+ * Example 2
+ */
+// will return a value of undefined
+var myvar = 'my value';
+
+(function() {
+  console.log(myvar); // undefined
+  var myvar = 'local value';
+})();
+```
+Những ví dụ trên sẽ được giải thích tương tự như sau:
+```{javascript}
+/**
+ * Example 1
+ */
+console.log(x === undefined); // true
+var x = 3;
+
+/**
+ * Example 2
+ */
+// will return a value of undefined
+var myvar = 'my value';
+
+(function() {
+  console.log(myvar); // undefined
+  var myvar = 'local value';
+})();
+```
+Bởi vì, tất cả các lệnh `var` trong một function nên được đặt phía trên cùng của hàm các tốt. Thức tế nó làm tăng tính rõ ràng của code.
+### 2.2.6. Function hoisting
+Đối với hàm thì bạn có thể dùng lời gọi hàm ở phía trên định nghĩa, khai báo hàm.
+```{javascript}
+/* Function declaration */
+
+foo(); // "bar"
+
+function foo() {
+  console.log('bar');
+}
+
+
+/* Function expression */
+
+baz(); // TypeError: baz is not a function
+
+var baz = function() {
+  console.log('bar2');
+};
+```
+### 2.2.7. Global variables.
+Biến toàn cục là thuộc tính của đối tượng toàn cục. Trong trang web đối tượng toàn cục là window, vì vậy bạn có thể thiết lập và truy cập đến các biến bằng cách sử dụng: window.variable syntax.
+
+Do đó, bạn có thể truy cập các biến toàn cục được khai báo trong một window hoặc frame từ window hay frame khác bằng cách chỉ định tên window hoặc frame. Ví dụ: nếu một biến được gọi **phoneNumber** được khai báo trong một document, bạn có thể tham chiếu nó từ một iframe như sau: **parent.phoneNumber**
+### 2.2.8. Constants.
+Bạn có thể tạo một read-only, đặt tên hằng số với từ khóa const. Cấu trúc đặt tên hằng số là giống với cách đặt tên biến: nó phải bắt đầu bằng một chữ, dấu gạch dưới hoặc ký hiệu `($)` và có thể chứa các chữ cái, số hoặc dấu gạch dưới.a
+```{javascript}
+const PI = 3.14;
+```
+Hằng số không thể thay đổi giá trị thông qua việc gán hoặc được tái khai báo trong khi tập lệnh đang chạy. Nó phải được khởi tạo với một giá trị.
+
+Các quy tắc phạm vi cho các hằng số giống như các quy tắc khối-phạm vi của biến. Nếu từ khoá const bị bỏ qua, thì định danh được giả định là đại diện cho một biến.
+
+Bạn không thể khai báo một hằng có cùng tên với hàm hoặc biến trong cùng một phạm vi. Ví dụ:
+```{javascript}
+// THIS WILL CAUSE AN ERROR
+function f() {};
+const f = 5;
+
+// THIS WILL CAUSE AN ERROR ALSO
+function f() {
+  const g = 5;
+  var g;
+
+  //statements
+}
+```
+Tuy nhiên, các thuộc tính của các đối tượng được gán cho các hằng số không được bảo vệ, do đó câu lệnh sau được thực hiện mà không có vấn đề.
+```{javascript}
+const MY_OBJECT = {'key': 'value'};
+MY_OBJECT.key = 'otherValue';
+```
+Trên đây là một số kiến thức cơ bản về cú pháp và khai báo biến, hằng số trong javascipt. Cảm ơn vì đã theo dõi bài viết. Mong rằng bài viết có thể giúp ích cho các bạn.
+# Chương 3. Sáu kiểu dữ liệu nguyên thủy
