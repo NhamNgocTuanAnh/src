@@ -34,3 +34,113 @@ function square(number) {
   return number * number;
 }
 ```
+Cú pháp:
+```
+function name_of_function(var1, var2, var3, ...)
+{
+    // Some code
+}
+```
+Trong đó:
+
+* function: là từ khóa của javascript nên bắt buộc phải như vậy
+* name_of_function: là tên của hàm, thông thường chúng ta tạo những tên có ý nghĩa như find_max, find_min, ...
+* var1, var2 var3, ... là các tham số truyền vào hàm.
+
+ Ví dụ viết hàm kiểm tra số chẵn hay lẽ thì ta sẽ có một tham số đó là số cần kiểm tra.
+```
+// Tạo hàm
+function check_number(number){
+  if (number % 2 == 0){
+    alert(number + ' là số chẵn');
+  }
+  else {
+    alert(number + 'Số lẻ');
+  }
+}
+// Sử dụng hàm kiểm tra cho 5 số
+check_number(1);
+check_number(2);
+check_number(3);
+check_number(4);
+check_number(5);
+```
+## 6.3.  Arrow function
+Arrow function còn được gọi là hàm mũi tên, tức là ta sẽ tạo hàm bằng cách sử dụng ký tự =>. Cách tạo này xuất hiện kể từ phiên bản ES6.
+```
+\\ Cú pháp Function
+function name_of_function(var1, var2, var3, ...)
+{
+    // Nội dung function
+}
+
+\\ Cú pháp Arrow function
+var name_of_function = (var1, var2, var3, ...) => {
+    // Nội dung function
+};
+```
+
+## 6.4. Một số ví dụ function
+Ví dụ 1: thực hiện lại ví dụ trên nhưng sử dụng return để trả kết quả vè, nếu true thì là năm nhuận, false thì không phải năm nhuận.
+```
+// khai báo hàm
+function kiem_tra_nam_nhuan(nam)
+{
+    // nếu năm chia hết cho 100
+    // thì kiểm tra nó có chia hết cho 400 hay không
+    if (nam % 100 == 0)
+    {
+        // nêu chia hết cho 400 thì là năm nhuận
+        if (nam % 400 == 0){
+            return true;
+        }
+        else { // ngược lại không phải năm nhuận
+            return false;
+        }
+    }
+    else if (nam % 4 == 0){ // trường hợp chia hết cho 4 thì là năm nhuận
+        return true;
+    }
+    else { // cuối cùng trường hợp không phải năm nhuận
+        return false;
+    }
+}
+// sử dụng
+var flag = kiem_tra_nam_nhuan(4);
+
+if (flag){
+    alert('là năm nhuận');
+}
+else {
+    alert('không phải là năm nhuận');
+}
+```
+Ví dụ 2: Viết chương trình kiểm tra một năm có phải là năm nhuận hay không
+
+Năm nhuận là năm chia hết cho 4, nếu chia hết cho 100 thì nó phải chia hết cho 400. Đây là định nghĩa năm nhuận còn chính xác hay không thì mình không biết nhé :D vì có trường hợp nó sai.
+```
+// khai báo hàm
+function kiem_tra_nam_nhuan(nam)
+{
+    // nếu năm chia hết cho 100
+    // thì kiểm tra nó có chia hết cho 400 hay không
+    if (nam % 100 == 0)
+    {
+        // nêu chia hết cho 400 thì là năm nhuận
+        if (nam % 400 == 0){
+            alert(nam + ' là năm nhuận');
+        }
+        else { // ngược lại không phải năm nhuận
+            alert(nam + ' không phải năm nhuận');
+        }
+    }
+    else if (nam % 4 == 0){ // trường hợp chia hết cho 4 thì là năm nhuận
+        alert(nam + ' là năm nhuận');
+    }
+    else { // cuối cùng trường hợp không phải năm nhuận
+        alert(nam + 'không phải là năm nhuận');
+    }
+}
+// sử dụng
+kiem_tra_nam_nhuan(4);
+```
