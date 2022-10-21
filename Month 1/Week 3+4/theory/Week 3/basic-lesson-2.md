@@ -144,3 +144,16 @@ function kiem_tra_nam_nhuan(nam)
 // sử dụng
 kiem_tra_nam_nhuan(4);
 ```
+# Chương 7. Hàm console.log trong Javascript (dùng để xem giá trị của biến)
+
+Console.log là một hàm của Javascript, được sử dụng để debug / kiểm tra / xem giá trị của một biến trong Javascript. Công dụng của console.log là show ra giá trị của một biến, dù biến đó thuộc kiểu dữ lliệu gì đi nữa thì vẫn được hiển thị ở ô console trong hộp thoại Inspect Element.
+
+Ví dụ 1: console.log() một biến bình thường
+```
+var website = 'freetuts.net';
+console.log(website);
+```
+Kết quả:
+<p align="center">
+    <img alt="Ảnh content" src="../Week 3/images/firebug-debug-variable.png" />
+</p>
