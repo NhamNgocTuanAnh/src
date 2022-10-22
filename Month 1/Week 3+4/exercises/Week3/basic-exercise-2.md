@@ -203,8 +203,61 @@ tinh_tong(3000);
     </body>
 </html>
 ```
+## Ex9. Bài tập tạo hàm trong Javascript
+**Ex9.1:** Tính tổng các số lẻ trong mảng
+```
+var mang = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16,17, 18, 19, 20];
 
-Bài tập tạo hàm trong Javascript
+// Hàm tính tổng số lẻ
+function tong_so_le(mang)
+{
+    // Biến lưu trữ tổng
+    var tong = 0;
+
+    // Lặp qua mảng và cộng thêm tổng nếu là số lẻ
+    for (var i = 0; i < mang.length; i++){
+        if (mang[i] % 2 != 0){
+            tong += mang[i];
+        }
+    }
+
+    // Trả kết quả về
+    return tong;
+}
+
+// In ra trình duyệt
+document.write("Tổng số lẻ là: " + tong_so_le(mang));
+```
+**Ex9.2:** Tính giá trị của biểu thức
+Viết chương trình cho người dùng nhập vào số n lớn hơn 0, sau đó dựa vào n tính giá trị của biểu thức: expres = 1/n + 2/n + 3/n + ... + n/n.<br>
+**HD:** Với bài này chúng ta chỉ cần sử dụng vòng lặp for là được. Tuy nhiên, mình vẫn lưu ý với bạn là nên chuyển đổi kiểu dữ liệu và kiểm tra điều kiện nhập của người dùng nhé.
+```
+function tinh_bieu_thuc(n)
+{
+    // Biến tính tổng
+    var tong = 0;
+
+    // Tính toán
+    for (var i = 1; i <= n; i++){
+        tong += (1/i);
+    }
+
+    return tong;
+}
+
+// Lấy giá trị
+var n = parseInt(prompt("Nhập số cần tính"));
+
+// Kiểm tra giá trị
+if (n <= 0){
+    alert("Bạn phải nhập số lớn hơn 0");
+}
+else{
+    document.write("Tổng giá trị biểu thức là: " + tinh_bieu_thuc(n));
+}
+```
+
+
 JS - Một số hàm validate dữ liệu
 Tạo menu dropdown Javascript
 JS - Một số ví dụ học javascript
