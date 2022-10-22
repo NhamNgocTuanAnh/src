@@ -45,3 +45,40 @@ Cú pháp số thập lục phân sử dụng số 0 đứng đầu, sau đó l�
 2e6   // 2000000
 0.1e2 // 10
 ```
+
+## 10.6. Hàm có sẵn
+| Method | Description |
+| --- | --- |
+| Number.parseFloat() | Phân tích một đối số chuỗi và trả về một số floating point. Giống như hàm parseFloat() |
+| Number.parseInt() | Phân tích một đối số chuỗi và trả về một số interger. Giống như hàm parseInt() |
+| Number.isFinite() | Xác định xem giá trị được truyền có là một số hữu hạn. |
+| Number.isInteger() | Xác định xem giá trị được truyền có phải là số nguyên hay không. |
+| Number.isNaN() | Xác định xem giá trị được truyền là NaN hay không |
+| Number.isSafeInteger() | Xác định xem giá trị được cung cấp có phải là số nguyên là số nguyên an toàn. |
+# Chương 11. Math object
+| Method | Description |
+| --- | --- |
+| abs() | Giá trị tuyệt đối |
+| sin(), cos(), tan() | Các hàm lượng giác chuẩn; với các đối số trong radian. |
+| asin(), acos(), atan(), atan2() | Hàm lượng giác nghịch đảo; giá trị trả về theo radian. |
+| sinh(), cosh(), tanh() | Hàm hyperbol; đối số trong góc hyperbol. |
+| asinh(), acosh(), atanh() | Hàm hyperbol đảo ngược; trả lại các giá trị trong góc hyperbol. |
+| pow(), exp(), expm1(), log10(), log1p(), log2() | Hàm mũ và logarithmic. |
+| floor(), ceil() | Trả về số nguyên lớn nhất / nhỏ nhất ít hơn hoặc bằng đối số. |
+| min(), max() | Trả về giá trị nhỏ nhất hoặc lớn nhất (tương ứng) của một danh sách các số được phân cách bằng dấu phẩy làm đối số. |
+| random() | Trả về một số ngẫu nhiên giữa 0 và 1. |
+| round(), fround(), trunc(), | Các hàm làm tròn và cắt xén. |
+| sqrt(), cbrt(), hypot() | căn bậc hai, căn bậc ba, căn bậc hai của tổng các đối số vuông. |
+| sign() | Dấu của một số, cho biết số đó là dương, âm hay không. |
+| clz32(), imul() | Số lượng các bit không bằng 0 hàng đầu trong biểu diễn nhị phân 32 bit. Kết quả của nhân giống như C-32 bit của hai đối số. |
+
+# Chương 12. Date object
+```
+var today = new Date();
+var endYear = new Date(1995, 11, 31, 23, 59, 59, 999); // Set day and month
+endYear.setFullYear(today.getFullYear()); // Set year to this year
+var msPerDay = 24 * 60 * 60 * 1000; // Number of milliseconds per day
+var daysLeft = (endYear.getTime() - today.getTime()) / msPerDay;
+var daysLeft = Math.round(daysLeft); //returns days left in the year
+
+```
