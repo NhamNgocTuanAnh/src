@@ -90,3 +90,4 @@ Bảng dưới đây tóm tắt các toán tử Bitwise của JavaScript.
 | Left shift | a \<\< b | dịch chuyển a sang trái b bit. các số bên phải sẽ chuyển thành 0 |
 | Sign-propagating right shift | a >> b | dịch chuyển a sang phải b bit. ngược lại với phép dịch trái. |
 | Zero-fill right shift | a >>> b | a bị dịch chuyển sang phải b bit và đệm 0 vào bên trái tương ứng |
+# Chương 9. Expressions javascript
