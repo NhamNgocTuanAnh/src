@@ -1,5 +1,5 @@
-## Học HTML
-### HTML là gì
+### Học HTML
+#### HTML là gì
 HTML là ngôn ngữ đánh dấu, thể hiện bằng các tag (gọi là thẻ), những thẻ này giúp cho trình duyệt đọc được nội dung, có thể là text, image, hay video, form ..., và sau đó trình duyệt sẽ hiển thị nội dung cho người dùng xem.
 
 HTML có hơn 80 thẻ, mỗi thẻ có một nhiệm vụ riêng, tuy nhiên sẽ có những thẻ được sử dụng thường xuyên, bài học HTML này sẽ giúp các bạn biết được cách sử dụng các thẻ thường được dùng này.
@@ -37,7 +37,7 @@ Với những phân tích trên, ta thấy những phần như: header, global n
 </body>
 </html>
 ```
-## Phần đầu: header
+### Phần đầu: header
 ![Phần đầu: header](./images/img_structure_header01.gif)
 
 *  Phần bên trái: ta tạm gọi là hLeft (header left), phần này chứa logo và domain trang web .Logo sử dụng image nên ta dùng thẻ `<img />`, nhưng do logo là phần quan trọng nhất của trang, nên ta sử dụng thẻ `<h1>` bao ngoài thẻ` <img />`.
@@ -121,7 +121,7 @@ Viết nội dung phần footer ở đây
 </body>
 </html>
 ```
-## Global navigation: Phần liên kết toàn cục global
+### Global navigation: Phần liên kết toàn cục global
 <p align="center">
     <img src="./images/img_structure_gnav.gif" />
 </p>
@@ -184,14 +184,14 @@ Viết nội dung phần footer ở đây
 </html>
 ```
 
-## Phần nội dung chính : content
+### Phần nội dung chính : content
 Nhìn vào cấu trúc phần content ở trên, ta thấy nội dung gồm 3 phần: phần "Sản phẩm mới", phần "Tin tức" và phần banner.
 <p align="center">
     <img alt="Ảnh content" src="./images/img_structure_content.gif" />
 </p>
 Nhìn vào cấu trúc phần content ở trên, ta thấy nội dung gồm 3 phần: phần "Sản phẩm mới", phần "Tin tức" và phần banner.
 
-### Phần "Sản phẩm mới", ta phân tích:
+#### Phần "Sản phẩm mới", ta phân tích:
 <p align="center">
     <img alt="Ảnh content" src="./images/img_structure_content01.gif" />
 </p>
@@ -219,14 +219,14 @@ Nhìn vào cấu trúc phần content ở trên, ta thấy nội dung gồm 3 ph
 <li><a href="#"><img src="images/img_products05.jpg" alt="" /></a></li>
 </ul>
 ```
-### Phần "Tin tức", ta phân tích:
+#### Phần "Tin tức", ta phân tích:
 <p align="center">
     <img alt="Ảnh content" src="./images/img_structure_content02.gif" />
 </p>
 
 * Phần tiêu đề "Tin tức" vì cùng cấp với tiêu đề "Sản phẩm mới" nên ta tiếp tục sử dụng `<h2>`.
 * Phần bên dưới có dạng danh sách có nội dung và các mục, do đó ta sử dụng bộ 3 thẻ `<dl>`, `<dt>`, `<dd>`.
-### Phần banner:
+#### Phần banner:
 <p align="center">
     <img alt="Ảnh content" src="./images/img_structure_content03.gif" />
 </p>
@@ -321,7 +321,7 @@ Viết nội dung phần footer ở đây
 </body>
 </html>
 ```
-## Phần nội dung phụ: Sidebar
+### Phần nội dung phụ: Sidebar
 Nhìn vào phần sidebar ta thấy nội dung chia ra làm 2 phần: phần link liên quan chứa danh sách link, và phần link liên quan chứa banner link, ta phân tích 2 phần này như sau:
 <p align="center">
     <img alt="Ảnh content" src="./images/img_structure_sidebar01.gif" />
@@ -433,7 +433,7 @@ Viết nội dung phần footer ở đây
 </html>
 ```
 
-## Phần cuối trang web: Footer
+### Phần cuối trang web: Footer
 ---
 <p align="center">
     <img alt="Ảnh content" src="./images/img_structure_footer01.gif" />

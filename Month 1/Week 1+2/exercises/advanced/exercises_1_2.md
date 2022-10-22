@@ -1,6 +1,6 @@
-## Bài tập 1: Thực hiện code HTML theo nội dung design dưới đây:
+### Bài tập 1: Thực hiện code HTML theo nội dung design dưới đây:
 ![alt](../images/img_exercise_a.png)
-#### Hướng dẫn: Cấu trúc design không phức tạp:
+##### Hướng dẫn: Cấu trúc design không phức tạp:
 
 * `<hx>` và đoạn văn.
 * Danh sách có 3 mục, mỗi mục có hình, `<hx>` và đoạn văn.
@@ -10,7 +10,7 @@ Nội dung layout không quá phức tạp, chỉ cần xử lý float cho danh 
 * Reset lại `margin-right` cho `li` cuối.
 * Xử lý chiều cao cho 3 mục đều **bằng nhau**.
 
-### Bài giải chưa kèm css
+#### Bài giải chưa kèm css
 
 ```{html}
 <!doctype html>
@@ -53,7 +53,7 @@ Nội dung layout không quá phức tạp, chỉ cần xử lý float cho danh 
 </html>
 ```
 
-### Bài giải kèm css
+#### Bài giải kèm css
 ```{html}
 <!doctype html>
 <html lang="en">
@@ -157,9 +157,9 @@ Nội dung layout không quá phức tạp, chỉ cần xử lý float cho danh 
 </body>
 </html>
 ```
-## Bài tập 2: Thực hiện code HTML theo nội dung design dưới đây:
+### Bài tập 2: Thực hiện code HTML theo nội dung design dưới đây:
 ![alt](../images/img_exercise_b.png)
-### Hướng dẫn
+#### Hướng dẫn
 
 * `<hx>` và `<form>`.
 `<form>` gồm 3 `<input>`, 1 `<textarea>`, 1 `<button>` và 1 đoạn text ghi chú.
@@ -171,7 +171,7 @@ Phần layout vị trí không khó, cái phức tạp là xử lý các thành 
 * Xử lý chiều rộng của `input`, `textarea` cũng là vấn đề không dễ, cần sử dụng `box-sizing` hỗ trợ.
 * Với chiều rộng của input, `textarea` không nên viết trực tiếp, mà cần dùng class chung để còn sử dụng lại sau này.
 
-### Giải (chưa bao gồm css)
+#### Giải (chưa bao gồm css)
 ```{html}
 <!doctype html>
 <html lang="en">
@@ -192,7 +192,7 @@ Phần layout vị trí không khó, cái phức tạp là xử lý các thành 
 </body>
 </html>
 ```
-### Giải (bao gồm css)
+#### Giải (bao gồm css)
 ```{html}
 <!doctype html>
 <html lang="en">

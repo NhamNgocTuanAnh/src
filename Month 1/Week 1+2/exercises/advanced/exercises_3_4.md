@@ -1,6 +1,6 @@
-## Bài tập 3: Thực hiện code HTML theo nội dung design dưới đây:
+### Bài tập 3: Thực hiện code HTML theo nội dung design dưới đây:
 ![alt](../images/img_exercise_c.png)
-#### Hướng dẫn: Cấu trúc design không phức tạp:
+##### Hướng dẫn: Cấu trúc design không phức tạp:
 
 * Một image bên trái.
 * Một nhóm nội dung bên phải gồm:
@@ -11,7 +11,7 @@
 * Design này cần quan tâm line cho `h2`, nếu chưa biết cách làm, bạn có thể dụng `background-image` tạm.
 * Phần lớn là kỹ thuật **float** với xử lý khoảng cách phù hợp.
 
-### Bài giải chưa kèm css
+#### Bài giải chưa kèm css
 
 ```{html}
 <!doctype html>
@@ -48,7 +48,7 @@
 </html>
 ```
 
-### Bài giải kèm css
+#### Bài giải kèm css
 ```{html}
 <!doctype html>
 <html lang="en">
@@ -160,9 +160,9 @@
 </body>
 </html>
 ```
-## Bài tập 4: Thực hiện code HTML theo nội dung design dưới đây:
+### Bài tập 4: Thực hiện code HTML theo nội dung design dưới đây:
 ![alt](../images/img_exercise_d.png)
-### Hướng dẫn
+#### Hướng dẫn
 
 Đây là một danh sách, danh sách này gồm các phần như sau:
 * Một image bên trái.
@@ -171,7 +171,7 @@
   * Đoạn văn.
 Ta nhìn thấy design là một danh sách gồm các mục giống nhau, do đó ta chỉ cần quan tâm đến chỉnh sửa 1 mục `li`, chỉnh cho các thành phần bên trong `li `đúng vị trí, sau đó chỉnh cho tổng thể là được, border sẽ gán cho `li`, và nhớ phục hồi lại cho li cuối.
 
-### Giải (chưa bao gồm css)
+#### Giải (chưa bao gồm css)
 ```{html}
 <!doctype html>
 <html lang="en">
@@ -216,7 +216,7 @@ Ta nhìn thấy design là một danh sách gồm các mục giống nhau, do đ
 </body>
 </html>
 ```
-### Giải (bao gồm css)
+#### Giải (bao gồm css)
 ```{html}
 <!doctype html>
 <html lang="en">

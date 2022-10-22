@@ -1,5 +1,5 @@
 
-### 1. Cấu trúc html
+#### 1. Cấu trúc html
 Để hiển thị tiếng Việt trong HTML, bạn cần phải cài đặt encoding là UTF-8.
 ```{html}
 <!DOCTYPE html>
@@ -14,7 +14,7 @@
 </body>
 </html>
 ```
-### 2. Comment trong html
+#### 2. Comment trong html
 
 ```{html}
 <!DOCTYPE html>
@@ -31,8 +31,8 @@ comment
 </html>
 ```
 
-### 3. Thẻ Html thông dụng
-#### 3.1. Thẻ đơn
+#### 3. Thẻ Html thông dụng
+##### 3.1. Thẻ đơn
 ```{html}
 1	<html>	Thể mở đầu của trang HTML
 2	<head></head>	Thẻ chứa các thẻ trong phần đầu của trang HTML
@@ -92,12 +92,12 @@ comment
 
 <img src="http://webcoban.vn/image/face.jpg">
 ```
-#### 3.2. Thẻ lồng nhau
+##### 3.2. Thẻ lồng nhau
 Thẻ lồng nhau thực chất chỉ là một trong những kỹ thuật cơ bản khi viết mã HTML, các thẻ được lồng vào nhau để xây dựng nên những nội dung đa dạng hơn.
 ```{html}
 <p>Trung tâm <u>luyện thi</u> đại học</p>
 ```
-### 4. Attribute trong HTML
+#### 4. Attribute trong HTML
 Ta có thể ví mỗi thẻ HTML như là một đối tượng. Lúc này đối tượng HTML sẽ có các thuộc tính để mô tả cho nó. Ví dụ thẻ input thì nó có các thuộc tính như sau:
 * name: Dùng để khai báo tên
 * type: Dùng để thiết lập thể loại
@@ -107,12 +107,12 @@ Ta có thể ví mỗi thẻ HTML như là một đối tượng. Lúc này đ�
 ```{html}
 <input type="text" name="inputname" id="inputid" value=""/>
 ```
-#### 4.1. Dấu nháy đơn và nháy kép
+##### 4.1. Dấu nháy đơn và nháy kép
 ```{html}
 <input type="text" name="inputname" id="inputid" value="Hello 'freetuts.net'"/>
 ```
 
-#### 4.2. Thuộc tính mở rộng
+##### 4.2. Thuộc tính mở rộng
 Mỗi thẻ HTML chỉ chấp nhận một số thuộc tính nhất định của riêng nó. Nhưng nếu bạn muốn định nghĩa thêm một thuộc tính khác thì hoàn toàn được. Tuy nhiên, trình duyệt sẽ không hiểu các thuộc tính đó nên sẽ không có tác dụng gì. Vì vậy, thông thường ta sẽ kết hợp thuộc tính tự định nghĩa với Javascript để xử lý cho các bài toán. Vấn đề này ta sẽ học ở những bài khác nhé.
 
 Ví dụ: Trong thẻ input không có thuộc tính classname nhưng ta cũng có thể thêm vào được, tuy nhiên lúc chạy lên sẽ không có tác dụng gì.

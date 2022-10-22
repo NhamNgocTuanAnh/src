@@ -1,6 +1,6 @@
-## Bài tập 3: Thực hiện code HTML theo nội dung design dưới đây:
+### Bài tập 3: Thực hiện code HTML theo nội dung design dưới đây:
 ![alt](../images/img_exercise_basic03.png)
-#### Hướng dẫn: Cấu trúc design không phức tạp:
+##### Hướng dẫn: Cấu trúc design không phức tạp:
 
 * Hình lá thư, thật ra là một font icon, nên chúng ta sử dụng font-awesome là được.
 * Cấu trúc bên dưới không có gì đặc biệt, ngoại trừ phần nhập liệu và `<button>`, ta cần sử dụng các thành phần của `<form>`.
@@ -8,7 +8,7 @@
 * Hình lá thư, ta thấy ngay có một border hình tròn bao quanh lá thư, nên ta sử dụng 2 thuộc tính kết hợp là `border` và `border-radius: 50%;`, để canh giữa lá thư ta cần kết hợp `height` `line-height` và `text-align: center;`.
 * Cấu trúc bên dưới không có gì đặc biệt, ngoại trừ phần `<input>`, cố gắng sử dụng `background-color`, `height`, `padding` và `width` để chỉnh cho giống với design.
 
-### Bài giải chưa kèm css
+#### Bài giải chưa kèm css
 
 ```{html}
 <!doctype html>
@@ -34,7 +34,7 @@
 </html>
 ```
 
-### Bài giải kèm css
+#### Bài giải kèm css
 ```{html}
 <!doctype html>
 <html lang="en">
@@ -128,13 +128,13 @@
 </html>
 ```
 
-## Bài tập 4: Thực hiện code HTML theo nội dung design dưới đây:
+### Bài tập 4: Thực hiện code HTML theo nội dung design dưới đây:
 ![alt](../images/img_exercise_basic04.png)
-### Hướng dẫn
+#### Hướng dẫn
 
 Nội dung không có gì đặc biệt, theo phần công thức chung bên dưới là được, chú ý trong nội dung có 2 tiêu đề, nên cần sử dụng `<hx>`.
 
-### Giải (chưa bao gồm css)
+#### Giải (chưa bao gồm css)
 ```{html}
 <!doctype html>
 <html lang="en">
@@ -153,7 +153,7 @@ Nội dung không có gì đặc biệt, theo phần công thức chung bên dư
 </body>
 </html>
 ```
-### Giải (bao gồm css)
+#### Giải (bao gồm css)
 ```{html}
 <!doctype html>
 <html lang="en">

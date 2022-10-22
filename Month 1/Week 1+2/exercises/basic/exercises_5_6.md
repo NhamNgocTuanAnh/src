@@ -1,13 +1,13 @@
-## Bài tập 5: Thực hiện code HTML theo nội dung design dưới đây:
+### Bài tập 5: Thực hiện code HTML theo nội dung design dưới đây:
 ![alt](../images/img_exercise_basic05.png)
-#### Hướng dẫn: Cấu trúc design không phức tạp:
+##### Hướng dẫn: Cấu trúc design không phức tạp:
 
 * Ta thấy nội dung được chia làm 2 phần: bên trái chứa image, bên phải chứa nội dung gồm `<hx>`, 3 đoạn văn, và một `<button>`
 * Bài tập này không khó, chỉ cần chú ý sử dụng `float` và `clearfix`.
 * `<button>` có sử dụng `border-radius`.
 * Trước tiên ta cần sử dụng 2 `<div>` cho 2 nội dung lớn bên trái và phải, bên trong thì ta làm theo công thức chung bên dưới.
 
-### Bài giải chưa kèm css
+#### Bài giải chưa kèm css
 
 ```{html}
 <!doctype html>
@@ -36,7 +36,7 @@
 </html>
 ```
 
-### Bài giải kèm css
+#### Bài giải kèm css
 ```{html}
 <!doctype html>
 <html lang="en">
@@ -131,14 +131,14 @@ Vestibulum ullamcorper ut leo quis tristique. Donec in erat commodo, pharetra pu
 </body>
 </html>
 ```
-## Bài tập 6: Thực hiện code HTML theo nội dung design dưới đây:
+### Bài tập 6: Thực hiện code HTML theo nội dung design dưới đây:
 ![alt](../images/img_exercise_basic04.png)
-### Hướng dẫn
+#### Hướng dẫn
 
 * Nội dung gồm `<hx>`, và một danh sách 4 items chứa image, nên ta sử dụng `<ul> <li>`.
 * Thông thường sẽ có liên kết cho mỗi hình.
 
-### Giải (chưa bao gồm css)
+#### Giải (chưa bao gồm css)
 ```{html}
 <!doctype html>
 <html lang="en">
@@ -159,7 +159,7 @@ Vestibulum ullamcorper ut leo quis tristique. Donec in erat commodo, pharetra pu
 </body>
 </html>
 ```
-### Giải (bao gồm css)
+#### Giải (bao gồm css)
 ```{html}
 <!doctype html>
 <html lang="en">

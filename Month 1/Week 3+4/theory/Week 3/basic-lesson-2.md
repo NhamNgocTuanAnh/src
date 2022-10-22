@@ -1,4 +1,4 @@
-# Chương 5. For Loop
+## Chương 5. For Loop
 Các câu lệnh cho các vòng lặp được cung cấp trong JavaScript là:
 * for statement
 * do...while statement
@@ -9,7 +9,7 @@ Các câu lệnh cho các vòng lặp được cung cấp trong JavaScript là:
 * for...in statement
 * for...of statement
 
-## 5.1. for statement
+### 5.1. for statement
 ```
 var i = 0;
 for (i = 0; i < 100; i++){
@@ -42,14 +42,14 @@ Chúng ta thường sử dụng vòng lặp for để giải các bài toán nh�
 * Lặp và xử lý các phần tử trong mảng (sẽ được học trong bài mảng)
 * Lặp trong một khoảng từ [a - b]
 * Và nhiều dạng toán cơ bản khác.
-## 5.2. do...while statement
-## 5.3. while statement
-## 5.4. labeled statement
-## 5.5. break statement
-## 5.6. continue statement
-## 5.7. for...in statement
-## 5.8. for...of statement
-# Chương 6. Functions
+### 5.2. do...while statement
+### 5.3. while statement
+### 5.4. labeled statement
+### 5.5. break statement
+### 5.6. continue statement
+### 5.7. for...in statement
+### 5.8. for...of statement
+## Chương 6. Functions
 Functions là một trong những khối xây dựng cơ bản trong JavaScript. Một function là một thủ tục JavaScript-một tập hợp các câu lệnh thực hiện một tác vụ hoặc tính toán một giá trị. Để sử dụng một function, bạn phải định nghĩa nó ở đâu đó trong phạm vi mà bạn muốn gọi nó. Trong phần này sẽ tìm hiểu các kiến thức về function trong javascript.
 
 Một định nghĩa hàm (hay còn gọi là khai báo hàm, hoặc câu lệnh hàm) bao gồm các từ khóa function, tiếp theo là:
@@ -94,7 +94,7 @@ check_number(3);
 check_number(4);
 check_number(5);
 ```
-## 6.3.  Arrow function
+### 6.3.  Arrow function
 Arrow function còn được gọi là hàm mũi tên, tức là ta sẽ tạo hàm bằng cách sử dụng ký tự =>. Cách tạo này xuất hiện kể từ phiên bản ES6.
 ```
 \\ Cú pháp Function
@@ -109,7 +109,7 @@ var name_of_function = (var1, var2, var3, ...) => {
 };
 ```
 
-## 6.4. Một số ví dụ function
+### 6.4. Một số ví dụ function
 Ví dụ 1: thực hiện lại ví dụ trên nhưng sử dụng return để trả kết quả vè, nếu true thì là năm nhuận, false thì không phải năm nhuận.
 ```
 // khai báo hàm
@@ -173,7 +173,7 @@ function kiem_tra_nam_nhuan(nam)
 // sử dụng
 kiem_tra_nam_nhuan(4);
 ```
-# Chương 7. Hàm console.log trong Javascript (dùng để xem giá trị của biến)
+## Chương 7. Hàm console.log trong Javascript (dùng để xem giá trị của biến)
 
 Console.log là một hàm của Javascript, được sử dụng để debug / kiểm tra / xem giá trị của một biến trong Javascript. Công dụng của console.log là show ra giá trị của một biến, dù biến đó thuộc kiểu dữ lliệu gì đi nữa thì vẫn được hiển thị ở ô console trong hộp thoại Inspect Element.
 

@@ -1,6 +1,6 @@
-## Bài tập 13: Thực hiện code HTML theo nội dung design dưới đây:
+### Bài tập 13: Thực hiện code HTML theo nội dung design dưới đây:
 ![alt](../images/img_exercise_m.png)
-#### Hướng dẫn: Cấu trúc design không phức tạp:
+##### Hướng dẫn: Cấu trúc design không phức tạp:
 Nội dung desgin tách làm 2 phần:
 * Bên trái là một image.
 * Bên phải là một cấu trúc với nhiều chi tiết:
@@ -9,7 +9,7 @@ Nội dung desgin tách làm 2 phần:
 * Tiếp theo là một danh sách có sử dụng font icon.
 * Phần cuối cùng là một liên kết chi tiết, do đó ta dùng `<a>` chứ không phải là `<button>`.
 
-### Bài giải chưa kèm css
+#### Bài giải chưa kèm css
 
 ```{html}
 <!doctype html>
@@ -49,7 +49,7 @@ Nội dung desgin tách làm 2 phần:
 </html>
 ```
 
-### Bài giải kèm css
+#### Bài giải kèm css
 ```{html}
 <!doctype html>
 <html lang="en">
@@ -175,9 +175,9 @@ Nội dung desgin tách làm 2 phần:
 </body>
 </html>
 ```
-## Bài tập 14: Thực hiện code HTML theo nội dung design dưới đây:
+### Bài tập 14: Thực hiện code HTML theo nội dung design dưới đây:
 ![alt](../images/img_exercise_n.png)
-### Hướng dẫn
+#### Hướng dẫn
 
 * Có nhiều cách layout nội dung này, có thể dùng cấu trúc list `<ul>` với mỗi một nhóm là một `<li>`, tuy nhiên, để thuận lợi cho việc layout chúng ta vẫn có thể dùng `<div>` vẫn được.
 * **Chú ý** phần đặt tên class, đặt tên sao cho có thể thay đổi vị trí trái và phải vẫn không thay đổi ý nghĩa của nó.
@@ -185,7 +185,7 @@ Nội dung desgin tách làm 2 phần:
 * Để code được như vậy, ta cần tách biệt phần `float` và phần chi tiết riêng ra, bằng cách sử dụng thêm `class`.
 * Phần `border` bo góc cho liên kết `<a>`, ta sử dụng giá trị khoảng `30px` là được.
 
-### Giải (chưa bao gồm css)
+#### Giải (chưa bao gồm css)
 ```{html}
 <!doctype html>
 <html lang="en">
@@ -217,7 +217,7 @@ Nội dung desgin tách làm 2 phần:
 </body>
 </html>
 ```
-### Giải (bao gồm css)
+#### Giải (bao gồm css)
 ```{html}
 <!doctype html>
 <html lang="en">

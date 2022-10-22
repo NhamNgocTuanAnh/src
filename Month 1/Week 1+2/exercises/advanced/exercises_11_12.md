@@ -1,6 +1,6 @@
-## Bài tập 11: Thực hiện code HTML theo nội dung design dưới đây:
+### Bài tập 11: Thực hiện code HTML theo nội dung design dưới đây:
 ![alt](../images/img_exercise_k.png)
-#### Hướng dẫn: Cấu trúc design không phức tạp:
+##### Hướng dẫn: Cấu trúc design không phức tạp:
 
 * Design này cũng không phức tạp, gồm tiêu đề và danh sách gồm 3 mục.
 * Mỗi một mục của danh sách chứa font icon, Học Web Chuẩn sẽ tạm sử dụng icon của **fontawsome** cho tiện layout, còn khi code thực tế thì các bạn cần tìm đúng font icon của design, hoặc khó quá thì có thể cắt hình nhe.
@@ -10,7 +10,7 @@
 * Phần background bên dưới dùng cho phần `<section> `lớn bao ngoài.
 * Xử lý position với top giá trị âm, hoặc `margin-top` giá trị âm để đưa danh sách tràn lên trên một đoạn.
 
-### Bài giải chưa kèm css
+#### Bài giải chưa kèm css
 
 ```{html}
 <!doctype html>
@@ -47,7 +47,7 @@
 </html>
 ```
 
-### Bài giải kèm css
+#### Bài giải kèm css
 ```{html}
 <!doctype html>
 <html lang="en">
@@ -159,9 +159,9 @@ services, offers, projects for you!</h2>
 </body>
 </html>
 ```
-## Bài tập 12: Thực hiện code HTML theo nội dung design dưới đây:
+### Bài tập 12: Thực hiện code HTML theo nội dung design dưới đây:
 ![alt](../images/img_exercise_l.png)
-### Hướng dẫn
+#### Hướng dẫn
 
 Đây là cấu trúc chi tiết của một footer, tách biệt làm 2 phần:
 * Bên trên được tách làm 2 phần riêng, phần bên trái là nội dung gửi mail, phần bên phải là 3 danh sách chứa liên kết.
@@ -170,7 +170,7 @@ services, offers, projects for you!</h2>
 * **background-color** chia làm 2 phần, ta có thể sử lý **background-color** cho `<footer>`, và phần **background-color** còn lại cho thành phần lớn nào cũng được.
 * Đối với phần form gửi mail, cách xử lý tương tự như các bài tập trước, các bạn có thể xem lại nhe.
 
-### Giải (chưa bao gồm css)
+#### Giải (chưa bao gồm css)
 ```{html}
 <!doctype html>
 <html lang="en">
@@ -229,7 +229,7 @@ services, offers, projects for you!</h2>
 </body>
 </html>
 ```
-### Giải (bao gồm css)
+#### Giải (bao gồm css)
 ```{html}
 <!doctype html>
 <html lang="en">

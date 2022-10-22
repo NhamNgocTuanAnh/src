@@ -1,6 +1,6 @@
-## Bài tập 11: Thực hiện code HTML theo nội dung design dưới đây:
+### Bài tập 11: Thực hiện code HTML theo nội dung design dưới đây:
 ![alt](../images/img_exercise_basic11.png)
-#### Hướng dẫn: Cấu trúc design không phức tạp:
+##### Hướng dẫn: Cấu trúc design không phức tạp:
 
 * Design này cũng là một danh sách, bên trong mỗi mục có nội dung chi tiết, ta dùng `<ul> <li>`.
 * Các icons trong các mục, là font icon, nên chúng ta sử dụng font-awesome.
@@ -9,7 +9,7 @@
 * Icon có border tròn bao ngoài, cách làm giống như `Bài tập 3`.
 * Canh giữa từng mục bằng `text-align: center;`.
 
-### Bài giải chưa kèm css
+#### Bài giải chưa kèm css
 
 ```{html}
 <!doctype html>
@@ -56,7 +56,7 @@
 </html>
 ```
 
-### Bài giải kèm css
+#### Bài giải kèm css
 ```{html}
 <!doctype html>
 <html lang="en">
@@ -168,9 +168,9 @@
 </body>
 </html>
 ```
-## Bài tập 12: Thực hiện code HTML theo nội dung design dưới đây:
+### Bài tập 12: Thực hiện code HTML theo nội dung design dưới đây:
 ![alt](../images/img_exercise_basic12.png)
-### Hướng dẫn
+#### Hướng dẫn
 
 * Design này là phần header, gồm có logo (image), danh sách (navigation - liên kết điều hướng), và button.
 * Logo thường sử dụng `<h1>` và có liên kết về trang chủ.
@@ -179,7 +179,7 @@
 * Nhìn design ta thấy rõ chia 2 phần, bên trái (gồm logo và thanh điều hướng navigation) và bên phải (button login), có thể dùng float, hoặc position cho button login đều được.
 * Bài giải này `Tepa Edu` sẽ sử dụng position cho button login.
 
-### Giải (chưa bao gồm css)
+#### Giải (chưa bao gồm css)
 ```{html}
 <!doctype html>
 <html lang="en">
@@ -207,7 +207,7 @@
 </body>
 </html>
 ```
-### Giải (bao gồm css)
+#### Giải (bao gồm css)
 ```{html}
 <!doctype html>
 <html lang="en">

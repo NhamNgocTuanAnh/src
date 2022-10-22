@@ -1,11 +1,11 @@
-## Bài tập 13: Thực hiện code HTML theo nội dung design dưới đây:
+### Bài tập 13: Thực hiện code HTML theo nội dung design dưới đây:
 ![alt](../images/img_exercise_q.png)
-#### Hướng dẫn: Cấu trúc design không phức tạp:
+##### Hướng dẫn: Cấu trúc design không phức tạp:
 * Design là dạng danh sách, với mỗi mục là một nhóm gồm image và text.
 * Nội dung có thể thêm hoặc bớt, chú ý code sao cho có thêm hoặc bớt cũng không làm ảnh hưởng cấu trúc layout.
 * Giao diện này không khó thực hiện nhe, quan trọng là canh chiều rộng phù hợp thôi, cẩn thận khi text nhiều sẽ vỡ layout.
 
-### Bài giải chưa kèm css
+#### Bài giải chưa kèm css
 
 ```{html}
 <!doctype html>
@@ -43,7 +43,7 @@
 </html>
 ```
 
-### Bài giải kèm css
+#### Bài giải kèm css
 ```{html}
 <!doctype html>
 <html lang="en">
@@ -134,15 +134,15 @@
 </body>
 </html>
 ```
-## Bài tập 18: Thực hiện code HTML theo nội dung design dưới đây:
+### Bài tập 18: Thực hiện code HTML theo nội dung design dưới đây:
 ![alt](../images/img_exercise_r.png)
-### Hướng dẫn
+#### Hướng dẫn
 
 * Design là dạng danh sách, với mỗi mục là một nhóm gồm image bên trái và nhóm nội dung bên phải.
 * Nội dung có thể thêm hoặc bớt, code sao cho có thêm hoặc bớt cũng không làm ảnh hưởng cấu trúc layout.
 * Bài tập này giúp các bạn thực hành lại kiến thức từ các bài tập trước, mở rộng hơn ở việc xử lý tạo hình tròn cho image, cần sử dụng border-radius: 50%.
 
-### Giải (chưa bao gồm css)
+#### Giải (chưa bao gồm css)
 ```{html}
 <!doctype html>
 <html lang="en">
@@ -206,7 +206,7 @@
 </body>
 </html>
 ```
-### Giải (bao gồm css)
+#### Giải (bao gồm css)
 ```{html}
 <!doctype html>
 <html lang="en">

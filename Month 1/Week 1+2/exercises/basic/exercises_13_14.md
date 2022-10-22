@@ -1,6 +1,6 @@
-## Bài tập 13: Thực hiện code HTML theo nội dung design dưới đây:
+### Bài tập 13: Thực hiện code HTML theo nội dung design dưới đây:
 ![alt](..//images/img_exercise_basic13.png)
-#### Hướng dẫn: Cấu trúc design không phức tạp:
+##### Hướng dẫn: Cấu trúc design không phức tạp:
 
 * Đây là cấu trúc footer, thông thường sẽ gồm có nội dung giới thiệu, liên kết, và nội dung liên hệ.
 * Nhìn vô ta sẽ thấy một danh sách lớn, chứa 4 phần, tuy nhiên footer thường cho biết thông tin nhiều hơn là SEO, do đó ở đây ta có thể dùng <div> cho tiện việc layout.
@@ -11,7 +11,7 @@
 * Chú ý cách sử dụng width.
 * Đối với bài thực tế, các bạn cần sử dụng Google Font để tìm đúng dạng font có trong design nhe.
 
-### Bài giải chưa kèm css
+#### Bài giải chưa kèm css
 
 ```{html}
 <!doctype html>
@@ -66,7 +66,7 @@ Sagittis enim vel suscipit.</p>
 </html>
 ```
 
-### Bài giải kèm css
+#### Bài giải kèm css
 ```{html}
 <!doctype html>
 <html lang="en">
@@ -187,14 +187,14 @@ Suite 721 New York NY 10016</address>
 </body>
 </html>
 ```
-## Bài tập 14: Thực hiện code HTML theo nội dung design dưới đây:
+### Bài tập 14: Thực hiện code HTML theo nội dung design dưới đây:
 ![alt](../images/img_exercise_basic14.png)
-### Hướng dẫn
+#### Hướng dẫn
 
 * Nội dung design này đơn giản: tiêu đề, đoạn văn và danh sách.
 * Design này chú ý phần danh sách, cần sử dụng float sao cho tất cả các mục đều đúng vị trí, không chia 3 list.
 
-### Giải (chưa bao gồm css)
+#### Giải (chưa bao gồm css)
 ```{html}
 <!doctype html>
 <html lang="en">
@@ -230,7 +230,7 @@ Integer facilisis turpis et finibus tincidunt. Integer varius malesuada.</p>
 </body>
 </html>
 ```
-### Giải (bao gồm css)
+#### Giải (bao gồm css)
 ```{html}
 <!doctype html>
 <html lang="en">

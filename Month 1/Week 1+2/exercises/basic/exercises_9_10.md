@@ -1,11 +1,11 @@
-## Bài tập 9: Thực hiện code HTML theo nội dung design dưới đây:
+### Bài tập 9: Thực hiện code HTML theo nội dung design dưới đây:
 ![alt](../images/img_exercise_basic09.png)
-#### Hướng dẫn: Cấu trúc design không phức tạp:
+##### Hướng dẫn: Cấu trúc design không phức tạp:
 
 * Design gồm tiêu đề và một danh sách có liên kết.
 * Dùng `display: inline-block;` cho danh sách để tiện việc điều khiển khoảng cách.
 
-### Bài giải chưa kèm css
+#### Bài giải chưa kèm css
 
 ```{html}
 <!doctype html>
@@ -34,7 +34,7 @@
 </html>
 ```
 
-### Bài giải kèm css
+#### Bài giải kèm css
 ```{html}
 <!doctype html>
 <html lang="en">
@@ -106,9 +106,9 @@
 </body>
 </html>
 ```
-## Bài tập 10: Thực hiện code HTML theo nội dung design dưới đây:
+### Bài tập 10: Thực hiện code HTML theo nội dung design dưới đây:
 ![alt](../images/img_exercise_basic10.png)
-### Hướng dẫn
+#### Hướng dẫn
 
 * Design gồm một danh sách, bên trong mỗi mục có nội dung chi tiết, ta dùng `<ul> <li>`.
 * Các icons trong các mục, là font icon, nên chúng ta sử dụng `font-awesome` là được, các bạn cố gắng tìm icon cho giống design, bài học này Học Web Chuẩn dùng fontawesome cho nhanh thôi, nên có lẽ không giống đâu.
@@ -117,7 +117,7 @@
 * Bài này cũng không khó, mục đích giúp các bạn thực hành chi tiết bên trong từng item của danh sách.
 * Dùng float cho danh sách, bên trong chủ yếu sử dụng font-size và điều chỉnh khoảng cách.
 
-### Giải (chưa bao gồm css)
+#### Giải (chưa bao gồm css)
 ```{html}
 <!doctype html>
 <html lang="en">
@@ -154,7 +154,7 @@
 </body>
 </html>
 ```
-### Giải (bao gồm css)
+#### Giải (bao gồm css)
 ```{html}
 <!doctype html>
 <html lang="en">

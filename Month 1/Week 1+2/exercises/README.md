@@ -1,4 +1,4 @@
-## Công thức chung HTML
+### Công thức chung HTML
 * Cần xác định rõ: đâu là image, đâu là text, đâu là button, để biết khi nào dùng hình, khi nào dùng text để sử dụng CSS cho đúng.
 *  Thông thường image sẽ là hình chụp, hình design phức tạp,... trong các bài tập của hocwebchuan, image sẽ được thể hiện bằng nội dung có chữ "Học Web Chuẩn", hoặc số VD: "500x600".
 * Một số bài tập có sử dụng font icon, hocwebchuan sẽ sử dụng bộ font của fontawesome cho thuận lợi việc code.
@@ -13,7 +13,7 @@
 * Với mỗi thành bao ngoài như `<section>` hay `<div>` ta cần sử dụng id hoặc class để thuận lợi cho việc layout sau này.
 
 
-## Công thức chung về CSS
+### Công thức chung về CSS
 * Bài giải này dựa trên bài học CSS3, do đó các bạn cần nắm vững kiến thức về CSS và CSS3 để hiểu rõ về bài giải này.
 * Đối với các tag có class, thì sẽ sử dụng tên .class để viết CSS, tránh viết dạng tag.class, việc này sẽ giúp code không ảnh hưởng nếu tag có thay đổi.
 * Thứ tự ưu tiên viết CSS (tham khảo):
@@ -29,5 +29,5 @@
 * Để cho gọn bài giảng, hocwebchuan sẽ không tập trung vào việc chỉnh chính xác font-family, image, hay khoảng cách nhe (tương đối thôi).
 * Trong bài giải, hocwebchuan đã code các thuộc tính theo việc sắp xếp thứ tự ABC, indent 2 spaces, các vị trí khoảng cách như nhau, mục đích của việc này sẽ giúp cho code được đẹp hơn, dễ quản lý hơn.
 
-### Tham khảo
+#### Tham khảo
 * [hocwebchuan.com](https://hocwebchuan.com/exercises/html-html5/#basic)

@@ -1,6 +1,6 @@
-## Bài tập 7: Thực hiện code HTML theo nội dung design dưới đây:
+### Bài tập 7: Thực hiện code HTML theo nội dung design dưới đây:
 ![alt](../images/img_exercise_basic07.png)
-#### Hướng dẫn: Cấu trúc design không phức tạp:
+##### Hướng dẫn: Cấu trúc design không phức tạp:
 
 * Design chia làm 2 danh sách, một danh sách chứa link text, và một danh sách chứa hình.
 * Ứng với mỗi danh sách ta dùng `<ul> <li>`.
@@ -9,7 +9,7 @@
 * Với danh sách text ta có thể dùng `display: inline;` để thuận lợi về mặt điều chỉnh vị trí ở giữa.
 * Với danh sách chứa hình ta dùng `float` sẽ thuận lợi về mặt điều chỉnh khoảng cách hay thêm bớt hình, cần chú ý reset lại các khoảng cách các hình bên phải và cuối danh sách.
 
-### Bài giải chưa kèm css
+#### Bài giải chưa kèm css
 
 ```{html}
 <!doctype html>
@@ -46,7 +46,7 @@
 </html>
 ```
 
-### Bài giải kèm css
+#### Bài giải kèm css
 ```{html}
 <!doctype html>
 <html lang="en">
@@ -169,13 +169,13 @@
 </body>
 </html>
 ```
-## Bài tập 8: Thực hiện code HTML theo nội dung design dưới đây:
+### Bài tập 8: Thực hiện code HTML theo nội dung design dưới đây:
 ![alt](../images/img_exercise_basic08.png)
-### Hướng dẫn
+#### Hướng dẫn
 
 * Design gồm 2 phần, một là đoạn văn, một là danh sách, bên trong mỗi mục của danh sách có chi tiết nhỏ.
 
-### Giải (chưa bao gồm css)
+#### Giải (chưa bao gồm css)
 ```{html}
 <!doctype html>
 <html lang="en">
@@ -200,7 +200,7 @@ You'll be happy</a></li>
 </body>
 </html>
 ```
-### Giải (bao gồm css)
+#### Giải (bao gồm css)
 ```{html}
 <!doctype html>
 <html lang="en">

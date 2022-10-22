@@ -1,13 +1,39 @@
-# Chương 1. Javascript là gì?
+<p><h1>Day 1</h1></p>
+
+- [Chương 1. Javascript là gì?](#chương-1-javascript-là-gì)
+- [Chương 2. Cú pháp cơ bản](#chương-2-cú-pháp-cơ-bản)
+  - [2.1. Comments](#21-comments)
+  - [2.2. Declarations](#22-declarations)
+    - [2.2.1. Variables](#221-variables)
+    - [2.2.2. Declaring variables](#222-declaring-variables)
+    - [2.2.3. Evaluating variables](#223-evaluating-variables)
+    - [2.2.4. Variable scope](#224-variable-scope)
+    - [2.2.5. Variable hoisting](#225-variable-hoisting)
+    - [2.2.6. Function hoisting](#226-function-hoisting)
+    - [2.2.7. Global variables.](#227-global-variables)
+    - [2.2.8. Constants.](#228-constants)
+- [Chương 3. Sáu kiểu dữ liệu nguyên thủy](#chương-3-sáu-kiểu-dữ-liệu-nguyên-thủy)
+  - [3.1. Data structures and types](#31-data-structures-and-types)
+    - [3.1.1. Data type conversion](#311-data-type-conversion)
+    - [3.1.2. Converting strings to numbers](#312-converting-strings-to-numbers)
+    - [3.1.3. Literals](#313-literals)
+- [Chương 4. Các câu lệnh, cấu trúc lệnh của javaScript](#chương-4-các-câu-lệnh-cấu-trúc-lệnh-của-javascript)
+  - [4.1. Block statement - Khối lệnh](#41-block-statement---khối-lệnh)
+  - [4.2. Conditional statements - câu lệnh điều kiện](#42-conditional-statements---câu-lệnh-điều-kiện)
+    - [4.2.1. Lệnh if...else](#421-lệnh-ifelse)
+    - [4.2.2. Falsy values - Các giá trị được coi là False.](#422-falsy-values---các-giá-trị-được-coi-là-false)
+    - [4.2.3. Lệnh switch](#423-lệnh-switch)
+  - [4.3. Exception handling statements](#43-exception-handling-statements)
+## Chương 1. Javascript là gì?
 
 JavaScript chứa một thư viện chuẩn các đối tượng, chẳng hạn như Array, Date và Math, và một bộ các phần tử ngôn ngữ chính như toán tử, các cấu trúc điều khiển và các câu lệnh. JavaScript cốt lõi có thể được mở rộng cho nhiều mục đích khác nhau bằng cách bổ sung thêm các đối tượng; ví dụ:
 
 Client-side JavaScript: Mở rộng ngôn ngữ cốt lõi bằng cách cung cấp các đối tượng để điều khiển một trình duyệt và nó là Document Object Model (DOM). Ví dụ: tiện ích mở rộng phía máy khách cho phép ứng dụng đặt các phần tử trên biểu mẫu HTML và đáp ứng các sự kiện của người dùng chẳng hạn như nhấp chuột, hình thức nhập và điều hướng trang.
 
 Server-side JavaScript: Mở rộng ngôn ngữ cốt lõi bằng cách cung cấp các đối tượng liên quan đến việc chạy JavaScript trên máy chủ. Ví dụ, phần mở rộng phía máy chủ cho phép một ứng dụng giao tiếp với cơ sở dữ liệu, cung cấp sự liên tục của thông tin từ một lời gọi đến một ứng dụng khác, hoặc thực hiện các thao tác tập tin trên một máy chủ.
-# Chương 2. Cú pháp cơ bản
+## Chương 2. Cú pháp cơ bản
 
-## 2.1. Comments
+### 2.1. Comments
 ```{javascript}
 // a one line comment
 
@@ -15,12 +41,12 @@ Server-side JavaScript: Mở rộng ngôn ngữ cốt lõi bằng cách cung c�
    multi-line comment
  */
 ```
-## 2.2. Declarations
+### 2.2. Declarations
 Có 3 kiểu khai báo trong javascript:
 * `var`: khai báo một biến, tùy chọn khởi tạo cho nó một giá trị.
 * `let`: khai báo một biến chỉ có thể truy cập được trong block bao quanh nó, khác với `var` - tạo ra một biến có phạm vi truy cập xuyên suốt function chứa nó.
 * `const`: dùng để khai báo một hằng số - là một giá trị không thay đổi được trong suốt quá trình chạy.
-### 2.2.1. Variables
+#### 2.2.1. Variables
 Tên của các biến, được gọi là định danh, phù hợp với quy tắc nhất định:
 
 * Tên biến phải bắt đầu bằng một chữ cái hoặc ký tự gạch dưới `("_")` hoặc dấu `($)`
@@ -28,13 +54,13 @@ Tên của các biến, được gọi là định danh, phù hợp với quy t�
 * JavaScript phân biệt rõ chữ hoa và chữ thường, vì vậy tên biến bao gồm các ký tự từ "A" đến "Z" `(chữ hoa)` và các ký tự từ "a" đến "z" `(chữ thường)`
 
 **Ví dụ:** tên biến: `Number_hits`, `temp99`, `$credit`, `_name`, ...
-### 2.2.2. Declaring variables
+#### 2.2.2. Declaring variables
 khai báo một biến theo ba cách:
 
 * Với từ khóa `var`. Ví dụ, `var x = 42`. Cú pháp này có thể được sử dụng để khai báo cả biến địa phương và toàn cục.
 * Bằng cách gán nó một giá trị. Ví dụ, `x = 42`. Điều này luôn khai báo một biến toàn cục, nếu nó được khai báo bên ngoài bất kỳ hàm nào. Nó tạo ra một cảnh báo JavaScript nghiêm ngặt. Bạn không nên sử dụng biến này.
 * Với từ khóa cho. Ví dụ `let y = 13`. Cú pháp này có thể được sử dụng để khai báo một biến địa phương khối. Xem phạm vi biến bên dưới.
-### 2.2.3. Evaluating variables
+#### 2.2.3. Evaluating variables
 
 Một biến được khai báo sử dụng câu lệnh var hoặc let không có giá trị được gán nào được mặc định có giá trị undefined.
 
@@ -79,7 +105,7 @@ Khi một biến được gán là null, giá trị null có thể là 0 trong b
 var n = null;
 console.log(n * 32); // Will log 0 to the console
 ```
-### 2.2.4. Variable scope
+#### 2.2.4. Variable scope
 Khi bạn khai báo một biến bên ngoài bất kỳ hàm nào, nó được gọi là một biến toàn cục, bởi vì nó có thể sử dụng cho bất kỳ đoạn code nào khác trong document hiện tại. Khi bạn khai báo một biến trong một hàm, nó được gọi là một biến địa phương, bởi vì nó chỉ có thể sử dụng bên trong hàm đó.
 
 Một biến được khai báo trong một khối sẽ có phạm vi là trong một hàm mà khối đó nằm trong hàm đó. Ví dụ, biến x được khai báo trong khối lệnh if, nhưng nó được sử dụng bên ngoài khối lệnh if, trong hàm mà nó đc khai báo:
@@ -96,7 +122,7 @@ if (true) {
 }
 console.log(y);  // ReferenceError: y is not defined
 ```
-### 2.2.5. Variable hoisting
+#### 2.2.5. Variable hoisting
 Một điều bất thường khác về các biến trong javascript là bạn có thể tham chiếu đến một biến đã đc khai báo sau đó, mà ko nhận đc một ngoại lệ. Khái niệm được biết như hoisting; các biến trong javascript là trong một "hoisted hoặc đưa lên trên đầu các function hoặc statement. Tuy nhiên, các biến mà được đưa lên sẽ trả về một gía trị undefined. Vì vậy ngay cả khi bạn khai báo và khởi tạo sau đó bạn sử dụng hoặc tham chiếu đên biến này, nó vẫn sẽ là undefined.
 ```{javascript}
 /**
@@ -136,7 +162,7 @@ var myvar = 'my value';
 })();
 ```
 Bởi vì, tất cả các lệnh `var` trong một function nên được đặt phía trên cùng của hàm các tốt. Thức tế nó làm tăng tính rõ ràng của code.
-### 2.2.6. Function hoisting
+#### 2.2.6. Function hoisting
 Đối với hàm thì bạn có thể dùng lời gọi hàm ở phía trên định nghĩa, khai báo hàm.
 ```{javascript}
 /* Function declaration */
@@ -156,11 +182,11 @@ var baz = function() {
   console.log('bar2');
 };
 ```
-### 2.2.7. Global variables.
+#### 2.2.7. Global variables.
 Biến toàn cục là thuộc tính của đối tượng toàn cục. Trong trang web đối tượng toàn cục là window, vì vậy bạn có thể thiết lập và truy cập đến các biến bằng cách sử dụng: window.variable syntax.
 
 Do đó, bạn có thể truy cập các biến toàn cục được khai báo trong một window hoặc frame từ window hay frame khác bằng cách chỉ định tên window hoặc frame. Ví dụ: nếu một biến được gọi **phoneNumber** được khai báo trong một document, bạn có thể tham chiếu nó từ một iframe như sau: **parent.phoneNumber**
-### 2.2.8. Constants.
+#### 2.2.8. Constants.
 Bạn có thể tạo một read-only, đặt tên hằng số với từ khóa const. Cấu trúc đặt tên hằng số là giống với cách đặt tên biến: nó phải bắt đầu bằng một chữ, dấu gạch dưới hoặc ký hiệu `($)` và có thể chứa các chữ cái, số hoặc dấu gạch dưới.a
 ```{javascript}
 const PI = 3.14;
@@ -189,10 +215,10 @@ const MY_OBJECT = {'key': 'value'};
 MY_OBJECT.key = 'otherValue';
 ```
 Trên đây là một số kiến thức cơ bản về cú pháp và khai báo biến, hằng số trong javascipt. Cảm ơn vì đã theo dõi bài viết. Mong rằng bài viết có thể giúp ích cho các bạn.
-# Chương 3. Sáu kiểu dữ liệu nguyên thủy
+## Chương 3. Sáu kiểu dữ liệu nguyên thủy
 Trong phần trước chúng ta đã tìm hiểu về một số cú pháp cơ bản và khai báo biến. Trong phần này chúng ta sẽ tìm hiểu về các kiểu dữ liệu và literals trong javaScript.
 
-## 3.1. Data structures and types
+### 3.1. Data structures and types
 Các tiêu chuẩn ECMAScript mới nhất xác định bảy loại dữ liệu:
 
 Sáu kiểu **dữ liệu nguyên thủy**:
@@ -206,7 +232,7 @@ Sáu kiểu **dữ liệu nguyên thủy**:
 Và **Object**
 
 Mặc dù số lượng kiểu dữ liệu ít nhưng nó đủ để bạn có thể thực hiện các chức năng cho ứng dụng của mình. **Objects** and **functions** là 2 yếu tố cơ bản khác trong ngôn ngữ. Bạn có thể nghĩ về các **object** như nơi chứa các giá trị đc đặt tên và các functions như các phương thức mà ứng dụng của bạn cần thực hiện.
-### 3.1.1. Data type conversion
+#### 3.1.1. Data type conversion
 JavaScript là một ngôn ngữ dynamically typed. Điều đó có nghĩa là bạn không phải xác định kiểu dữ liệu của một biến khi bạn khai báo, và các kiểu dữ liệu được chuyển đổi tự động khi cần thiết trong quá trình thực thi script. Ví dụ, bạn có thể định nghĩa một biến như sau:
 ```{javascript}
 var answer = 42;
@@ -223,7 +249,7 @@ Trong các lệnh liên quan đến các toán tử khác, javaScript không th�
 '37' - 7 // 30
 '37' + 7 // "377"
 ```
-### 3.1.2. Converting strings to numbers
+#### 3.1.2. Converting strings to numbers
 * parseInt()
 * parseFloat()
 ```
@@ -231,7 +257,7 @@ Trong các lệnh liên quan đến các toán tử khác, javaScript không th�
 (+'1.1') + (+'1.1') = 2.2
 // Note: the parentheses are added for clarity, not required.
 ```
-### 3.1.3. Literals
+#### 3.1.3. Literals
 * Array literals
 * Boolean literals
 * Floating-point literals
@@ -299,9 +325,9 @@ var poem = 'Roses are red,\n\
             Sugar is sweet,\n\
             and so is foo.'
 ```
-# Chương 4. Các câu lệnh, cấu trúc lệnh của javaScript
+## Chương 4. Các câu lệnh, cấu trúc lệnh của javaScript
 Trong phần này sẽ tiếp tục tìm hiểu về các câu lệnh, cấu trúc lệnh của javaScript.
-## 4.1. Block statement - Khối lệnh
+### 4.1. Block statement - Khối lệnh
 Ví dụ: khối lệnh thường được sử dụng với các câu lệnh điều khiển (ví dụ: if, for, while).
 ```
 while (x < 10) {
@@ -309,10 +335,10 @@ while (x < 10) {
 }
 // Ở đây, {x ++; } Là câu khối lệnh.
 ```
-## 4.2. Conditional statements - câu lệnh điều kiện
+### 4.2. Conditional statements - câu lệnh điều kiện
 Một câu lệnh điều kiện là một tập hợp các lệnh được thực hiện nếu điều kiện xác định là true. JavaScirpt hỗ trợ 2 lệnh điều kiện: `if ... else` và `switch`.
 
-### 4.2.1. Lệnh if...else
+#### 4.2.1. Lệnh if...else
 
 Sử dụng câu lệnh if để thực hiện một câu lệnh nếu một điều kiện hợp lý là đúng. Sử dụng mệnh đề tùy chọn else để thực hiện một câu lệnh nếu điều kiện là sai. Câu lệnh if như sau:
 ```
@@ -326,7 +352,7 @@ if (condition_1) {
   statement_last;
 }
 ```
-### 4.2.2. Falsy values - Các giá trị được coi là False.
+#### 4.2.2. Falsy values - Các giá trị được coi là False.
 * false
 * undefined
 * null
@@ -353,7 +379,7 @@ function checkData() {
   }
 }
 ```
-### 4.2.3. Lệnh switch
+#### 4.2.3. Lệnh switch
 Một câu lệnh switch cho phép một chương trình đánh giá một biểu thức và thử khớp giá trị của biểu thức (expression) với các case (label_1, label_2, ...). Nếu tìm thấy case phù hợp, chương trình sẽ thực thi câu lệnh trong case đó. Một câu lệnh switch có dạng như sau:
 ```
 switch (fruittype) {
@@ -381,7 +407,7 @@ switch (fruittype) {
 console.log("Is there anything else you'd like?");
 
 ```
-## 4.3. Exception handling statements
+### 4.3. Exception handling statements
 Bạn có thể ném các ngoại lệ bằng cách sử dụng câu lệnh throw và xử lý chúng bằng cách sử dụng câu lệnh `try ... catch`.
 
 * `throw` statement

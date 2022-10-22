@@ -1,6 +1,6 @@
-## Bài tập 7: Thực hiện code HTML theo nội dung design dưới đây:
+### Bài tập 7: Thực hiện code HTML theo nội dung design dưới đây:
 ![alt](../images/img_exercise_g.png)
-#### Hướng dẫn: Cấu trúc design không phức tạp:
+##### Hướng dẫn: Cấu trúc design không phức tạp:
 
 * Đây là design của một footer thường gặp, gồm logo, text giới thiệu, và các list chứa link tương ứng.
 * Với design này ta sử dụng 4 `<div>` cho dễ layout, tiêu đề thì vẫn dùng `<hx>`, còn lại các danh sách ta dùng `<ul> <li>`.
@@ -9,7 +9,7 @@
 
 
 
-### Bài giải chưa kèm css
+#### Bài giải chưa kèm css
 
 ```{html}
 <!doctype html>
@@ -68,7 +68,7 @@
 </html>
 ```
 
-### Bài giải kèm css
+#### Bài giải kèm css
 ```{html}
 <!doctype html>
 <html lang="en">
@@ -216,9 +216,9 @@
 </body>
 </html>
 ```
-## Bài tập 8: Thực hiện code HTML theo nội dung design dưới đây:
+### Bài tập 8: Thực hiện code HTML theo nội dung design dưới đây:
 ![alt](../images/img_exercise_h.png)
-### Hướng dẫn
+#### Hướng dẫn
 
 * Bên trên là tiêu đề lớn.
 * Bên dưới chia làm 2 phần:
@@ -227,7 +227,7 @@
 * Bài này layout đơn giản, nhưng cần cẩn thận việc xử lý **khoảng cách, font-size, color**.
 * Phần **font-family** sử dụng Google Font, tuy nhiên Học Web Chuẩn không làm thao tác này, vì muốn các bạn tập trung sử lý phần khác hơn.
 
-### Giải (chưa bao gồm css)
+#### Giải (chưa bao gồm css)
 ```{html}
 <!doctype html>
 <html lang="en">
@@ -256,7 +256,7 @@
 </body>
 </html>
 ```
-### Giải (bao gồm css)
+#### Giải (bao gồm css)
 ```{html}
 <!doctype html>
 <html lang="en">

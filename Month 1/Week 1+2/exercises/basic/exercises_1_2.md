@@ -1,12 +1,12 @@
-## Bài tập 1: Thực hiện code HTML theo nội dung design dưới đây:
+### Bài tập 1: Thực hiện code HTML theo nội dung design dưới đây:
 ![alt](../images/img_exercise_basic01.png)
-#### Hướng dẫn: Cấu trúc design không phức tạp:
+##### Hướng dẫn: Cấu trúc design không phức tạp:
 
 * Xem công thức chung bên dưới.
 *  Riêng bên trong <hx> có một đoạn nhấn mạnh "Shared Hosting", nên ta cần sử dụng thẻ <strong>
 *  2 liên kết button có dạng danh sách, nên ta sử dụng thẻ `<ul> <li>`, nếu không quan trọng SEO chỗ này, thì có thể không cần cũng được.
 
-### Bài giải chưa kèm css
+#### Bài giải chưa kèm css
 
 ```{html}
 <!doctype html>
@@ -29,7 +29,7 @@
 </html>
 ```
 
-### Bài giải kèm css
+#### Bài giải kèm css
 ```{html}
 <!doctype html>
 <html lang="en">
@@ -110,9 +110,9 @@
 </html>
 ```
 
-## Bài tập 2: Thực hiện code HTML theo nội dung design dưới đây:
+### Bài tập 2: Thực hiện code HTML theo nội dung design dưới đây:
 ![alt](../images/img_exercise_basic02.png)
-### Hướng dẫn
+#### Hướng dẫn
 
 Cấu trúc design không phức tạp, gồm `<hx>`, đoạn văn dùng `<p>`, và một liên kết `<a>` hoặc có thể dùng `<button>` nếu nó không phải là liên kết.
 
@@ -125,7 +125,7 @@ Nội dung bên trong canh giữa, nên ta sẽ sử dụng text-align: center; 
 
 Liên kết button cần phải chỉnh nhiều kỹ thuật CSS3 như: background-gradient, box-shadow, ..., nếu bạn chưa học qua CSS3 thì bạn có thể bỏ qua các thuộc tính ở phần liên kết button này, chỉ cần dùng background-color cho đơn giản là được.
 
-### Giải (chưa bao gồm css)
+#### Giải (chưa bao gồm css)
 ```{html}
 <!doctype html>
 <html lang="en">
@@ -142,7 +142,7 @@ Liên kết button cần phải chỉnh nhiều kỹ thuật CSS3 như: backgrou
 </body>
 </html>
 ```
-### Giải (bao gồm css)
+#### Giải (bao gồm css)
 ```{html}
 <!doctype html>
 <html lang="en">

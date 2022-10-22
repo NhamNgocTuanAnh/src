@@ -1,6 +1,6 @@
-## Bài tập 5: Thực hiện code HTML theo nội dung design dưới đây:
+### Bài tập 5: Thực hiện code HTML theo nội dung design dưới đây:
 ![alt](../images/img_exercise_e.png)
-#### Hướng dẫn: Cấu trúc design không phức tạp:
+##### Hướng dẫn: Cấu trúc design không phức tạp:
 
 Áp dụng kết quả của bài tập trước, ta phân tích design như sau:
 * Bên trên là tiêu đề `<hx>` và đoạn văn.
@@ -16,7 +16,7 @@ Ta thấy nội dung layout chia làm 3 phần, sử dụng layout bình thườ
 * Phần nội dung bên phải, áp dụng kết quả của bài trước.
 
 
-### Bài giải chưa kèm css
+#### Bài giải chưa kèm css
 
 ```{html}
 <!doctype html>
@@ -78,7 +78,7 @@ Praesent commodo nunc eros. Vivamus iaculis eleifend est, non blandit risus inte
 </html>
 ```
 
-### Bài giải kèm css
+#### Bài giải kèm css
 ```{html}
 <!doctype html>
 <html lang="en">
@@ -229,9 +229,9 @@ Praesent commodo nunc eros. Vivamus iaculis eleifend est, non blandit risus inte
 </body>
 </html>
 ```
-## Bài tập 6: Thực hiện code HTML theo nội dung design dưới đây:
+### Bài tập 6: Thực hiện code HTML theo nội dung design dưới đây:
 ![alt](../images/img_exercise_f.png)
-### Hướng dẫn
+#### Hướng dẫn
 
 Cấu trúc bài này cũng không phức tạp:
 
@@ -245,7 +245,7 @@ Bài này layout không khó, cái khó vẫn là điều khiển các thành ph
 * Xử lý chiều rộng của `input, textarea` cũng là vấn đề không dễ, cần sử dụng `box-sizing` hỗ trợ.
 * Với chiều rộng của `input, textarea` không nên viết trực tiếp, mà cần dùng class chung để còn sử dụng lại sau này.
 
-### Giải (chưa bao gồm css)
+#### Giải (chưa bao gồm css)
 ```{html}
 <!doctype html>
 <html lang="en">
@@ -283,7 +283,7 @@ Nulla ut sagittis lorem nam tempor eros sit amet purus congue.</p>
 </body>
 </html>
 ```
-### Giải (bao gồm css)
+#### Giải (bao gồm css)
 ```{html}
 <!doctype html>
 <html lang="en">

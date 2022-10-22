@@ -1,13 +1,13 @@
-## Bài tập 9: Thực hiện code HTML theo nội dung design dưới đây:
+### Bài tập 9: Thực hiện code HTML theo nội dung design dưới đây:
 ![alt](../images/img_exercise_i.png)
-#### Hướng dẫn: Cấu trúc design không phức tạp:
+##### Hướng dẫn: Cấu trúc design không phức tạp:
 
 * Phần bên trái là một list thông tin, ta sử dụng `<ul> <li>`, chú ý có sử dụng font icon.
 * Phần bên phải là một form contact, dùng các thành phần `<form>`.
 
 
 
-### Bài giải chưa kèm css
+#### Bài giải chưa kèm css
 
 ```{html}
 <!doctype html>
@@ -47,7 +47,7 @@ New York, NY 17022</li>
 </html>
 ```
 
-### Bài giải kèm css
+#### Bài giải kèm css
 ```{html}
 <!doctype html>
 <html lang="en">
@@ -208,9 +208,9 @@ New York, NY 17022</li>
 </body>
 </html>
 ```
-## Bài tập 10: Thực hiện code HTML theo nội dung design dưới đây:
+### Bài tập 10: Thực hiện code HTML theo nội dung design dưới đây:
 ![alt](../images/img_exercise_j.png)
-### Hướng dẫn
+#### Hướng dẫn
 
 Design này là footer, cấu trúc tách biệt làm 2 phần.
 * Phần bên trên chia làm 3 phần, cấu trúc mỗi phần làm như các bài tập trước.
@@ -219,7 +219,7 @@ Tiến hành layout như bình thường, nhưng cần chú ý:
 * Chấm tròn của phần Quick Links, cần sử dụng cách chèn chấm tròn bằng mã ký tự vào `li:after`.
 * Phần mạng xã hội, cần viết class riêng cho màu sắc, để sử dụng lại sau này.
 
-### Giải (chưa bao gồm css)
+#### Giải (chưa bao gồm css)
 ```{html}
 <!doctype html>
 <html lang="en">
@@ -263,7 +263,7 @@ Tiến hành layout như bình thường, nhưng cần chú ý:
 </body>
 </html>
 ```
-### Giải (bao gồm css)
+#### Giải (bao gồm css)
 ```{html}
 <!doctype html>
 <html lang="en">

@@ -1,10 +1,10 @@
-## Bài tập 15: Thực hiện code HTML theo nội dung design dưới đây:
+### Bài tập 15: Thực hiện code HTML theo nội dung design dưới đây:
 ![alt](../images/img_exercise_o.png)
-#### Hướng dẫn: Cấu trúc design không phức tạp:
+##### Hướng dẫn: Cấu trúc design không phức tạp:
 * Nội dung này tương tự như bài tập đã được giới thiệu trước [đây](exercises_1_2.md), bạn xem lại nhe.
 * Chú ý ở phần thông tin bài post: "Admin", "02 June 2016" và "87" đây là dạng danh sách, tuy nhiên nếu không cần cho SEO thì bạn có thể dụng <div> thay thế cho danh sách vẫn được.
 
-### Bài giải chưa kèm css
+#### Bài giải chưa kèm css
 
 ```{html}
 <!doctype html>
@@ -60,7 +60,7 @@
 </html>
 ```
 
-### Bài giải kèm css
+#### Bài giải kèm css
 ```{html}
 <!doctype html>
 <html lang="en">
@@ -202,9 +202,9 @@
 </body>
 </html>
 ```
-## Bài tập 16: Thực hiện code HTML theo nội dung design dưới đây:
+### Bài tập 16: Thực hiện code HTML theo nội dung design dưới đây:
 ![alt](../images/img_exercise_p.png)
-### Hướng dẫn
+#### Hướng dẫn
 
 * Nội dung design lặp lại giống nhau, gồm một tiêu đề và một danh sách.
 * Bên trong danh sách gồm 4 nội dung, do đây là nội dung comment, nên cũng không quan trọng về SEO lắm, nên chúng ta có thể sử dụng `<div> `hoặc `<p>` cho mỗi nội dung nhỏ.
@@ -213,7 +213,7 @@ Design có 2 phần cần chú ý.
 * Vị trí của avatar, có thể sử dụng `float` hoặc `position` đều được, tuy nhiên phần này sử dụng `position` thì hiệu qua tốt hơn (kiểm soát vỡ **layout** tốt hơn `float`).
 * Chú ý phần ngày "6th", ở đây Học Web Chuẩn không làm cho chữ "th" lên cao, vì làm thì dễ nhưng khi đổ dữ liệu động sẽ gây khó khăn cho các bạn programmer, nếu muốn làm cho giống design, các bạn chỉ cần gắn thẻ `<sup>` là được, hoặc điều khiển bằng css.
 
-### Giải (chưa bao gồm css)
+#### Giải (chưa bao gồm css)
 ```{html}
 <!doctype html>
 <html lang="en">
@@ -257,7 +257,7 @@ Design có 2 phần cần chú ý.
 </body>
 </html>
 ```
-### Giải (bao gồm css)
+#### Giải (bao gồm css)
 ```{html}
 <!doctype html>
 <html lang="en">
