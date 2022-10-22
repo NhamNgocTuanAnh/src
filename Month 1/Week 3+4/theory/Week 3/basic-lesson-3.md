@@ -176,4 +176,24 @@ Toán tử điều kiện là toán tử JavaScript duy nhất có ba toán hạ
 * Nếu không nó có giá trị của val2. Bạn có thể sử dụng toán tử điều kiện bất cứ nơi nào bạn sẽ sử dụng một toán tử chuẩn.
 ## 9.5. Operator precedence
 
+Thứ tự ưu tiên của toán tử xác định thứ tự chúng được áp dụng khi đánh giá một biểu thức. Bạn có thể ghi đè lên ưu tiên toán tử bằng cách sử dụng dấu ngoặc đơn.
 
+Bảng dưới đây mô tả sự ưu tiên của các toán tử, từ cao nhất đến thấp nhất.
+| Operator type | individual operators |
+| --- | --- |
+| member | . \[\] |
+| call / create instance | () new |
+| negation/increment | ! ~ - + ++ -- typeof void delete |
+| multiply/divide | \* / % |
+| addition/subtraction | \+ - |
+| bitwise shift | \<\< >> >>> |
+| relational | \< \<= > >= in instanceof |
+| equality | \== != === !== |
+| bitwise-and | & |
+| bitwise-xor | ^ |
+| bitwise-or | \[ |
+| logical-and | && |
+| logical-or | \[ |
+| conditional | ?: |
+| assignment | \= += -= \*= /= %= \<\<= >>= >>>= &= ^= |
+| comma | , |
