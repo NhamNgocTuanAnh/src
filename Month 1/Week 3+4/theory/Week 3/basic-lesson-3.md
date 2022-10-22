@@ -91,3 +91,89 @@ Bảng dưới đây tóm tắt các toán tử Bitwise của JavaScript.
 | Sign-propagating right shift | a >> b | dịch chuyển a sang phải b bit. ngược lại với phép dịch trái. |
 | Zero-fill right shift | a >>> b | a bị dịch chuyển sang phải b bit và đệm 0 vào bên trái tương ứng |
 # Chương 9. Expressions javascript
+
+JavaScript có các loại biểu thức sau:
+
+* Arithmetic - Số học: đánh giá một số, ví dụ 3.14159. (Nói chung sử dụng toán tử số học.)
+* String - Chuỗi: đánh giá một chuỗi ký tự, ví dụ: "Fred" hoặc "234". (Nói chung sử dụng các toán tử chuỗi.)
+* Logical- logic: đánh giá đúng hoặc sai. (Thường bao gồm các toán tử logic.)
+* Primary expressions - Biểu thức chính: Các từ khóa cơ bản và các biểu thức chung trong JavaScript.
+* Left-hand-side expressions - Phía bên trái biểu thức: Các giá trị còn lại là đích đến của một phép gán.
+
+## 9.1. Grouping operator
+
+Toán tử nhóm `()` kiểm soát sự ưu tiên của việc đánh giá trong các biểu thức. Ví dụ, bạn có thể ghi đè lên phép nhân và phân chia trước tiên, sau đó bổ sung và phép trừ để đánh giá bổ sung đầu tiên.
+```
+var a = 1;
+var b = 2;
+var c = 3;
+
+// default precedence
+a + b * c     // 7
+// evaluated by default like this
+a + (b * c)   // 7
+
+// now overriding precedence
+// addition before multiplication
+(a + b) * c   // 9
+
+// which is equivalent to
+a * c + b * c // 9
+```
+## 9.2. Logical operators
+
+Toán tử logic thường được sử dụng với các giá trị Boolean (logic); khi chúng được, chúng trả về một giá trị Boolean. Tuy nhiên, && và || các toán tử thực sự trả lại giá trị của một trong những toán hạng được chỉ định, vì vậy nếu các toán tử này được sử dụng với các giá trị không phải Boolean, chúng có thể trả về một giá trị không phải Boolean. Các toán tử logic được mô tả trong bảng dưới đây.
+| Toán tử | sử dụng | mô tả |
+| --- | --- | --- |
+| Toán tử AND (&&) | expr1 && expr2 | trả về expr1 nếu nó có thể chuyển thành false, nếu không, trả về expr2. Do đó, khi được sử dụng với các giá trị Boolean, & & trả về true nếu cả hai toán hạng là đúng; ngược lại, trả về false. |
+| Toán tử OR \[ |   | \] |
+| Toán tử NOT (!) | !expr1 | Trả về false nếu toán hạng đơn của nó có thể được chuyển thành true; nếu không, trả về true. |
+
+Ví dụ về các biểu thức có thể được chuyển đổi thành false là các giá trị đánh giá là null, 0, NaN, chuỗi rỗng ("") hoặc không xác định.
+
+Đoạn mã sau cho thấy các ví dụ của toán tử && (logical AND).
+```
+// Đoạn mã sau cho thấy các ví dụ của toán tử && (logical AND).
+var a1 =  true && true;     // t && t returns true
+var a2 =  true && false;    // t && f returns false
+var a3 = false && true;     // f && t returns false
+var a4 = false && (3 == 4); // f && f returns false
+var a5 = 'Cat' && 'Dog';    // t && t returns Dog
+var a6 = false && 'Cat';    // f && t returns false
+var a7 = 'Cat' && false;    // t && f returns false
+// Đoạn mã sau cho thấy các ví dụ của || (OR logic).
+var o1 =  true || true;     // t || t returns true
+var o2 = false || true;     // f || t returns true
+var o3 =  true || false;    // t || f returns true
+var o4 = false || (3 == 4); // f || f returns false
+var o5 = 'Cat' || 'Dog';    // t || t returns Cat
+var o6 = false || 'Cat';    // f || t returns Cat
+var o7 = 'Cat' || false;    // t || f returns Cat
+// Các mã sau đây cho thấy các ví dụ của! (logic NOT).
+var n1 = !true;  // !t returns false
+var n2 = !false; // !f returns true
+var n3 = !'Cat'; // !t returns false
+```
+## 9.3. String operators
+```
+console.log('my ' + 'string'); // console logs the string "my string".
+```
+Ngoài các toán tử so sánh, có thể được sử dụng trên các giá trị chuỗi, toán tử nối (+) kết nối hai giá trị chuỗi với nhau, trả về một chuỗi khác là sự kết hợp của hai toán hạng string.
+Toán tử gán vắn tắt += cũng có thể được sử dụng để nối các chuỗi.
+```
+var mystring = 'alpha';
+mystring += 'bet'; // evaluates to "alphabet" and assigns this value to mystring.
+```
+## 9.4. Conditional (ternary) operator
+```
+var status = (age >= 18) ? 'adult' : 'minor';
+```
+Câu lệnh này chỉ định giá trị "adult" cho biến status nếu age từ 18 trở lên. Nếu không, nó chỉ định giá trị "minor" cho status.
+
+Toán tử điều kiện là toán tử JavaScript duy nhất có ba toán hạng.
+* Toán tử có thể có một trong hai giá trị dựa trên điều kiện.
+* Nếu condition là true, toán tử có giá trị của val1.
+* Nếu không nó có giá trị của val2. Bạn có thể sử dụng toán tử điều kiện bất cứ nơi nào bạn sẽ sử dụng một toán tử chuẩn.
+## 9.5. Operator precedence
+
+
