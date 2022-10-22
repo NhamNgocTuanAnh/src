@@ -11,8 +11,37 @@ Các câu lệnh cho các vòng lặp được cung cấp trong JavaScript là:
 
 ## 5.1. for statement
 ```
-
+var i = 0;
+for (i = 0; i < 100; i++){
+    // Dòng lệnh xử lý vòng lặp
+}
 ```
+Trong đó:
+
+* var i = 0; là khai báo biến điều khiển vòng lặp i
+* (i = 0) là điểm bắt đầu lặp (lặp từ 0)
+* (i < 100) là điều kiện dừng vòng lặp, nghĩa là lặp nếu i < 100. Bạn có thể dùng một điều kiện bất kì thông qua các toán tử miễn là nó trả về true hoặc false như (i <= 100, i == 100)
+* (i++) là tăng bước nhảy, bạn có thể dùng công thức khác như i+=2, i-=2, i--, ...
+Như ví dụ trên thì ta sẽ có 100 vòng lặp từ 0 -> 99
+
+**Vòng lặp for lồng nhau**
+```
+for (var i = 0; i <= 9; i++)
+{
+    for (var j = 0; j <= 9; j++){
+        // In ra vị trí của ma trận [i][j]
+        document.write("(["+i+"]["+j+"])");
+    }
+    // Xuống hàng
+    document.write("<br/>");
+}
+```
+Chúng ta thường sử dụng vòng lặp for để giải các bài toán như:
+
+* Kiểm tra số nguyên tố trong JS
+* Lặp và xử lý các phần tử trong mảng (sẽ được học trong bài mảng)
+* Lặp trong một khoảng từ [a - b]
+* Và nhiều dạng toán cơ bản khác.
 ## 5.2. do...while statement
 ## 5.3. while statement
 ## 5.4. labeled statement
