@@ -234,12 +234,3 @@ function kiem_tra_snt(n)
     }
 }
 ```
-
-
-Bài tập vòng lặp for Javascript
-Bài tập vòng lặp while javascript
-Bài tập tạo hàm trong Javascript
-JS - Một số hàm validate dữ liệu
-Tạo menu dropdown Javascript
-JS - Một số ví dụ học javascript
-JS - Thêm thẻ HTML
