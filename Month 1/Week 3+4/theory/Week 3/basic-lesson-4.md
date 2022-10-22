@@ -1,3 +1,14 @@
+<p><h1>Day 3</h1></p>
+
+- [Chương 10. Number javascript.](#chương-10-number-javascript)
+  - [10.1. Decimal numbers - thập phân](#101-decimal-numbers---thập-phân)
+  - [10.2. Binary numbers - nhị phân](#102-binary-numbers---nhị-phân)
+  - [10.3. Octal numbers - bát phân](#103-octal-numbers---bát-phân)
+  - [10.4. Hexadecimal numbers - thập lục phân](#104-hexadecimal-numbers---thập-lục-phân)
+  - [10.5. Exponentiation - lũy thừa](#105-exponentiation---lũy-thừa)
+  - [10.6. Hàm có sẵn](#106-hàm-có-sẵn)
+- [Chương 11. Math object](#chương-11-math-object)
+- [Chương 12. Date object](#chương-12-date-object)
 ## Chương 10. Number javascript.
 Bạn có thể sử dụng bốn loại literals số: thập phân, nhị phân, bát phân, và hệ thập lục phân.
 ### 10.1. Decimal numbers - thập phân

@@ -1,3 +1,18 @@
+<p><h1>Day 2</h1></p>
+
+- [Chương 5. For Loop](#chương-5-for-loop)
+  - [5.1. for statement](#51-for-statement)
+  - [5.2. do...while statement](#52-dowhile-statement)
+  - [5.3. while statement](#53-while-statement)
+  - [5.4. labeled statement](#54-labeled-statement)
+  - [5.5. break statement](#55-break-statement)
+  - [5.6. continue statement](#56-continue-statement)
+  - [5.7. for...in statement](#57-forin-statement)
+  - [5.8. for...of statement](#58-forof-statement)
+- [Chương 6. Functions](#chương-6-functions)
+  - [6.3.  Arrow function](#63--arrow-function)
+  - [6.4. Một số ví dụ function](#64-một-số-ví-dụ-function)
+- [Chương 7. Hàm console.log trong Javascript (dùng để xem giá trị của biến)](#chương-7-hàm-consolelog-trong-javascript-dùng-để-xem-giá-trị-của-biến)
 ## Chương 5. For Loop
 Các câu lệnh cho các vòng lặp được cung cấp trong JavaScript là:
 * for statement

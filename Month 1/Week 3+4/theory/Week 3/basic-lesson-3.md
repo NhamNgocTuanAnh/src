@@ -1,3 +1,18 @@
+<p><h1>Day 2</h1></p>
+
+- [Chương 8.  Toán tử JavaScript](#chương-8--toán-tử-javascript)
+  - [8.1. Assignment operators](#81-assignment-operators)
+    - [8.1.1. Toán tử gán phức hợp](#811-toán-tử-gán-phức-hợp)
+    - [8.1.2.  Destructuring](#812--destructuring)
+  - [8.2. Comparison operators](#82-comparison-operators)
+  - [8.3. Arithmetic operators](#83-arithmetic-operators)
+  - [8.4. Bitwise operators](#84-bitwise-operators)
+- [Chương 9. Expressions javascript](#chương-9-expressions-javascript)
+  - [9.1. Grouping operator](#91-grouping-operator)
+  - [9.2. Logical operators](#92-logical-operators)
+  - [9.3. String operators](#93-string-operators)
+  - [9.4. Conditional (ternary) operator](#94-conditional-ternary-operator)
+  - [9.5. Operator precedence](#95-operator-precedence)
 ## Chương 8.  Toán tử JavaScript
 * Assignment operators
 * Comparison operators
