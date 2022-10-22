@@ -132,7 +132,7 @@ console.log(sumArray(mang)); // 25
 Cách giải phương trình bậc nhất một ẩn có dạng `ax+b = 0`
 
 <p align="center">
-    <img alt="form giải pt bậc 1" src="../Week3/images/basic-exercise-1-giabac1-giao-dien.jpg" />
+    <img alt="form giải pt bậc 1" src="./images/basic-exercise-1-giabac1-giao-dien.jpg" />
 </p>
 
 **BG:**

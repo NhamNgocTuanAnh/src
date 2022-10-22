@@ -199,5 +199,5 @@ console.log(website);
 ```
 Kết quả:
 <p align="center">
-    <img alt="Ảnh content" src="../Week 3/images/firebug-debug-variable.png" />
+    <img alt="Ảnh content" src="./images/firebug-debug-variable.png" />
 </p>
