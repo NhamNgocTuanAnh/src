@@ -80,5 +80,34 @@ endYear.setFullYear(today.getFullYear()); // Set year to this year
 var msPerDay = 24 * 60 * 60 * 1000; // Number of milliseconds per day
 var daysLeft = (endYear.getTime() - today.getTime()) / msPerDay;
 var daysLeft = Math.round(daysLeft); //returns days left in the year
-
 ```
+JavaScript không có loại dữ liệu ngày tháng. Tuy nhiên, bạn có thể sử dụng đối tượng Date và các phương thức của nó để làm việc với ngày tháng và thời gian trong các ứng dụng của bạn. Đối tượng Date có một số lượng lớn các phương thức để thiết lập, nhận và thao tác ngày tháng. Nó không có bất kỳ thuộc tính nào.
+
+Gọi Date thông qua từ khóa new trả về một string tương ứng với thời gian hiện tại.
+
+`parameters` có thể có cú pháp như sau:
+
+* Tạo thời gian của hôm nay: today = new Date();
+* string tương ứng với một ngày có dạng: "Month day, year hours:minutes:seconds." tương ứng với cú pháp: var Xmas95 = new Date("December 25, 1995 13:30:00") nếu bạn bỏ qua giá trị nào thì cho tương ứng giá trị 0 vào vị trí đó.
+* một bộ giá trị interger cho năm, tháng, ngày: var Xmas95 = new Date(1995, 11, 25)
+* một bộ giá trị interger cho năm, tháng, ngày, giờ, phút và giây: var Xmas95 = new Date(1995, 11, 25, 9, 30, 0);
+
+Các method của đối tượng Date
+
+* phương thức "set", để thiết lập ngày và thời gian giá trị trong các đối tượng Date.
+* phương thức "get", để nhận được ngày và thời gian giá trị từ các đối tượng Date.
+* phương thức "to", để trả về giá trị chuỗi từ đối tượng Date.
+* phương thức parse và UTC để phân tích cú pháp chuỗi Date.
+Với phương thức "get" và "set" bạn có thể lấy và thiết lập giây, phút, giờ và ngày của tháng, ngày của tuần, tháng và năm. Đó là phương thức "getDay" trả về ngày của tuần, nhưng không tương ứng với phương thức "setDay" bởi vì ngày của tuần được thiết lập tự động.
+* giây và phút: từ 0 đến 59
+* giờ: từ 0 đến 23
+* thứ: từ 0 (Sunday) đến 6 (Saturday)
+* ngày: từ 1 đến 31 (day of the month)
+* tháng: từ 0 (January) đến 11 (December)
+* năm: years since 1900
+
+ví dụ:
+```
+var Xmas95 = new Date('December 25, 1995');
+```
+
