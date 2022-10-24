@@ -140,7 +140,6 @@ Làm thế nào để tạo hàng và cột bằng cách sử dụng hệ thốn
         <div class="col-md-9">Cột phải</div>
     </div>
 </div>
-
 ```
 Kết quả:
 <p align="center">
