@@ -1,5 +1,5 @@
 # Bài tập lớn
-## Bài1.Website giới thiệu shop nước hoa như một hình thức quảng bá sản phẩm cho các nhãn hiệu nổi tiếng nói chung và nhằm đáp ứng nhu cầu của người sử dụng nói riêng.
+## Bài 1. Website giới thiệu shop nước hoa như một hình thức quảng bá sản phẩm cho các nhãn hiệu nổi tiếng nói chung và nhằm đáp ứng nhu cầu của người sử dụng nói riêng.
 * Thể hiện sự chi tiết của sản phẩm mà người dung cần tìm qua đó có thể tư vấn trực tiếp giúp cho người dung thuận tiện hơn trong việc đi lại hay là tham khảo ý kiến của các đồng nghiệp hay bạn bè
 * Website này sẽ giúp người có cái nhìn khác biết về các mùi thơm khác nhau giữa các lọ nước hoa, hiểu rõ về nó một cách dễ dàng.
 * Lượng người vào internet rất nhiều vì thế lập website giới thiệu về nước hoa sẽ thu được một lượng khách hàng đáng kể
