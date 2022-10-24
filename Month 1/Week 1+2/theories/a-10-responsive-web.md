@@ -19,11 +19,25 @@ Trong đó:
 * `width=device-width`: thiết lập chiều rộng của trang web theo chiều rộng của thiết bị
 
 * `initial-scale=1.0`: thiết lập mức độ zoom ban đầu khi trang web được load bởi trình duyệt
+* `user-scalable=no`: Cho phép người dùng phóng to màn hình hay không (giá trị `yes` hoặc` no`)
 
 Xem qua ví dụ sau đây để thấy rõ sự khác biệt khi sử dụng viewport và khi không sử dụng **viewport**:
 <p align="center">
     <img alt="Ảnh content" src="./images/res-pon.webp" />
 </p>
+
+Cách sử dụng:
+```
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, maximum-scale=1.0, initial-scale=1.0, user-scalable=no">
+</head>
+<body>
+
+</body>
+</html>
+```
 
 ### 2. GridView
 
@@ -89,6 +103,18 @@ Ngoài ra chúng ta có thể sử dụng các class của bootstrap để chia 
 ```
 
 Tuy nhiên Flexible grid layout không là không đủ. Khi trang web có độ rộng nhỏ thì kích thước các phần tử bên trong cũng nhỏ theo khiến nội dung hiển thị không tốt. Để giải quyết vấn đề này chúng ta cùng đi đến phần tiếp theo.
+
+### Breakpoint
+Breakpoint, là những điểm (chiều rộng màn hình của thiết bị) mà ở đó giao diện được chuyển đổi cho phù hợp với thiết bị hiện tại, ví dụ như màn hình rộng hơn 1024px, thì có background-color màu đỏ, nhỏ hơn 1024px thì background-color màu xanh, khi này ta gọi 1024 là breakpoint.
+
+Tùy vào chiều rộng hiển thị của thiết bị mà breakpoint sẽ khác nhau, hiện nay có rất nhiều thiết bị, tương ứng sẽ có nhiều chiều rộng khác nhau, nên sẽ có nhiều breakpoint khác nhau, do đó ta không thể thiết lập beakpoint cho từng loại thiết bị được.
+
+Điểm breakpoint thường gặp
+* 320 px	Màn hình chiều dọc cho smartphone nhỏ (VD iPhone 5)
+* 480 px	Màn hình chiều ngang cho smartphone nhỏ
+* 640 px	Màn hình chiều ngang cho smartphone vừa
+* 768 px	Màn hình chiều dọc cho tablet (VD: iPad)
+* 1024 px	Màn hình chiều ngang cho tablet (VD: iPad), hoặc chiều dọc cho tablet lớn (VD iPad Pro)
 
 ### Media Queries
 Media Queries là một kỹ thuật CSS được giới thiệu trong CSS3. Ta sử dụng cú pháp **@media** để bao gồm một khối các thuộc tính CSS chỉ khi một điều kiện nhất định là đúng. Nói một cách đơn giản là ta sẽ định nghĩa CSS riêng cho một nhóm các thiết bị có kích thước giống nhau.<br>
