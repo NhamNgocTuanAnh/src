@@ -1,3 +1,34 @@
+# HTML
+### Projected Time
+About 2.5 hours
+* 2 hours for Guided Practice
+* 20 minutes for the slides
+* 15 minutes for Check for Understanding
+### Prerequisites
+* Understanding web
+* Known to use tool
+### Motivation
+* Hyper Text Markup Language is the markup language for creating web pages and web applications.
+* Almost all the modern web applications use HTML for their front-end. And if you wish to be a web developer, you need to learn HTML.
+* HTML is really simple and easy to learn.
+### Objectives
+**Participants will be able to:**
+* Create an HTML file and open it in Chrome
+* Code a bare-bones HTML structure
+* Draw a hierarchy of the HTML elements
+* Properly write opening and closing tags for commonly-used HTML elements
+* Use proper indentation to improve readability
+* Code an unordered and ordered list, and know how they are different
+* Make a word or phrase link to an external webpage
+* Separate HTML code into containers
+* Identify semantic and non-semantic elements
+### Specific Things to Learn
+* How to open an HTML file in Chrome
+* HTML document structure
+* Commonly-used HTML tags
+* Proper HTML indentation
+* Semantic elements
+
 
 #### 1. Cấu trúc html
 Để hiển thị tiếng Việt trong HTML, bạn cần phải cài đặt encoding là UTF-8.

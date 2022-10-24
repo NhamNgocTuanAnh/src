@@ -60,4 +60,3 @@ Trong vòng lặp, chúng ta đã tăng giá trị của i lên 1 lần, bằng 
 Trong vòng lặp for thứ hai, biến i được khai báo bằng từ khóa let: Biến được khai báo với từ khóa let (và const) có phạm vi dạng block hay còn gọi là block-scoped (Phạm vi trong dấu ngoặc { }).
 
 Trong mỗi lần lặp, ta sẽ có một giá trị mới và mỗi giá trị nằm trong phạm vi của vòng lặp.
-
