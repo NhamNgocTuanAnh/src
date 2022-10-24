@@ -146,36 +146,23 @@ Cuối cùng là toán tử only áp dụng cho truy vấn thỏa mãn điều k
 ```
 @media only screen and (orientation: portrait) {...}
 ```
-###  Media Queries
-Media Queries có thể được sử dụng trực tiếp trong thẻ HTML hoặc viết bên trong file css. ( Nên sử dụng @media bên trong css để tránh việc phải viết lặp lại nhiều lần)
+Ví dụ đơn giản
 ```
-<!-- Separate CSS File -->
-<link href="styles.css" rel="stylesheet" media="all and (max-width: 1024px)">
-```
-```
-/* @media Rule */
-@media all and (max-width: 1024px) {...}
+div {
+    background-color: blue;
+}
 
-/* @import Rule */
-@import url(styles.css) all and (max-width: 1024px) {...}
-```sql
-Mỗi media query có thể bao gồm một media type và theo sau bởi nhiều biểu thức. Các media types phổ biến bao gồm `all`, `screen`, `tv`,`print`. HTML5 còn bao gồm cả `3d-glasses`. Nếu media type không được chỉ định thì media query sẽ mặc định media type là `screen`.
-## 1. Các biểu thức logic bên trong Media Queries
-Có 3 loại toán tử logic khác nhau có thể sử dụng bên trong  media queries bao gồm `and`, `not` và `only`.
+@media only screen and (max-width: 1024px) {
+    div {
+        background-color: red;
+    }
+}
+```
+Nội dung code trên như sau:
+* Tất cả các thiết bị sẽ có background-color: blue, riêng các thiết bị có màn hình nhỏ hơn 1024px sẽ có `background-color: red`.
+* `only screen`: chỉ dành cho trang hiển thị (không dành cho bản in (print)).
+* `max-width`: chỉ tác dụng cho chiều rộng màn hình lớn nhất là `1024px`, tức là những màn hình nào nhỏ hơn `1024px` đều sẽ bị ảnh hưởng code bên trong, cụ thể là `div` sẽ có `background-color: red`.
 
-Sử dụng toán tử `and` trong media queries cho phép ta thêm điều kiện bổ sung. Ví dụ sau chọn tất cả các màn hình có độ rộng từ 800 đến 1024 pixels:
-```js
-@media all and (min-width: 800px) and (max-width: 1024px) {...}
-
-```
-Trong khi đó toán tử **not** lại phủ định truy vấn được xác định. Ví dụ dưới đây áp dụng với các thiết bị màn hình không màu ( đen và trắng screen):
-```
-@media not screen and (color) {...}
-```
-Cuối cùng là toán tử only áp dụng cho truy vấn thỏa mãn điều kiện. Biểu thức dưới đây chỉ chọn màn hình hướng theo chiều dọc:
-```
-@media only screen and (orientation: portrait) {...}
-```
 ### Media Features trong Media Queries
 
 Media feature xác định các thuộc tính hoặc thành phần nào sẽ được nhắm tới trong media queries.
@@ -258,3 +245,6 @@ img {
   height: auto;
 }
 ```
+
+## Trích nguồn
+* [Responsive image https://hocwebchuan.com/](https://hocwebchuan.com/tutorial/responsive/responsive_image.php)
