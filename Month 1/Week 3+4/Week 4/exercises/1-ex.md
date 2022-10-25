@@ -85,3 +85,32 @@ Kết quả:
 </p>
 
 <!-- https://codelearn.io/sharing/7-meo-va-thu-thuat-trong-javascript -->
+
+Testcase
+Mình ít thấy testcase theo dòng mà thường là test-case theo chức năng. Ví dụ với màn hình login (viết BDD chẳng hạn) sẽ có các test case sau:
+
+* Vào màn hình login, check các input để trống và focus để * vào input username / email.
+* Nếu chưa nhập đủ 2 input thì nút login bị disable.
+* Nhập đúng, vào màn hình home.
+* Nhập sai format email, có thông báo lỗi.
+* Nhập sai email / password, báo lỗi không match.
+. Nhập đúng nhưng account bị inactive, báo lỗi acc đã bị khóa.
+* Login bằng google+ ok.
+. Login bằng google+ nhưng không nhận được response từ google+
+
+Khi đó sẽ có các test function sau:
+
+* testInputInit()
+* testInputValidateNull()
+* testLoginOK()
+* testInputValidateEmail()
+* testInputNotMatchEmailPassword
+* testLoginInactive()
+* testLoginGoogleOK()
+* testLoginGoogleTimeout()
+
+mỗi function là 1 test case và mình ghi rõ đầu vào đầu ra ở hàm mô tả (hoặc cho 1 dataset in/out vào đó). Dùng jsdoc generate ra, cho vào excel, thế là xong. Các hàm này chưa cần implement gì cả nên assert sẽ toàn fail nếu chạy cả test suite. Khi nào sếp bảo là viết unittest đi thì mình implement (tuy nhiên, hay nhất là nên viết assert trước khi viết function cần test, như vậy sẽ nhanh hơn là viết function trước, sau viết test case. Với lại, chạy ra xanh đỏ nhìn cũng hay hay, gây hứng thú phết. Đỏ lòm là bực mình mà xanh rì là sướng)
+
+Làm unittest hay ở chỗ mình không cần phải nhớ có bao nhiêu case cần trap trong óc làm gì cả. Tất cả rành rành ở IDE rồi, đỡ phải lôi tài liệu, đỡ phải nhức đầu, … Nói chung, cứ cái gì cần nhớ thì ghi luôn vào IDE là hay nhất.
+
+À, với cả vụ viết test case phải làm trước khi làm code thì mình mới rõ cần bao nhiêu if else để trap qua các case chứ. Chứ code xong rồi, viết testcase thì thành ra là viết report xem chức năng này hoạt động thế nào thì đúng hơn.
