@@ -5,8 +5,6 @@
 * Phần bên trái là một list thông tin, ta sử dụng `<ul> <li>`, chú ý có sử dụng font icon.
 * Phần bên phải là một form contact, dùng các thành phần `<form>`.
 
-
-
 #### Bài giải chưa kèm css
 
 ```{html}
