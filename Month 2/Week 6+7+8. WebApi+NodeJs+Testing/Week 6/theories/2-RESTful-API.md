@@ -90,10 +90,26 @@ Nếu không được chăm sóc kỹ, thì đến lúc maintain hoặc thay đ�
 * Cập nhật Docs thường xuyên, để sát nhất với API có bất cứ thay đổi gì.
 * Format, cú pháp cần phải nhất quán, mô tả rõ ràng, chính xác.
 
-![hustlin_erd](https://dichvucong.gov.vn/general/2020.02.29-TaiLieuHuongDan-PaymentPlatform-API-Bank-v5.5.pdf)
+## Ví dụ về mô tả api
 
-<object data="https://dichvucong.gov.vn/general/2020.02.29-TaiLieuHuongDan-PaymentPlatform-API-Bank-v5.5.pdf" type="application/pdf" width="700px" height="700px">
-    <embed src="https://dichvucong.gov.vn/general/2020.02.29-TaiLieuHuongDan-PaymentPlatform-API-Bank-v5.5.pdf">
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="https://dichvucong.gov.vn/general/2020.02.29-TaiLieuHuongDan-PaymentPlatform-API-Bank-v5.5.pdf">Download PDF</a>.</p>
-    </embed>
-</object>
+API Khởi tạo giao dịch
+
+---
+
+Request method: POST <br>
+Header: Content-type = application/json<br>
+Tham số đầu vào và đầu ra là một đối tượng JSON với các thuộc tính dưới đây:
+
+---
+
+<p align="center">
+    <img alt="Ảnh content" src="./images/API-document-input.jpg" />
+</p>
+
+<p align="center">
+    <img alt="Ảnh content" src="./images/API-document-input-1.jpg" />
+</p>
+
+<p align="center">
+    <img alt="Ảnh content" src="./images/API-document-input-2.jpg" />
+</p>
