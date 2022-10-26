@@ -91,14 +91,13 @@ Nếu không được chăm sóc kỹ, thì đến lúc maintain hoặc thay đ�
 * Format, cú pháp cần phải nhất quán, mô tả rõ ràng, chính xác.
 
 ## Ví dụ về mô tả api
-
 API Khởi tạo giao dịch
 
 ---
 
-Request method: POST <br>
-Header: Content-type = application/json<br>
-Tham số đầu vào và đầu ra là một đối tượng JSON với các thuộc tính dưới đây:
+* Request method: POST <br>
+* Header: Content-type = application/json<br>
+* Tham số đầu vào và đầu ra là một đối tượng JSON với các thuộc tính dưới đây:
 
 ---
 
