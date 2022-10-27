@@ -44,6 +44,7 @@ GET | api/tutorials?title=[kw]|  find all Tutorials which title contains 'kw'
 #### Create a new Tutorial using POST `/tutorials` Api
 
 ![](./images/nodejs-rest-api-express-mysql-create-tutorial.png)
+
 After creating some new Tutorials, we can check MySQL table:
 
 ```
@@ -61,15 +62,15 @@ mysql> SELECT * FROM tutorials;
 
 #### Retrieve all Tutorials using GET /tutorials Api
 
-![](./images/nodejs-rest-api-express-mysql-retrieve-tutorial.png)
+![](images/nodejs-rest-api-express-mysql-retrieve-tutorial.png)
 
 #### Retrieve a single Tutorial by id using GET `/tutorials/:id` Api
 
-![](./images/nodejs-rest-api-express-mysql-retrieve-one-tutorial.png)
+![](images/nodejs-rest-api-express-mysql-retrieve-one-tutorial.png)
 
 #### Update a Tutorial using PUT `/tutorials/:id` Api
 
-![](./images/nodejs-rest-api-express-mysql-update-tutorial.png)
+![](images/nodejs-rest-api-express-mysql-update-tutorial.png)
 <br>Check **tutorials** table after some rows are updated:
 
 ```
@@ -87,7 +88,7 @@ mysql> SELECT * FROM tutorials;
 
 #### Find Tutorials by title using GET `/tutorials` Api
 
-![](nodejs-rest-api-express-mysql-search-tutorial.png)
+![](images/nodejs-rest-api-express-mysql-search-tutorial.png)
 
 #### Find all published Tutorials
 
