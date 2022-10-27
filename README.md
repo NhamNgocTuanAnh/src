@@ -36,8 +36,7 @@
   - cắt giao diện website bán hàng:
     - figma
     - psd
-
-* JavaScript:
+- JavaScript:
   - syntax
   - ajax call qua một sever nodejs có sẵ, có tài liệu api
 - database:
