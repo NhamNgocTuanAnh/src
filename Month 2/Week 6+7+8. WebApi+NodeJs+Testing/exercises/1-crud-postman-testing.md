@@ -102,6 +102,7 @@ mysql> SELECT * FROM tutorials;
 ![](images/nodejs-rest-api-express-mysql-delete-id-tutorial.png)
 
 Now there are no rows in tutorials table:
+
 ```
 mysql> SELECT * FROM tutorials;
 Empty set (0.00 sec)
