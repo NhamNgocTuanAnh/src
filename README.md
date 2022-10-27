@@ -33,9 +33,16 @@
 
 - HTML, CSS:
   - Định nghĩa, cách sử dụng
-  - cắt giao diện website bán hàng:
+  - Biết cách xây dựng giao diện web với HTML, CSS
+  - Biết cách phân tích giao diện website, cắt giao diện website bán hàng:
+  - Biết cách đặt tên class CSS theo chuẩn BEM
+  - Biết cách làm giao diện web responsive
+  - Làm chủ Flexbox khi dựng bố cục website
+  - Hiệu ứng animation
     - figma
     - psd
+  - Sở hữu 2 giao diện web khi học xong khóa học
+  - Học được cách làm UI chỉn chu, kỹ tính
 - JavaScript:
   - syntax
   - ajax call qua một sever nodejs có sẵ, có tài liệu api
@@ -76,7 +83,9 @@ Quả đúng như thế, nhất là khi công nghệ thay đổi không ngừng 
 - Áp dụng kiến thức đã học vào để code ra một cái gì đó.
 
 ## Lộ trình học
+
 ![](way-for-source.jpg)
+
 ## Tổng kết
 
 - Nguyên lý hoạt động của ngôn ngữ lập trình
