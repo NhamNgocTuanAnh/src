@@ -40,16 +40,19 @@ thuật hoặc học quá nhiều ngôn ngữ.
 * Xác định sơ lộ trình học
 * Cắm đầu vào học, sau đó tìm tài liệu dần và cập nhật lại lộ trình
 * Áp dụng kiến thức đã học vào để code ra một cái gì đó.
+
 ## V. Lộ trình học
+
 ## VI. Tổng kết
-- Nguyên lý hoạt động của ngôn ngữ lập trình
-- Kiến trúc cơ bản của một phần mềm thông dụng
-- Thực hành viết một phần mềm đơn giản
 
-- Cách hoạt động của quản lý dữ liệu, hệ thống quản lý dữ liệu
-- Tổ chức cơ sở dữ liệu quan hệ (relational database)
-- Mô hình quan hệ thực thể (ERD) - Không bắt buộb
-- Liên hệ ràng buộc dữ liệu (relationship) - Không bắt buộc
+* Nguyên lý hoạt động của ngôn ngữ lập trình
+* Kiến trúc cơ bản của một phần mềm thông dụng
+* Thực hành viết một phần mềm đơn giản
 
-- Hoạt động phân tích nghiệp vụ trong quy trình tổng thể
-- Vai trò, hoạt động và quy trình phân tích nghiệp vụ trong mội trường IT
+* Cách hoạt động của quản lý dữ liệu, hệ thống quản lý dữ liệu
+* Tổ chức cơ sở dữ liệu quan hệ (relational database)
+* Mô hình quan hệ thực thể (ERD) - Không bắt buộb
+* Liên hệ ràng buộc dữ liệu (relationship) - Không bắt buộc
+
+* Hoạt động phân tích nghiệp vụ trong quy trình tổng thể
+* Vai trò, hoạt động và quy trình phân tích nghiệp vụ trong mội trường IT
