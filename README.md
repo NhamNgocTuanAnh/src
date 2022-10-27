@@ -34,13 +34,11 @@
 - HTML, CSS:
   - Định nghĩa, cách sử dụng
   - Biết cách xây dựng giao diện web với HTML, CSS
-  - Biết cách phân tích giao diện website, cắt giao diện website bán hàng:
+  - Biết cách phân tích giao diện website, cắt giao diện website bán hàng: figma or pts.
   - Biết cách đặt tên class CSS theo chuẩn BEM
   - Biết cách làm giao diện web responsive
   - Làm chủ Flexbox khi dựng bố cục website
   - Hiệu ứng animation
-    - figma
-    - psd
   - Sở hữu 2 giao diện web khi học xong khóa học
   - Học được cách làm UI chỉn chu, kỹ tính
 - JavaScript:
