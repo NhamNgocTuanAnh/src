@@ -1,6 +1,5 @@
 # Giới thiệu khóa học
 
-vvv
 
 ## I. Yêu cầu công việc thị trường
 
