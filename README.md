@@ -76,7 +76,7 @@ Quả đúng như thế, nhất là khi công nghệ thay đổi không ngừng 
 - Áp dụng kiến thức đã học vào để code ra một cái gì đó.
 
 ## Lộ trình học
-
+![](way-for-source.jpg)
 ## Tổng kết
 
 - Nguyên lý hoạt động của ngôn ngữ lập trình
