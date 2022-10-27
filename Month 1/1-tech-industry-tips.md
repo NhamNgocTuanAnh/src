@@ -1,4 +1,10 @@
 # Tech Industry Tips
+### CheckList trc khi hỏi:
+* Đây có phải là một câu hỏi mà tôi đã hỏi trước đó, và nếu có, tôi đã ghi lại câu trả lời ở đâu?
+* Đây có phải là điều tôi có thể Google không?
+* Điều này đã được ghi chép lại ở đâu đó trong nội bộ?
+* Chuyện gì đang xảy ra ở đây? Nguyên nhân sâu xa của lỗi hoặc các phản ứng bất ngờ mà tôi đang gặp phải là gì?
+* Tôi có thực sự hiểu câu hỏi tôi đang cố gắng để trả lời? Bạn có thể dành thời gian để đọc lại vấn đề một lần nữa thay vì đưa ra câu trả lời nửa vời hoặc câu trả lời hấp tấp.
 
 ### Stackoverflow.com Help Channels
 
@@ -29,6 +35,28 @@ còn có thể đưa ra các hướng dẫn, lời khuyên về design pattern, 
     - Không sử dụng các tiếng lóng, từ viết tắt không đúng chuẩn để tránh làm mất thời gian suy luận của người đọc
     - Sử dụng tính năng spelling-checker của trình duyệt để correct những từ viết sai trước khi submit post
     - Chú ý tới ngôn ngữ mô tả, e.g bạn muốn đặt câu hỏi specific cho C# hay Java có thể sử dụng mô tả dạng generic
+
+### Thói xấu
+
+- Loay hoay hàng giờ để giải quyết vấn đề nhưng ko ghi chép lại
+- Ko để tâm đến việc thực hiện code review
+- Viết quá nhiều (hoặc quá ít) comment cho code
+- Ko dành thời gian hướng dẫn những dev khác trong team
+- Bỏ qua error messages
+- Tối ưu hoá code trước khi hoàn thành những đoạn code khác
+- Ko nắm rõ những gì mình đang sử dụng: text editors, command line v.vv..
+- Tối ưu hóa code hay là code dễ đọc. Bỏ ý định tối ưu hóa đi
+
+### Kỹ năng làm việc nhóm
+
+- Hiểu đồng đội của mình: Người lớn tuổi hơn thì họ có tính bảo thủ cao và kinh nghiệm nhiều mình phải nói kiểu khác.
+    - Các bạn đồng lứa tuổi nói kiểu khác
+    - Đối với người giỏi hơn mình thì hãy trao cho họ toàn quyền. Đối với người ngang mình thì nên trao đổi
+    - Với người kém hơn mình mới nên coaching.
+Tư duy phù hợp chứ không đúng sai
+- Điều chỉnh cái "tôi " đúng lúc
+- Kỷ luật là sức mạnh
+
 ### Chat/Email/SMS Distractions
 
 > "Email is a wonderful thing for people whose role in life is to be on top of things. But not for me; my role is to be on the bottom of things." - [Donald Knuth](https://www-cs-faculty.stanford.edu/~knuth/email.html)
@@ -52,27 +80,6 @@ còn có thể đưa ra các hướng dẫn, lời khuyên về design pattern, 
 
 - Anything you write in an email or Slack, assume it will be forwarded to everyone in the company, and quoted in the New York Times. If you have something to say and you don't want it to be used against you, find the person and say it in person out of the office such as on a walk. One of our volunteers has seen at least one set of people be fired for their private chat messages sent to each other, complaining about others on their team in an unprofessional way.
 - While we're on that subject, aside from protecting yourself against your employer, it is also beneficial to your own well-being to try to stay positive and constructive, and avoid gossip. Take the time to discern the difference between a fact and a story. For more, see the notes in page 9 of this [Crucial Conversations PDF](https://www.gsb.org/students/Course-Materials/Electives2019/CrucialConversations-McGuire-2019.pdf).
-
-### Thói xấu
-
-- Loay hoay hàng giờ để giải quyết vấn đề nhưng ko ghi chép lại
-- Ko để tâm đến việc thực hiện code review
-- Viết quá nhiều (hoặc quá ít) comment cho code
-- Ko dành thời gian hướng dẫn những dev khác trong team
-- Bỏ qua error messages
-- Tối ưu hoá code trước khi hoàn thành những đoạn code khác
-- Ko nắm rõ những gì mình đang sử dụng: text editors, command line v.vv..
-- Tối ưu hóa code hay là code dễ đọc. Bỏ ý định tối ưu hóa đi
-
-### Kỹ năng làm việc nhóm
-
-- Hiểu đồng đội của mình: Người lớn tuổi hơn thì họ có tính bảo thủ cao và kinh nghiệm nhiều mình phải nói kiểu khác.
-    - Các bạn đồng lứa tuổi nói kiểu khác
-    - Đối với người giỏi hơn mình thì hãy trao cho họ toàn quyền. Đối với người ngang mình thì nên trao đổi
-    - Với người kém hơn mình mới nên coaching.
-Tư duy phù hợp chứ không đúng sai
-- Điều chỉnh cái "tôi " đúng lúc
-- Kỷ luật là sức mạnh
 
 ### Technologies
 
