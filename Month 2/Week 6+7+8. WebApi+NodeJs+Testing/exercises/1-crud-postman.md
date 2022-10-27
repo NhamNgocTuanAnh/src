@@ -25,6 +25,9 @@ GET | api/tutorials?title=[kw]|  find all Tutorials which title contains 'kw'
 
 ### Request
 
+* `/tutorials`: GET, POST, DELETE
+* `/tutorials/:id`: GET, PUT, DELETE
+
 ---
 
 * Tạo mới Tutorial
