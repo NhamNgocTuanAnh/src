@@ -1,12 +1,11 @@
 # Giới thiệu khóa học
 
-
-## I. Yêu cầu công việc thị trường
+## Yêu cầu công việc thị trường
 
 * Quản lý source code vs GIT
 * Kinh nghiệm làm việc: Nhận bài toán, Phân tích bài toán, Giải bải toán
 
-## II. Yêu cầu về khóa học
+## Yêu cầu về khóa học
 
 * Chương trình học lý thuyết phải song song với thực hành.
 
@@ -15,13 +14,41 @@
 * Cơ sở vật chất hiện đại, tiên tiến, đáp ứng nhu cầu thực hành trên lớp.
 * Được thực hiện dự án thật để cọ xát, nâng cao kinh nghiệm và kỹ năng sau này.
 
-## III. Thực trạng
+## Thực trạng
 
 * Mất thời gian để học lại kiến thức mới
 * Dễ mất phương hướng
 * Không có lợi thế cạnh tranh
 
-## IV. Cách học
+## Kiến thức thu được sau khóa học
+
+- HTML, CSS:
+  * Định nghĩa, cách sử dụng
+  * cắt giao diện website bán hàng:
+    * figma
+    * psd
+* JavaScript:
+  * syntax
+  * ajax call qua một sever nodejs có sẵ, có tài liệu api
+* database:
+* nodejs:
+  * tạo database cho website todolist
+  * tạo database cho website bán hàng
+    * Phân tích quan hệ: sản phẩm, khách hàng, phản hồi, ...
+    * Tạo đúng các bảng và quan hệ
+    * học query thêm xóa sửa, select cơ bảng
+    * học thêm query phân trang trigger cũng đc
+  * Phân chia module của web
+  * Tạo restfull api, viết tài liệu mô tả api
+  * test restfull api, từng module đơn lẻ
+    Lưu ý: mỗi học viên được làm mọt mudl khác nhau: sản phẩm, khách hàng,...
+    Tiên hành ghép module vào nhau bằng git
+    Thực hiện test toàn hệ thống
+  * Tiến hành ghép với các module frontend
+        nếu sử dụng html call ajax
+        Sử dụng nodejs render frontend cũng được
+
+## Cách học
 
 * Việc đi học không phải để học hết các kiến thức mình cần, mà là để học được “cách học”.
 Quả đúng như thế, nhất là khi công nghệ thay đổi không ngừng thì kiến thức nhà trường dạy rất nhanh trở nên lạc hậu.
@@ -39,9 +66,9 @@ Quả đúng như thế, nhất là khi công nghệ thay đổi không ngừng 
 * Cắm đầu vào học, sau đó tìm tài liệu dần và cập nhật lại lộ trình
 * Áp dụng kiến thức đã học vào để code ra một cái gì đó.
 
-## V. Lộ trình học
+## Lộ trình học
 
-## VI. Tổng kết
+## Tổng kết
 
 * Nguyên lý hoạt động của ngôn ngữ lập trình
 * Kiến trúc cơ bản của một phần mềm thông dụng
