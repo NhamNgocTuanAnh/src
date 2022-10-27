@@ -28,19 +28,17 @@ GET | api/tutorials?title=[kw]|  find all Tutorials which title contains 'kw'
 * `/tutorials`: GET, POST, DELETE
 * `/tutorials/:id`: GET, PUT, DELETE
 
----
-
-* Tạo mới Tutorial
-* Tìm kiếm Tutorial
-* Xóa hoặc sửa Tutorial
-
 ### Test the APIs
 
 ---
 
-1. Clone soure từ nhánh...
-2. cài đặt, chạy source trên localhost:8080
-3. Dùng postman crud dựa trên api document đã cho
+* create a new Tutorial
+* find a Tutorial by id
+* get all Tutorials
+* get all published Tutorials
+* update a Tutorial by id
+* remove a Tutorial
+* remove all Tutorials
 
 ---
 
