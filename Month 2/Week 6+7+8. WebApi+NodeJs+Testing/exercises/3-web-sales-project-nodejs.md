@@ -1,10 +1,11 @@
-# Mục tiêu làm một web bán hàng
+# Dự án web bán hàng
+## I. Mô tả về dự án, ý nghĩa và mục đích hướng đến
 
-  Phân tích và xây dựng cấu trúc, mô hình cho dự án
+## II. Tính năng
+## Phân tích và xây dựng cấu trúc, mô hình cho dự án
 
 * Xây dựng và cài đặt các thư viện cho dự án
   Bóc tách giao diện cho dự án
-* Xây dựng chức năng Login & Logout
 * Xây dựng chức năng Phân quyền quản trị
 * Xây dựng chức năng Thống kê
 * Xây dựng chức năng Quản lý thành viên (thêm, sửa, xóa, lọc + phân trang)
