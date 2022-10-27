@@ -29,8 +29,7 @@ Quả đúng như thế, nhất là khi công nghệ thay đổi không ngừng 
 * Không quan trọng việc chúng ta đã học được bao nhiêu ngôn ngữ, mà quan trọng là chúng ta phải tìm ra cách học phù hợp với mình,
     hiệu quả với công việc mình đang làm!
 * Việc học coding nhìn chung cần sự kiên nhẫn, ham học hỏi, tư duy logic, cẩn thận. Biết tiếng Anh là một lợi thế.
-* Thường thì sinh viên học lập trình năm nhất, năm hai rất nhanh bỏ vì hoawujc tập trung vào nhwuxng thứ lan man như giải
-thuật hoặc học quá nhiều ngôn ngữ.
+* Thường thì sinh viên học lập trình năm nhất, năm hai rất nhanh bỏ vì hoặc tập trung vào những thứ lan man như giải thuật hoặc học quá nhiều ngôn ngữ.
   * Không học tràn lan. Xác định mục tiêu học tập.
   * Một lộ trình - Một người bạn, Nhiều động lực
   * Dự án nhỏ. Để tăng tư duy lập trình, hãy tự đặt ra cho mình một vài dự án nho nhỏ.
