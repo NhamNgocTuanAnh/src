@@ -53,11 +53,13 @@ VD, gõ  clg  sau đó enter sẽ trả kết quả về console.log. Có thể 
 Trong repo Git (ở đây là GitHub) có nhiều branch khác nhau, mỗi file code có nhiều lần sửa đổi khác nhau. Sử dụng Sourcetree giúp bạn dễ dàng xem được lịch sử của những sửa đổi đó. Hơn nữa giúp bạn quản lý nhiều repo khác nhau trong máy tính.
 
 Nếu không có source tree thì các bạn phải gõ tay từng lệnh như:
+
 ```
 git clone https://github.com/.....
 git pull
 git commit
 ```
+
 ### Các tính năng nổi bật gồm
 
 * Xem lịch sử commit một cách dễ dàng: sửa bao nhiêu file, file sửa dòng nào,…
@@ -77,8 +79,10 @@ Hình trên là so sánh sự thay đổi của code trong lịch sử. Dòng m�
 * **Hunk**: đoạn code bị sửa đổi trong file, 1 file có thể có nhiều hunk
 – **Stage hunk**: chọn hunk để commit
 * **Stage file**: chọn file để commit, tương đương stage tất cả hunk trong file đó.
+
 ### Cài đặt sourcetree
-Các bạn tải về từ trang web: **https://www.sourcetreeapp.com/**.
+
+Các bạn tải về từ trang web: **<https://www.sourcetreeapp.com/>**.
 
 Khi cài đặt chương trình sẽ yêu cầu bạn cài 1 số thứ như Git và .Net Framwork (nếu chưa cài). Khi cài xong chương trình có giao diện như bên dưới
 ![](images/sourcetree-main.jpg)
