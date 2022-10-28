@@ -1,4 +1,4 @@
-# Bài kiểm tra week 3 JS Basic
+# Bài kiểm tra week 3 -  JS Basic
 
 ## Câu 1.  Hoisting trong Javascript xảy ra như thế nào?
 
