@@ -32,12 +32,12 @@ typeof Symbol()      === "symbol";    // true
 
 ## Math, number Obj
 
+## JS DOM
+
 # Week 4
 
 ## Xử lý lỗi, “try..catch” trong Javascript
 
 ## Promise trong Javascript
-
-## Promise API trong Javascript
 
 ## Async/await trong Javascript
