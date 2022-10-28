@@ -10,8 +10,8 @@
 
 **Yêu cầu cụ thể**:
 
-- [backend](backend-developer-job-description-template.md)
-- [frontend](frontend-developer-job-description-template.md)
+- [Yêu cầu với backend](backend-developer-job-description-template.md)
+- [Yêu cầu với frontend](frontend-developer-job-description-template.md)
 
 </details>
 <!-- Thực trạng -->
