@@ -1,13 +1,13 @@
-# Giới thiệu khóa học
+<h1>Giới thiệu khóa học</h1>
 
-- [Giới thiệu khóa học](#giới-thiệu-khóa-học)
-  - [Yêu cầu công việc thị trường](#yêu-cầu-công-việc-thị-trường)
-  - [Yêu cầu về khóa học](#yêu-cầu-về-khóa-học)
-  - [Thực trạng](#thực-trạng)
-  - [Kiến thức thu được sau khóa học](#kiến-thức-thu-được-sau-khóa-học)
-  - [Cách học](#cách-học)
-  - [Lộ trình học](#lộ-trình-học)
-  - [Tổng kết](#tổng-kết)
+**Mục Lục**
+- [Yêu cầu công việc thị trường](#yêu-cầu-công-việc-thị-trường)
+- [Yêu cầu về khóa học](#yêu-cầu-về-khóa-học)
+- [Thực trạng](#thực-trạng)
+- [Kiến thức thu được sau khóa học](#kiến-thức-thu-được-sau-khóa-học)
+- [Cách học](#cách-học)
+- [Lộ trình học](#lộ-trình-học)
+- [Tổng kết](#tổng-kết)
 
 ## Yêu cầu công việc thị trường
 
