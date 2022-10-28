@@ -6,8 +6,23 @@
     Yêu cầu công việc thị trường
   </summary>
 
-- Quản lý source code vs GIT
-- Kinh nghiệm làm việc: Nhận bài toán, Phân tích bài toán, Giải bải toán
+**Yêu cầu chung**: Quản lý source code vs GIT. Kinh nghiệm làm việc: Nhận bài toán, Phân tích bài toán, Giải bải toán.
+
+**Yêu cầu cụ thể**:
+
+- [backend](backend-developer-job-description-template.md)
+- [frontend](frontend-developer-job-description-template.md)
+
+</details>
+<!-- Thực trạng -->
+<details>
+  <summary>
+    Thực trạng
+  </summary>
+
+- Mất thời gian để học lại kiến thức mới
+- Dễ mất phương hướng
+- Không có lợi thế cạnh tranh
 
 </details>
 <!-- Yêu cầu về khóa học -->
@@ -24,18 +39,6 @@
 - Được thực hiện dự án thật để cọ xát, nâng cao kinh nghiệm và kỹ năng sau này.
 
 </details>
-<!-- Thực trạng -->
-<details>
-  <summary>
-    Thực trạng
-  </summary>
-
-- Mất thời gian để học lại kiến thức mới
-- Dễ mất phương hướng
-- Không có lợi thế cạnh tranh
-
-</details>
-
 <!-- Kiến thức thu được sau khóa học -->
 <details>
   <summary>
