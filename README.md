@@ -1,20 +1,20 @@
 <h1>Giới thiệu khóa học</h1>
 
-**Mục Lục**
-- [Yêu cầu công việc thị trường](#yêu-cầu-công-việc-thị-trường)
-- [Yêu cầu về khóa học](#yêu-cầu-về-khóa-học)
-- [Thực trạng](#thực-trạng)
-- [Kiến thức thu được sau khóa học](#kiến-thức-thu-được-sau-khóa-học)
-- [Cách học](#cách-học)
-- [Lộ trình học](#lộ-trình-học)
-- [Tổng kết](#tổng-kết)
-
-## Yêu cầu công việc thị trường
+<!-- Yêu cầu công việc thị trường -->
+<details>
+  <summary>
+    Yêu cầu công việc thị trường
+  </summary>
 
 - Quản lý source code vs GIT
 - Kinh nghiệm làm việc: Nhận bài toán, Phân tích bài toán, Giải bải toán
 
-## Yêu cầu về khóa học
+</details>
+<!-- Yêu cầu về khóa học -->
+<details>
+  <summary>
+    Yêu cầu về khóa học
+  </summary>
 
 - Chương trình học lý thuyết phải song song với thực hành.
 
@@ -23,13 +23,24 @@
 - Cơ sở vật chất hiện đại, tiên tiến, đáp ứng nhu cầu thực hành trên lớp.
 - Được thực hiện dự án thật để cọ xát, nâng cao kinh nghiệm và kỹ năng sau này.
 
-## Thực trạng
+</details>
+<!-- Thực trạng -->
+<details>
+  <summary>
+    Thực trạng
+  </summary>
 
 - Mất thời gian để học lại kiến thức mới
 - Dễ mất phương hướng
 - Không có lợi thế cạnh tranh
 
-## Kiến thức thu được sau khóa học
+</details>
+
+<!-- Kiến thức thu được sau khóa học -->
+<details>
+  <summary>
+    Kiến thức thu được sau khóa học
+  </summary>
 
 - HTML, CSS:
   - Định nghĩa, cách sử dụng
@@ -62,7 +73,13 @@
         nếu sử dụng html call ajax
         Sử dụng nodejs render frontend cũng được
 
-## Cách học
+</details>
+
+<!-- Cách học -->
+<details>
+  <summary>
+    Cách học
+  </summary>
 
 - Việc đi học không phải để học hết các kiến thức mình cần, mà là để học được “cách học”.
 Quả đúng như thế, nhất là khi công nghệ thay đổi không ngừng thì kiến thức nhà trường dạy rất nhanh trở nên lạc hậu.
@@ -80,11 +97,21 @@ Quả đúng như thế, nhất là khi công nghệ thay đổi không ngừng 
 - Cắm đầu vào học, sau đó tìm tài liệu dần và cập nhật lại lộ trình
 - Áp dụng kiến thức đã học vào để code ra một cái gì đó.
 
-## Lộ trình học
+</details>
+
+<!-- Lộ trình học -->
+<details>
+  <summary>
+    Lộ trình học
+  </summary>
 
 ![](way-for-source.jpg)
-
-## Tổng kết
+</details>
+<!-- Tổng kết -->
+<details>
+  <summary>
+    Tổng kết
+  </summary>
 
 - Nguyên lý hoạt động của ngôn ngữ lập trình
 - Kiến trúc cơ bản của một phần mềm thông dụng
@@ -97,3 +124,5 @@ Quả đúng như thế, nhất là khi công nghệ thay đổi không ngừng 
 
 - Hoạt động phân tích nghiệp vụ trong quy trình tổng thể
 - Vai trò, hoạt động và quy trình phân tích nghiệp vụ trong mội trường IT
+
+</details>
