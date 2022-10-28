@@ -40,4 +40,4 @@ typeof Symbol()      === "symbol";    // true
 
 ## Promise API trong Javascript
 
-# Async/await trong Javascript
+## Async/await trong Javascript
