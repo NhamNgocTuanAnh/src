@@ -1,1 +1,1 @@
-# Các Chuẩn Coding Style Trong Javascript
+# Các chuẩn Coding Style Trong Javascript
