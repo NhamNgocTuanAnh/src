@@ -14,10 +14,32 @@
   * [Yêu cầu với frontend](frontend-developer-job-description-template.md)
 
 </details>
+<!-- Đối tượng khóa học -->
+<details>
+  <summary>
+    Đối tượng khóa học
+  </summary>
+
+Tất cả mọi người yêu thích thiết kế web
+
+</details>
+<!-- Điều kiện -->
+<details>
+  <summary>
+    Điều kiện
+  </summary>
+
+* Đã biết lập trình bất kì ngôn ngữ nào.
+
+* Đã biết HTML, CSS cơ bản.
+Nếu chưa biết, được đào tạo cho biết thì thôi.
+* Có laptop riêng (Cấu hình tối thiểu Core i3, Ram 4G)
+
+</details>
 <!-- Thực trạng -->
 <details>
   <summary>
-    Thực trạng
+    Thực trạng tự học
   </summary>
 
 * Mất thời gian để học lại kiến thức mới
@@ -32,11 +54,31 @@
   </summary>
 
 * Chương trình học lý thuyết phải song song với thực hành.
-
 * Giáo trình học thực tiễn, bám sát sự chuyển đổi của nghề.
 * Giảng viên tận tâm, nhiệt tình và ưu tiên các giảng viên có kinh nghiệm làm nghề lâu năm.
 * Cơ sở vật chất hiện đại, tiên tiến, đáp ứng nhu cầu thực hành trên lớp.
 * Được thực hiện dự án thật để cọ xát, nâng cao kinh nghiệm và kỹ năng sau này.
+
+</details>
+<!-- Mục tiêu khóa học -->
+<details>
+  <summary>
+    Mục tiêu khóa học
+  </summary>
+
+* Đủ khả năng tự thiết kế giao diện trang web hoàn chỉnh.
+
+* Sử dụng thành thạo các công nghệ thiết kế giao diện web: HTML 5, CSS3, các CSS Framework & các thư viện JavaScript mới nhất hiện nay.
+
+* Tự cắt hoàn chỉnh giao diện web từ file PSD sang HTML + đầy đủ hiệu ứng phức tạp
+
+* Đủ khả năng ứng tuyển nghề: Lập trình Front-End tại các công ty.
+
+* Tự nhận các dự án freelancer riêng mình.
+
+* Đủ khả năng xây dựng các sản phẩm để bán trên các kênh như ThemeForest.
+
+* Điểm cộng cực lớn cho các bạn khi xin việc làm lập trình web bất kì ngôn ngữ nào (PHP, .NET, Java, Nodejs)
 
 </details>
 <!-- Kiến thức thu được sau khóa học -->
@@ -75,6 +117,7 @@
   * Tiến hành ghép với các module frontend
         nếu sử dụng html call ajax
         Sử dụng nodejs render frontend cũng được
+  * Thành thạo công cụ hỗ trợ: Git, IDE, environment
 
 </details>
 
