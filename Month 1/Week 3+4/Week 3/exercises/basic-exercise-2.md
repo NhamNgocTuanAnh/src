@@ -1,8 +1,10 @@
 <p><h1>Exercise Day 2</h1></p>
 
 ### Ex7. Bài tập vòng lặp for Javascript
+
 Vòng lặp for đóng vai trò quan trọng khi học lập trình với Javascript, nên việc nắm vững nó là điều bắt buộc.<br>
 **Ex7.1:** Cho 1 chuỗi số, hãy viết hàm có tác dụng sao chép chuỗi số lên 10 lần, ngăn cách nhau bởi ký tự "-". Ví dụ cho chuỗi "123" thì kết quả sẽ là "123-123-123-123-123-123-123-123-123-123".
+
 ```
 function loopTheStringTenTimes() {
   var str = prompt("Nhập vào 1 chuỗi kí tự bất kì");
@@ -13,7 +15,9 @@ function loopTheStringTenTimes() {
   document.getElementById("result-1").innerHTML = loopResult.slice(0, -1);
 }
 ```
-**Ex7.2:** Cho 1 số nguyên dương n. Viết hàm tính n giai thừa (n!). Ví dụ: n = 5, kết quả trả về là 5! = 1 * 2 * 3 * 4 * 5 = 120.
+
+**Ex7.2:** Cho 1 số nguyên dương n. Viết hàm tính n giai thừa (n!). Ví dụ: n = 5, kết quả trả về là 5! = 1 *2* 3 *4* 5 = 120.
+
 ```
 function factorial() {
   var num = prompt("Nhập vào 1 số bất kì để tính ra giai thừa của số đó");
@@ -24,7 +28,9 @@ function factorial() {
   document.getElementById("result-2").innerHTML = factorialResult;
 }
 ```
+
 **Ex7.3:** Cho 1 chuỗi, hãy viết hàm đảo ngược chuỗi đó. Ví dụ cho chuỗi "hello" thì kết quả trả về sẽ là "olleh". Gợi ý: 1 chuỗi tương tự 1 mảng với mỗi phần tử là 1 ký tự trong chuỗi.
+
 ```
 //@note: Option 1
 
@@ -50,6 +56,7 @@ function reverseStrTwo() {
 }
 
 ```
+
 **Ex7.4:** Cho 1 mảng tên của n học viên. Viết function sắp xếp lại thứ tự các học viên theo bảng chữ cái và in ra màn hình danh sách học viên kèm theo số thứ tự (sử dụng `document.write()`).
 
 ```
@@ -80,7 +87,9 @@ function sortStudentsTwo() {
   }
 }
 ```
+
 **Ex7.5:** Cho 1 mảng các số. Viết function tạo ra 1 mảng mới với các số là số dư tương ứng khi chia các số trong mảng cũ cho 2. Gợi ý: Để lấy số dư của 1 số cho 2 ta dùng toán tử %. Ví dụ: 5 % 2 = 1 (5 chia 2 dư 1).
+
 ```
 function remainder() {
   var num = prompt(
@@ -93,7 +102,9 @@ function remainder() {
   document.getElementById("result-5").innerHTML = remainderResult;
 }
 ```
+
 **Ex7.6:** Chỉ dùng vòng lặp for hoặc while, viết function in ra màn hình các số từ 1 đến 100 sao cho những giá trị là chẵn sẽ có màu xanh, những giá trị là lẻ có màu đỏ.
+
 ```
 function evenIsBlueOddIsRed() {
   var j = 0;
@@ -107,6 +118,7 @@ function evenIsBlueOddIsRed() {
 ```
 
 ### Ex8. Bài tập vòng lặp while javascript
+
 **Ex8.1:** Tính tổng các số chẵn từ 0 tới n bằng cách sử dụng vòng lặp while trong javascript
 
 ```
@@ -133,7 +145,9 @@ tinh_tong(1000);
 tinh_tong(2000);
 tinh_tong(3000);
 ```
+
 **Ex8.2:** In ra các số nguyên tố từ 1 tới giá trị của n
+
 ```
 <!DOCTYPE html>
 <html>
@@ -203,8 +217,11 @@ tinh_tong(3000);
     </body>
 </html>
 ```
+
 ## Ex9. Bài tập tạo hàm trong Javascript
+
 **Ex9.1:** Tính tổng các số lẻ trong mảng
+
 ```
 var mang = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16,17, 18, 19, 20];
 
@@ -228,9 +245,11 @@ function tong_so_le(mang)
 // In ra trình duyệt
 document.write("Tổng số lẻ là: " + tong_so_le(mang));
 ```
+
 **Ex9.2:** Tính giá trị của biểu thức
 Viết chương trình cho người dùng nhập vào số n lớn hơn 0, sau đó dựa vào n tính giá trị của biểu thức: expres = 1/n + 2/n + 3/n + ... + n/n.<br>
 **HD:** Với bài này chúng ta chỉ cần sử dụng vòng lặp for là được. Tuy nhiên, mình vẫn lưu ý với bạn là nên chuyển đổi kiểu dữ liệu và kiểm tra điều kiện nhập của người dùng nhé.
+
 ```
 function tinh_bieu_thuc(n)
 {
@@ -256,7 +275,6 @@ else{
     document.write("Tổng giá trị biểu thức là: " + tinh_bieu_thuc(n));
 }
 ```
-
 
 JS - Một số hàm validate dữ liệu
 Tạo menu dropdown Javascript
