@@ -82,7 +82,7 @@ comment
     <h6>Tiêu đề H6</h6>
 
 10	<div></div>	Thẻ này là thẻ thường dùng để chứa nội dung
-11	<span></span>	Thẻ chứa nội dung
+11	<span></span> Thẻ chứa nội dung
 12	<p></p>	Thẻ chứa nội dung (đoạn văn)
 13	<center></center>	Thẻ căn giữa các đối tượng nằm bên trong
 14	<a></a>	Thẻ tạo link
@@ -101,7 +101,6 @@ comment
         <li>item2</li>
         <li>item3</li>
     </ol>
-
 
 16	<img>	Thẻ dùng để hiển thị một hình ảnh nào đó
 17	<form></form>	Thẻ hiển thị những phần tử trong form nhập liệu
