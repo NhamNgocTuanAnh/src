@@ -16,7 +16,7 @@ Nội dung desgin tách làm 2 phần:
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Học web chuẩn</title>
+<title>Học tepa.edu</title>
 <link rel="stylesheet" href="/exercises/css/fontawesome.css" media="all">
 </head>
 <body>
@@ -55,7 +55,7 @@ Nội dung desgin tách làm 2 phần:
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Học web chuẩn</title>
+<title>Học tepa.edu</title>
 <link rel="stylesheet" href="/exercises/css/fontawesome.css" media="all">
 <style>
   /* Reset */
@@ -191,7 +191,7 @@ Nội dung desgin tách làm 2 phần:
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Học web chuẩn</title>
+<title>Học tepa.edu</title>
 <link rel="stylesheet" href="/exercises/css/fontawesome.css" media="all">
 </head>
 <body>
@@ -223,7 +223,7 @@ Nội dung desgin tách làm 2 phần:
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Học web chuẩn</title>
+<title>Học tepa.edu</title>
 <link rel="stylesheet" href="/exercises/css/fontawesome.css" media="all">
 <style>
   /* Reset */

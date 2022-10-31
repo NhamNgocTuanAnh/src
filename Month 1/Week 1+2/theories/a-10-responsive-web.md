@@ -282,7 +282,7 @@ Thỉnh thoảng có những design, hình ảnh trên PC và SP sẽ khác nhau
 
 Trường hợp này, ta có thể lựa chọn sử dụng **background-image** thay thế cho **image**, nhưng đôi lúc bắt buộc cần phải sử dụng `<img>`.
 
-Giải pháp ở đây có nhiều cách, như sử dụng Javascript, CSS, HTML, ..., trong phạm vi bài học này, Học Web Chuẩn sẽ giới thiệu tới các bạn 2 cách đơn giản mà rất hiệu quả đó là dùng tag HTML `<picture>` và CSS.
+Giải pháp ở đây có nhiều cách, như sử dụng Javascript, CSS, HTML, ..., trong phạm vi bài học này, Học tepa.edu sẽ giới thiệu tới các bạn 2 cách đơn giản mà rất hiệu quả đó là dùng tag HTML `<picture>` và CSS.
 #### Responsive thay đổi image với <picture>
 Cách này sử dụng hiệu quả, tuy nhiên chỉ dùng được cho những trình duyệt mới nhất gần đây.
 ```

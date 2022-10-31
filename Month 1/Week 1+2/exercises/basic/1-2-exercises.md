@@ -13,7 +13,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Học web chuẩn</title>
+<title>Học tepa.edu</title>
 </head>
 <body>
   <section class="best-shared">
@@ -35,7 +35,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Học web chuẩn</title>
+<title>Học tepa.edu</title>
 <style>
   /* Reset */
   * {
@@ -131,7 +131,7 @@ Liên kết button cần phải chỉnh nhiều kỹ thuật CSS3 như: backgrou
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Học web chuẩn</title>
+<title>Học tepa.edu</title>
 </head>
 <body>
   <section class="offer">
@@ -148,7 +148,7 @@ Liên kết button cần phải chỉnh nhiều kỹ thuật CSS3 như: backgrou
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Học web chuẩn</title>
+<title>Học tepa.edu</title>
 <style>
   /* Reset */
   * {

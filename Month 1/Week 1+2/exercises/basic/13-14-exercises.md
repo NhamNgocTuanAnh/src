@@ -18,7 +18,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Học web chuẩn</title>
+<title>Học tepa.edu</title>
 </head>
 <body>
   <footer>
@@ -72,7 +72,7 @@ Sagittis enim vel suscipit.</p>
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Học web chuẩn</title>
+<title>Học tepa.edu</title>
 <style>
   /* Reset */
   * {
@@ -200,7 +200,7 @@ Suite 721 New York NY 10016</address>
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Học web chuẩn</title>
+<title>Học tepa.edu</title>
 <link rel="stylesheet" href="/exercises/css/fontawesome.css" media="all">
 </head>
 <body>
@@ -236,7 +236,7 @@ Integer facilisis turpis et finibus tincidunt. Integer varius malesuada.</p>
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Học web chuẩn</title>
+<title>Học tepa.edu</title>
 <link rel="stylesheet" href="/exercises/css/fontawesome.css" media="all">
 <style>
   /* Reset */

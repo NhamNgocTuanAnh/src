@@ -18,7 +18,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Học web chuẩn</title>
+<title>Học tepa.edu</title>
 <link rel="stylesheet" href="/exercises/css/fontawesome.css" media="all">
 </head>
 <body>
@@ -54,7 +54,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Học web chuẩn</title>
+<title>Học tepa.edu</title>
 <link rel="stylesheet" href="/exercises/css/fontawesome.css" media="all">
 <style>
   /* Reset */
@@ -177,7 +177,7 @@ Ta nhìn thấy design là một danh sách gồm các mục giống nhau, do đ
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Học web chuẩn</title>
+<title>Học tepa.edu</title>
 </head>
 <body>
   <ul class="info-list">
@@ -222,7 +222,7 @@ Ta nhìn thấy design là một danh sách gồm các mục giống nhau, do đ
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Học web chuẩn</title>
+<title>Học tepa.edu</title>
 <style>
   /* Reset */
   * {

@@ -12,7 +12,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Học web chuẩn</title>
+<title>Học tepa.edu</title>
 </head>
 <body>
   <section class="tag-list">
@@ -40,7 +40,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Học web chuẩn</title>
+<title>Học tepa.edu</title>
 <style>
   /* Reset */
   * {
@@ -111,7 +111,7 @@
 #### Hướng dẫn
 
 * Design gồm một danh sách, bên trong mỗi mục có nội dung chi tiết, ta dùng `<ul> <li>`.
-* Các icons trong các mục, là font icon, nên chúng ta sử dụng `font-awesome` là được, các bạn cố gắng tìm icon cho giống design, bài học này Học Web Chuẩn dùng fontawesome cho nhanh thôi, nên có lẽ không giống đâu.
+* Các icons trong các mục, là font icon, nên chúng ta sử dụng `font-awesome` là được, các bạn cố gắng tìm icon cho giống design, bài học này Học tepa.edu dùng fontawesome cho nhanh thôi, nên có lẽ không giống đâu.
 * Nội dung chỉ hiển thị thông tin thống kê, do đó không cần dùng liên kết.
 * Đối với background thì ta dùng css cho tag `<div>` bao ngoài là được.
 * Bài này cũng không khó, mục đích giúp các bạn thực hành chi tiết bên trong từng item của danh sách.
@@ -123,7 +123,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Học web chuẩn</title>
+<title>Học tepa.edu</title>
 <link rel="stylesheet" href="/exercises/css/fontawesome.css" media="all">
 </head>
 <body>
@@ -160,7 +160,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Học web chuẩn</title>
+<title>Học tepa.edu</title>
 <link rel="stylesheet" href="/exercises/css/fontawesome.css" media="all">
 <style>
   /* Reset */

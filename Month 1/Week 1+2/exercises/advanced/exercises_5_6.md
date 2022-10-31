@@ -23,7 +23,7 @@ Ta thấy nội dung layout chia làm 3 phần, sử dụng layout bình thườ
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Học web chuẩn</title>
+<title>Học tepa.edu</title>
 </head>
 <body>
   <section class="plans">
@@ -84,7 +84,7 @@ Praesent commodo nunc eros. Vivamus iaculis eleifend est, non blandit risus inte
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Học web chuẩn</title>
+<title>Học tepa.edu</title>
 <style>
   /* Reset */
   * {
@@ -251,7 +251,7 @@ Bài này layout không khó, cái khó vẫn là điều khiển các thành ph
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Học web chuẩn</title>
+<title>Học tepa.edu</title>
 </head>
 <body>
   <section class="help">
@@ -289,7 +289,7 @@ Nulla ut sagittis lorem nam tempor eros sit amet purus congue.</p>
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Học web chuẩn</title>
+<title>Học tepa.edu</title>
 <style>
   /* Reset */
   * {

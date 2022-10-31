@@ -17,7 +17,7 @@ Nội dung layout không quá phức tạp, chỉ cần xử lý float cho danh 
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Học web chuẩn</title>
+<title>Học tepa.edu</title>
 </head>
 <body>
   <section class="service">
@@ -59,7 +59,7 @@ Nội dung layout không quá phức tạp, chỉ cần xử lý float cho danh 
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Học web chuẩn</title>
+<title>Học tepa.edu</title>
 <style>
   /* Reset */
   * {
@@ -177,7 +177,7 @@ Phần layout vị trí không khó, cái phức tạp là xử lý các thành 
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Học web chuẩn</title>
+<title>Học tepa.edu</title>
 </head>
 <body>
   <section class="contact-form">
@@ -198,7 +198,7 @@ Phần layout vị trí không khó, cái phức tạp là xử lý các thành 
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Học web chuẩn</title>
+<title>Học tepa.edu</title>
 <style>
   /* Reset */
   * {

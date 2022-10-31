@@ -3,7 +3,7 @@
 ##### Hướng dẫn: Cấu trúc design không phức tạp:
 
 * Design này cũng không phức tạp, gồm tiêu đề và danh sách gồm 3 mục.
-* Mỗi một mục của danh sách chứa font icon, Học Web Chuẩn sẽ tạm sử dụng icon của **fontawsome** cho tiện layout, còn khi code thực tế thì các bạn cần tìm đúng font icon của design, hoặc khó quá thì có thể cắt hình nhe.
+* Mỗi một mục của danh sách chứa font icon, Học tepa.edu sẽ tạm sử dụng icon của **fontawsome** cho tiện layout, còn khi code thực tế thì các bạn cần tìm đúng font icon của design, hoặc khó quá thì có thể cắt hình nhe.
 * Còn lại trong mục là tiêu đề nhỏ và đoạn văn.
 * Bài này quan trọng là cách xử lý **background-color**.
 * Tách phần background màu xanh bên trên cho khu vực tiêu đề.
@@ -17,7 +17,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Học web chuẩn</title>
+<title>Học tepa.edu</title>
 <link rel="stylesheet" href="/exercises/css/fontawesome.css" media="all">
 </head>
 <body>
@@ -53,7 +53,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Học web chuẩn</title>
+<title>Học tepa.edu</title>
 <link rel="stylesheet" href="/exercises/css/fontawesome.css" media="all">
 <style>
   /* Reset */
@@ -176,7 +176,7 @@ services, offers, projects for you!</h2>
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Học web chuẩn</title>
+<title>Học tepa.edu</title>
 <link rel="stylesheet" href="/exercises/css/fontawesome.css" media="all">
 </head>
 <body>
@@ -235,7 +235,7 @@ services, offers, projects for you!</h2>
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Học web chuẩn</title>
+<title>Học tepa.edu</title>
 <link rel="stylesheet" href="/exercises/css/fontawesome.css" media="all">
 <style>
   /* Reset */

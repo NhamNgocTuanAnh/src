@@ -16,7 +16,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Học web chuẩn</title>
+<title>Học tepa.edu</title>
 <link rel="stylesheet" href="/exercises/css/fontawesome.css" media="all">
 </head>
 <body>
@@ -74,7 +74,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Học web chuẩn</title>
+<title>Học tepa.edu</title>
 <link rel="stylesheet" href="/exercises/css/fontawesome.css" media="all">
 <style>
   /* Reset */
@@ -225,7 +225,7 @@
   * Bên trái là một nhóm gồm tiêu đề nhỏ, đoạn văn, chữ ký và list chức danh, list này nếu không quan trọng SEO thì có thể dùng `<div>` hoặc `<p>` đều được.
   * Bên phải gồm 3 đoạn văn, chú ý đoạn giữa được in đậm, có ý nhấn mạnh, do đó có thể dùng `<strong>`.
 * Bài này layout đơn giản, nhưng cần cẩn thận việc xử lý **khoảng cách, font-size, color**.
-* Phần **font-family** sử dụng Google Font, tuy nhiên Học Web Chuẩn không làm thao tác này, vì muốn các bạn tập trung sử lý phần khác hơn.
+* Phần **font-family** sử dụng Google Font, tuy nhiên Học tepa.edu không làm thao tác này, vì muốn các bạn tập trung sử lý phần khác hơn.
 
 #### Giải (chưa bao gồm css)
 ```{html}
@@ -233,7 +233,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Học web chuẩn</title>
+<title>Học tepa.edu</title>
 </head>
 <body>
   <section class="wireframe">
@@ -262,7 +262,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Học web chuẩn</title>
+<title>Học tepa.edu</title>
 <style>
   /* Reset */
   * {

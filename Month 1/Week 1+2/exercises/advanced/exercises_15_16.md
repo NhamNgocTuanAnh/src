@@ -11,7 +11,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Học web chuẩn</title>
+<title>Học tepa.edu</title>
 <link rel="stylesheet" href="/exercises/css/fontawesome.css" media="all">
 </head>
 <body>
@@ -66,7 +66,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Học web chuẩn</title>
+<title>Học tepa.edu</title>
 <link rel="stylesheet" href="/exercises/css/fontawesome.css" media="all">
 <style>
   /* Reset */
@@ -211,7 +211,7 @@
 Design có 2 phần cần chú ý.
 * Màu nền xen kẻ đậm nhạt giữa các mục, ta sử dụng bộ chọn `:nth-child()` để lọc vị trí mục chẵn lẻ.
 * Vị trí của avatar, có thể sử dụng `float` hoặc `position` đều được, tuy nhiên phần này sử dụng `position` thì hiệu qua tốt hơn (kiểm soát vỡ **layout** tốt hơn `float`).
-* Chú ý phần ngày "6th", ở đây Học Web Chuẩn không làm cho chữ "th" lên cao, vì làm thì dễ nhưng khi đổ dữ liệu động sẽ gây khó khăn cho các bạn programmer, nếu muốn làm cho giống design, các bạn chỉ cần gắn thẻ `<sup>` là được, hoặc điều khiển bằng css.
+* Chú ý phần ngày "6th", ở đây Học tepa.edu không làm cho chữ "th" lên cao, vì làm thì dễ nhưng khi đổ dữ liệu động sẽ gây khó khăn cho các bạn programmer, nếu muốn làm cho giống design, các bạn chỉ cần gắn thẻ `<sup>` là được, hoặc điều khiển bằng css.
 
 #### Giải (chưa bao gồm css)
 ```{html}
@@ -219,7 +219,7 @@ Design có 2 phần cần chú ý.
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Học web chuẩn</title>
+<title>Học tepa.edu</title>
 <link rel="stylesheet" href="/exercises/css/fontawesome.css" media="all">
 </head>
 <body>
@@ -263,7 +263,7 @@ Design có 2 phần cần chú ý.
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Học web chuẩn</title>
+<title>Học tepa.edu</title>
 <link rel="stylesheet" href="/exercises/css/fontawesome.css" media="all">
 <style>
   /* Reset */
