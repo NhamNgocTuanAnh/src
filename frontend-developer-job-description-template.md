@@ -9,7 +9,6 @@
 
 **Yêu cầu ứng viên:**
 
-* 1-2 năm kinh nghiệm với phát triển front-end.
 * Có kiến thức về thiết kế UI/UX.
 * Kiến thức chuyên môn về các phương pháp SCSS, BEM, OOCSS, ACSS…
 * Kiến thức sâu về JavaScript, ReactJS.
