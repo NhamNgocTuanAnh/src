@@ -2,7 +2,7 @@
 
 **Nội dung công việc:**
 
-* Tham gia vào toàn bộ vòng đời của ứng dụng, tập trùn cođing và debug các dự án website và hệ thống.
+* Tham gia vào toàn bộ vòng đời của ứng dụng, tập trung coding và debug các dự án website và hệ thống.
 * Viết API kết nối giữa các hệ thống, phục vụ trao đổi dữ liệu giữa mobile và frontend.
 * Xây dựng code có thể dử dụng lại và các thư viện để thuận tiện có thể sử dụng cho tương lai.
 * Thu thập và xử lý các yêu cầu cần thiết và kỹ thuật.
