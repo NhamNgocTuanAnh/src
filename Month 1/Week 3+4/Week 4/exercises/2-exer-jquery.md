@@ -173,6 +173,7 @@ $(function(){
   * Cho hiển thị box theo phần tử thứ n, VD li thứ nhất được click, thì sẽ hiển thị box thứ nhất.
 
 ### Lời giải
+
 ```
 <!doctype html>
 <html lang="en">
@@ -233,6 +234,7 @@ $(function(){
 </body>
 </html>
 ```
+
 ## Bài tập. Cho một cấu trúc HTML như bên dưới, khi click button sẽ thêm một item bên trong danh sách đã cho
 
 ```
