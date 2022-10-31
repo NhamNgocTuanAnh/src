@@ -54,4 +54,3 @@ Sự khác biệt giữa `display` và `visibility` là display thêm hoặc xó
 
 `visibility` giữ không gian của phần tử bất kể nó được hiển thị hay bị ẩn.
 
-Ví dụ, bạn có thể viết:
