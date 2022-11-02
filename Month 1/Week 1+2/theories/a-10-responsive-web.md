@@ -568,4 +568,4 @@ Thông thường form sẽ có 2 dạng:
 
 
 ## Trích nguồn
-* [Responsive image https://hocwebchuan.com/](https://hocwebchuan.com/tutorial/responsive/responsive_image.php)
+* [Responsive image https://hoctepa.edu.com/](https://hoctepa.edu.com/tutorial/responsive/responsive_image.php)

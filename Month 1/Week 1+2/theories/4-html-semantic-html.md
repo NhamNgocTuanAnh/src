@@ -53,7 +53,7 @@ Domain ta thấy cần bao bên ngoài bằng thẻ `<p>` là được.
 <div id="header">
 <div class="hLeft">
 <h1><img src="images/img_logo.gif" alt="" /></h1>
-<p>www.hocwebchuan.com</p>
+<p>www.hoctepa.edu.com</p>
 <!-- / class hLeft --></div>
 
 <div class="hRight">
@@ -85,7 +85,7 @@ Kết nối phần header này vào phần cấu trúc cơ bản ta có được
 <div id="header">
 <div class="hLeft">
 <h1><img src="images/img_logo.gif" alt="" /></h1>
-<p>www.hocwebchuan.com</p>
+<p>www.hoctepa.edu.com</p>
 <!-- / class hLeft --></div>
 
 <div class="hRight">
@@ -141,7 +141,7 @@ Viết nội dung phần footer ở đây
 <div id="header">
 <div class="hLeft">
 <h1><img src="images/img_logo.gif" alt="" /></h1>
-<p>www.hocwebchuan.com</p>
+<p>www.hoctepa.edu.com</p>
 <!-- / class hLeft --></div>
 
 <div class="hRight">
@@ -250,7 +250,7 @@ Kết nối phần "Sản phẩm mới", phần "Tin tức" và phần"banner" v
 <div id="header">
 <div class="hLeft">
 <h1><img src="images/img_logo.gif" alt="" /></h1>
-<p>www.hocwebchuan.com</p>
+<p>www.hoctepa.edu.com</p>
 <!-- / class hLeft --></div>
 
 <div class="hRight">
@@ -346,7 +346,7 @@ Hai phần "link liên quan" ta thấy có cấu trúc của một danh sách, d
 <div id="header">
 <div class="hLeft">
 <h1><img src="images/img_logo.gif" alt="" /></h1>
-<p>www.hocwebchuan.com</p>
+<p>www.hoctepa.edu.com</p>
 <!-- / class hLeft --></div>
 
 <div class="hRight">
@@ -455,7 +455,7 @@ Viết nội dung phần footer ở đây
 <div id="header">
 <div class="hLeft">
 <h1><img src="images/img_logo.gif" alt="" /></h1>
-<p>www.hocwebchuan.com</p>
+<p>www.hoctepa.edu.com</p>
 <!-- / class hLeft --></div>
 
 <div class="hRight">
@@ -541,7 +541,7 @@ Viết nội dung phần footer ở đây
 <p>TÊN CÔNG TY</p>
 <p>Địa chỉ: 123 abc, phường X, quận Y, tp.Z<br />
 Điện thoại: 012.3456789</p>
-<p>Email: <a href="mailto:support@hocwebchuan.com">support@hocwebchuan.com</a></p>
+<p>Email: <a href="mailto:support@hoctepa.edu.com">support@hoctepa.edu.com</a></p>
 <!-- / class fLeft --></div>
 
 <div class="fRight">

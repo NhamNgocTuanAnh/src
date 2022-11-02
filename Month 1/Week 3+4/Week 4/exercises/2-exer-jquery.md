@@ -2,7 +2,7 @@
 
 # Công thức chung
 
-* Bài giải này dựa trên bài học [jQuery](https://hocwebchuan.com/tutorial/jquery/), các bạn cần học qua về jQuery để hiểu về bài tập này.
+* Bài giải này dựa trên bài học [jQuery](https://hoctepa.edu.com/tutorial/jquery/), các bạn cần học qua về jQuery để hiểu về bài tập này.
 * Trong bài tập, TEPa.edu sẽ lồng ghép một số cách viết câu điều kiện, vòng lặp và function Javascript, ... mục đích giúp cho các bạn làm quen dần cách sử dụng những vấn đề này.
 * Trong bài giải các bạn cố gắng tập cho quen cách đặt biến, viết function, thay vì xử lý trực tiếp, sẽ giúp source code của mình tối ưu hơn.
 * Các bước xử lý:
