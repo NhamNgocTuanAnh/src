@@ -1,4 +1,4 @@
-# HTML
+# HTML, CSS and Dev-tool
 
 ### Projected Time
 
@@ -36,10 +36,12 @@ About 2.5 hours
 ### Specific Things to Learn
 
 * How to open an HTML file in Chrome
-* HTML document structure
-* Commonly-used HTML tags
-* Proper HTML indentation
-* Semantic elements
+* [HTML document structure](theories/1-html-elements-and-structure.md), [HTML semantic](theories/4-html-semantic-html.md)
+* [HTML tables](theories/2-html-tables.md), [HTML forms](theories/3-html-forms.md)
+* [CSS syntax and selectors](theories/5-css-syntax-and-selectors.md)
+* [CSS visual rules](theories/6-css-visual-rules.md), [CSS the box model](theories/7-css-the-box-model.md)
+* [CSS display and positioning](theories/8-css-display-and-positioning.md), [CSS colors and typography](theories/9-css-colors-and-typography.md)
+* [Dev-tool](1-build-environment-dev.md)
 
 #### 1. Cấu trúc html
 
