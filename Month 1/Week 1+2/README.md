@@ -10,14 +10,16 @@ About 2.5 hours
 
 ### Prerequisites
 
-* Understanding web
+* Understanding structure web
+* Can create a WebSite from figma design
 * Known to use tool
 
 ### Motivation
 
-* Hyper Text Markup Language is the markup language for creating web pages and web applications.
-* Almost all the modern web applications use HTML for their front-end. And if you wish to be a web developer, you need to learn HTML.
 * HTML is really simple and easy to learn.
+* CSS is important
+* UI & UX
+* Tool and Environment for DeV
 
 ### Objectives
 
@@ -42,6 +44,26 @@ About 2.5 hours
 * [CSS visual rules](theories/6-css-visual-rules.md), [CSS the box model](theories/7-css-the-box-model.md)
 * [CSS display and positioning](theories/8-css-display-and-positioning.md), [CSS colors and typography](theories/9-css-colors-and-typography.md)
 * [Dev-tool](1-build-environment-dev.md)
+
+### **Group Practice**
+
+Swap pairs, read your new pair partner's code, and do code reviews for each other. Did your second pair partner take a different approach than you did with your first pair partner? If so, how?
+
+Swap pairs once more and repeat.
+
+### **Challenge**
+
+Here are some other ways you can extend your calculator. Choose whichever one(s) sound most interesting to you!
+
+1. [Portfolio Project: Collaboration and Review](theories/a-12-portfolio-guilde.md)
+2. E-commerce Project
+
+### **Check for Understanding**
+
+Form small groups and discuss:
+
+* [HTML-CSS-Interview-Questions](theories/HTML-CSS-Interview-Questions.md)
+* What are some math operations that can be performed on number variables in JavaScript?
 
 #### 1. Cấu trúc html
 
